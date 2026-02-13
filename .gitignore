@@ -1,13 +1,28 @@
+# Env files
 .env
 .env.local
 .env.development.local
 .env.test.local
-.env.production.local   
+.env.production.local
+
+# Dependencies and builds
 node_modules/
+.next/
+out/
 dist/
 build/
 coverage/
-.DS_Store
+*.tsbuildinfo
+
+# Logs
 *.log
 *.lock
+
+# OS/IDE
+.DS_Store
 .idea/
+.vscode/
+
+# Firebase
+.firebase/
+firebase-debug.log
