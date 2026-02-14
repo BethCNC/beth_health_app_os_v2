@@ -1,7 +1,7 @@
 import { AppShell } from "@/components/layout/AppShell";
 import { Card } from "@/components/ui/Card";
 import { ImportRunner } from "@/components/import/ImportRunner";
-import { getDataStoreStatus, listImportJobs } from "@/lib/repositories/store";
+import { getDataStoreStatus, listImportJobs } from "@/lib/repositories/runtime";
 
 const ENV_KEYS = [
   "NEXT_PUBLIC_FIREBASE_API_KEY",
@@ -13,9 +13,9 @@ const ENV_KEYS = [
   "OPENAI_API_KEY"
 ] as const;
 
-export default function SettingsPage(): React.JSX.Element {
+export default async function SettingsPage(): Promise<React.JSX.Element> {
   const states = ENV_KEYS.map((key) => ({ key, configured: Boolean(process.env[key]) }));
-  const importJobs = listImportJobs();
+  const importJobs = await listImportJobs();
   const dataStoreStatus = getDataStoreStatus();
 
   return (
@@ -51,6 +51,10 @@ export default function SettingsPage(): React.JSX.Element {
             <span className={dataStoreStatus.firestorePersistenceEnabled ? "font-semibold text-[#1E6A3E]" : "font-semibold text-[#8A5A11]"}>
               {dataStoreStatus.firestorePersistenceEnabled ? "Enabled" : "Disabled"}
             </span>
+          </li>
+          <li className="flex items-center justify-between rounded-lg border border-[#D6DEE9] bg-white p-3">
+            <span>Read mode</span>
+            <span className="font-semibold text-[#0F3B68]">{dataStoreStatus.readMode === "firestore" ? "Firestore" : "In-memory"}</span>
           </li>
           {!dataStoreStatus.firestorePersistenceEnabled ? (
             <li className="rounded-lg border border-[#E7CFA7] bg-[#FFF8E8] p-3 text-[#7A5410]">

@@ -1,12 +1,14 @@
 /* eslint-disable @typescript-eslint/no-require-imports */
 
 import type {
+  AuditLogEntry,
   ClinicalEvent,
   DocumentChunk,
   DocumentRecord,
   ExtractedEntity,
   ExtractedField,
   ImportJob,
+  ShareLink,
   VerificationTask
 } from "@/lib/types/domain";
 
@@ -114,6 +116,26 @@ export async function persistVerificationArtifacts(payload: {
   writtenCollections.push("clinical_events");
 
   return { enabled: true, writtenCollections };
+}
+
+export async function persistShareLink(link: ShareLink): Promise<PersistResult> {
+  const context = adminRuntime.getAdminContext();
+  if (!context.enabled) {
+    return { enabled: false, reason: context.reason, writtenCollections: [] };
+  }
+
+  await adminRuntime.setDocument("share_links", link.id, link);
+  return { enabled: true, writtenCollections: ["share_links"] };
+}
+
+export async function persistAuditLog(entry: AuditLogEntry): Promise<PersistResult> {
+  const context = adminRuntime.getAdminContext();
+  if (!context.enabled) {
+    return { enabled: false, reason: context.reason, writtenCollections: [] };
+  }
+
+  await adminRuntime.setDocument("audit_logs", entry.id, entry);
+  return { enabled: true, writtenCollections: ["audit_logs"] };
 }
 
 async function persistCollection<T extends { id: string }>(collectionName: string, values: T[]): Promise<void> {

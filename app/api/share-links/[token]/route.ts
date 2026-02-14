@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { accessShareLink, getClinicalSnapshot, listRecords, listTimeline } from "@/lib/repositories/store";
+import { accessShareLink, getClinicalSnapshot, listRecords, listTimeline } from "@/lib/repositories/runtime";
 
 export async function GET(
   request: Request,
@@ -12,15 +12,15 @@ export async function GET(
     return NextResponse.json({ error: "Password query parameter is required" }, { status: 400 });
   }
 
-  const access = accessShareLink(context.params.token, password, "provider");
+  const access = await accessShareLink(context.params.token, password, "provider");
   if (!access.ok) {
     return NextResponse.json({ error: access.reason }, { status: 403 });
   }
 
   return NextResponse.json({
     shareLinkId: access.link?.id,
-    snapshot: getClinicalSnapshot(),
-    timeline: listTimeline({}),
-    documents: listRecords({}).slice(0, 50)
+    snapshot: await getClinicalSnapshot(),
+    timeline: await listTimeline({}),
+    documents: (await listRecords({})).slice(0, 50)
   });
 }

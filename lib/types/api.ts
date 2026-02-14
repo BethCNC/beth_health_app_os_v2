@@ -49,6 +49,30 @@ export const aiQuerySchema = z.object({
   context: z.string().optional()
 });
 
+export const aiAnalyzeSingleSchema = z.object({
+  mode: z.literal("single"),
+  filePath: z.string().min(1)
+});
+
+export const aiAnalyzeYearSchema = z.object({
+  mode: z.literal("year"),
+  rootPath: z.string().min(1),
+  year: z.number().int().min(2000).max(2099)
+});
+
+export const aiAnalyzeMultiYearSchema = z.object({
+  mode: z.literal("multi-year"),
+  rootPath: z.string().min(1),
+  years: z.array(z.number().int().min(2000).max(2099)).min(1)
+});
+
+export const aiAnalyzeRequestSchema = z.union([
+  aiAnalyzeSingleSchema,
+  aiAnalyzeYearSchema,
+  aiAnalyzeMultiYearSchema
+]);
+
 export type DriveFileInput = z.infer<typeof driveFileInputSchema>;
 export type ImportRequest = z.infer<typeof importRequestSchema>;
 export type FolderImportRequest = z.infer<typeof importByFolderSchema>;
+export type AIAnalyzeRequest = z.infer<typeof aiAnalyzeRequestSchema>;

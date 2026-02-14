@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import { importRequestSchema } from "@/lib/types/api";
 import { normalizeDriveFiles } from "@/lib/services/ingestion-service";
-import { runImportJob } from "@/lib/repositories/store";
+import { runImportJob } from "@/lib/repositories/runtime";
 import { scanDriveFolder } from "@/lib/services/local-drive-scanner";
 
 export async function POST(request: Request): Promise<NextResponse> {

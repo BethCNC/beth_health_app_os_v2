@@ -4,13 +4,10 @@ Do not duplicate: Deep technical rationale (see IMPLEMENTATION_SPEC.md).
 # Phase 02 Task Board — Ingestion and Parsing
 
 ## Todo
-- [ ] Replace read paths from in-memory store to Firestore query-backed repositories.
-- [ ] Add retries/backoff and dead-letter handling for failed items.
-- [ ] Add ingestion unit/integration tests for duplicate + parse-failure paths.
+- [ ] None
 
 ## In Progress
-- [ ] Hardening extraction heuristics for lab/result parsing quality.
-- [ ] Firestore persistence activation in local env (`firebase-admin` install + service account vars).
+- [ ] None
 
 ## Done
 - [x] Confirm phase scope and acceptance tests.
@@ -19,3 +16,8 @@ Do not duplicate: Deep technical rationale (see IMPLEMENTATION_SPEC.md).
 - [x] Perform build validation.
 - [x] Update CHANGELOG.md with completed work.
 - [x] Add optional Firestore persistence adapter writes for import and verification artifacts.
+- [x] Replace read paths from in-memory store to Firestore query-backed runtime repository with automatic fallback.
+- [x] Add retries/backoff and dead-letter handling for failed items.
+- [x] Harden extraction heuristics for lab/result and procedure parsing quality.
+- [x] Add ingestion unit/integration tests for duplicate + parse-failure + retry/dead-letter paths.
+- [x] Activate Firestore persistence support in local runtime (`firebase-admin` dependency + status checks and env validation).

@@ -1,11 +1,11 @@
 import { AppShell } from "@/components/layout/AppShell";
 import { Card } from "@/components/ui/Card";
-import { listShareLinks } from "@/lib/repositories/store";
+import { listShareLinks } from "@/lib/repositories/runtime";
 import { ShareLinkManager } from "@/components/share/ShareLinkManager";
 import { headers } from "next/headers";
 
-export default function SharePage(): React.JSX.Element {
-  const links = listShareLinks().map((link) => ({
+export default async function SharePage(): Promise<React.JSX.Element> {
+  const links = (await listShareLinks()).map((link) => ({
     id: link.id,
     token: link.token,
     expiresAt: link.expiresAt,

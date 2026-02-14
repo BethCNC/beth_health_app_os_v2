@@ -1,4 +1,5 @@
 import fs from "fs";
+import { createRequire } from "module";
 
 const envPath = ".env.local";
 const required = [
@@ -34,6 +35,17 @@ for (const key of required) {
 if (missing > 0) {
   process.exit(1);
 }
+
+const req = createRequire(import.meta.url);
+let firebaseAdminInstalled = false;
+try {
+  req.resolve("firebase-admin");
+  firebaseAdminInstalled = true;
+} catch {
+  firebaseAdminInstalled = false;
+}
+
+console.log(`FIREBASE_ADMIN_PACKAGE: ${firebaseAdminInstalled ? "INSTALLED" : "MISSING"}`);
 
 const optionalState = {};
 for (const key of optionalAdmin) {

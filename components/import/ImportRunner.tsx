@@ -1,6 +1,6 @@
 "use client";
 
-import { FormEvent, useState } from "react";
+import React, { FormEvent, useState } from "react";
 import type { ImportJob } from "@/lib/types/domain";
 
 export function ImportRunner({
@@ -111,7 +111,8 @@ export function ImportRunner({
                 {job.id} • {job.mode} • {job.status}
               </p>
               <p className="text-[#5A697B]">
-                scanned {job.summary.scanned}, created {job.summary.created}, duplicates {job.summary.duplicates}, failed {job.summary.failed}
+                scanned {job.summary.scanned}, created {job.summary.created}, duplicates {job.summary.duplicates}, failed {job.summary.failed},
+                retries {job.summary.retryAttempts ?? 0}, dead-letter {job.summary.deadLettered ?? 0}
               </p>
             </li>
           ))}

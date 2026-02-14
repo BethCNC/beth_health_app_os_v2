@@ -1,0 +1,87 @@
+{
+  "year": 2019,
+  "importedAt": "2026-02-13T22:26:26.506Z",
+  "totalFiles": 2,
+  "successful": 2,
+  "failed": 0,
+  "documents": [
+    {
+      "id": "doc_mllgiuy6_02fh8a",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2019/GP/10_Oct 18_2019_Dr Starr/XR WRIST 3+ VIEWS LEFT.pdf",
+      "fileName": "XR WRIST 3+ VIEWS LEFT.pdf",
+      "year": 2019,
+      "specialty": "primary_care",
+      "type": "imaging_xray",
+      "eventDate": "2019-10-18",
+      "provider": "Richard Dunlop, MD",
+      "facility": "Novant Health",
+      "fullText": "[1396 characters - see full extraction file]",
+      "pageCount": 2,
+      "fileSizeBytes": 46688,
+      "extractedAt": "2026-02-13T22:26:22.638Z",
+      "classificationConfidence": 1,
+      "diagnoses": [],
+      "medications": [],
+      "procedures": [],
+      "labResults": [],
+      "keyFindings": [
+        "Mild soft tissue swelling about the radial side of the wrist.",
+        "No fractures, dislocations, or significant degenerative changes."
+      ],
+      "textPreview": "10/25/24, 8:58 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nXR WRIST 3+ VIEWS LEFT\nCollected on October 18, 2019 11:04 AM\nNovant Health\nEric Starr 10/18/2019, 1:11 PM\nHello:\nX-ray was read by the radiologist and showed no acute\nabnormality, please continue recommendations from office visit\nand let us know if not improving\nLet us know if you have any questions or concerns\nSincerely\nEric Sta"
+    },
+    {
+      "id": "doc_mllgixxm_5zxfld",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2019/Hand Doc/11-26-2019_hand Doctor.pdf",
+      "fileName": "11-26-2019_hand Doctor.pdf",
+      "year": 2019,
+      "specialty": "hand doc",
+      "type": "office_visit",
+      "eventDate": "2019-11-26",
+      "provider": "Brandon J Valentine, M.D.",
+      "facility": null,
+      "fullText": "[9529 characters - see full extraction file]",
+      "pageCount": 6,
+      "fileSizeBytes": 419192,
+      "extractedAt": "2026-02-13T22:26:26.506Z",
+      "classificationConfidence": 1,
+      "diagnoses": [
+        "carpal tunnel syndrome",
+        "Left hand paresthesia",
+        "Left hand pain"
+      ],
+      "medications": [
+        "acetaminophen 325 mg tablet 650 mg, Oral, Every 6 hours as needed, Take 3",
+        "amphetamine- 20 mg, Oral, 3 times a day",
+        "dextroamphetamine 20 MG tablet",
+        "ARIPiprazole 10 mg tablet 10 mg, Oral, Daily, Take 1/2 tab daily for 7 days, then 1 tab daily thereafter.",
+        "Naproxen-Esomeprazole 500-20 MG Tbec per DR tablet 1 tablet, Oral, 2 times a day"
+      ],
+      "procedures": [
+        "nerve study",
+        "carpal tunnel release"
+      ],
+      "labResults": [],
+      "keyFindings": [
+        "Patient presents with numbness Left Hand",
+        "Positive Erkins of the left carpal tunnel, APB motor function intact",
+        "Negative Tinel's over the cubital tunnel, no intrinsic wasting",
+        "Watson's and provocative maneuvers negative for carpal instability",
+        "Negative Finkelstein",
+        "Negative thumb CMC grind",
+        "otherwise neurovascular examination grossly intact",
+        "X-rays negative for fracture"
+      ],
+      "textPreview": "10/26/24, 5:54 AM MyChart - Visit Summary\nName: Jennifer Beth Cartrette | DOB: 9/13/1982 | MRN: 71030963 | PCP: Timothy Kennard, MD | Legal Name: Jennifer Beth\nCartrette\nAppointment Details\nNotes\nProgress Notes\nJames Vollmer at 11/26/19 0930\nAttestation signed by Brandon Valentine at 11/26/19 1035\nPatient seen in the office today, history reviewed, and examined.\nAgree with physician assistant recorded history and exam.\nThe presenting history and exam are most consistent with carpal tunnel syndro"
+    }
+  ],
+  "errors": [],
+  "bySpecialty": {
+    "primary_care": 1,
+    "hand doc": 1
+  },
+  "byType": {
+    "imaging_xray": 1,
+    "office_visit": 1
+  }
+}

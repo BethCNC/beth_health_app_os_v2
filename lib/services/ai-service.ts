@@ -1,5 +1,5 @@
 import type { AIAnswerWithCitations, Citation } from "@/lib/types/domain";
-import { getClinicalSnapshot, getDocumentsByIds, recordAIQuery } from "@/lib/repositories/store";
+import { getClinicalSnapshot, getDocumentsByIds, recordAIQuery } from "@/lib/repositories/runtime";
 
 const DISALLOWED_MEDICAL_ADVICE_TERMS = [
   "diagnose",
@@ -17,7 +17,7 @@ interface AIQueryInput {
   actor: string;
 }
 
-export function answerEvidenceOnlyQuestion(input: AIQueryInput): AIAnswerWithCitations {
+export async function answerEvidenceOnlyQuestion(input: AIQueryInput): Promise<AIAnswerWithCitations> {
   const lowerQuestion = input.question.toLowerCase();
   const shouldRefuse = DISALLOWED_MEDICAL_ADVICE_TERMS.some((term) => lowerQuestion.includes(term));
 
@@ -34,7 +34,7 @@ export function answerEvidenceOnlyQuestion(input: AIQueryInput): AIAnswerWithCit
     return response;
   }
 
-  const snapshot = getClinicalSnapshot();
+  const snapshot = await getClinicalSnapshot();
   const sourceIds = new Set<string>();
   for (const item of snapshot.recentEvents) {
     for (const id of item.sourceDocumentIds) {
@@ -42,7 +42,7 @@ export function answerEvidenceOnlyQuestion(input: AIQueryInput): AIAnswerWithCit
     }
   }
 
-  const sourceDocs = getDocumentsByIds([...sourceIds]).slice(0, 3);
+  const sourceDocs = (await getDocumentsByIds([...sourceIds])).slice(0, 3);
   const citations: Citation[] = sourceDocs.map((doc) => ({
     documentId: doc.id,
     fileName: doc.fileName,

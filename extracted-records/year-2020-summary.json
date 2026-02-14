@@ -1,0 +1,1437 @@
+{
+  "year": 2020,
+  "importedAt": "2026-02-13T22:28:17.669Z",
+  "totalFiles": 37,
+  "successful": 37,
+  "failed": 0,
+  "documents": [
+    {
+      "id": "doc_mllgj21g_jcyhao",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2020/GP/01_Jan 14_2020Dr Starr_Staph/CULTURE, AEROBIC_Staph.pdf",
+      "fileName": "CULTURE, AEROBIC_Staph.pdf",
+      "year": 2020,
+      "specialty": "primary_care",
+      "type": "pathology",
+      "eventDate": "2024-10-25",
+      "provider": "Eric Starr PA-C",
+      "facility": "LabCorp Burlington",
+      "fullText": "[3056 characters - see full extraction file]",
+      "pageCount": 3,
+      "fileSizeBytes": 178657,
+      "extractedAt": "2026-02-13T22:26:31.828Z",
+      "classificationConfidence": 1,
+      "diagnoses": [
+        "Staphylococcus aureus",
+        "Heavy growth"
+      ],
+      "medications": [
+        "Bactroban"
+      ],
+      "procedures": [
+        "Culture, Aerobic Cellulitis"
+      ],
+      "labResults": [
+        {
+          "test": "Ciprofloxacin",
+          "value": "S",
+          "unit": "",
+          "reference": ""
+        },
+        {
+          "test": "Clindamycin",
+          "value": "S",
+          "unit": "",
+          "reference": ""
+        },
+        {
+          "test": "Erythromycin",
+          "value": "S",
+          "unit": "",
+          "reference": ""
+        },
+        {
+          "test": "Gentamicin",
+          "value": "S",
+          "unit": "",
+          "reference": ""
+        },
+        {
+          "test": "Levofloxacin",
+          "value": "S",
+          "unit": "",
+          "reference": ""
+        },
+        {
+          "test": "Linezolid",
+          "value": "S",
+          "unit": "",
+          "reference": ""
+        },
+        {
+          "test": "Moxifloxacin",
+          "value": "S",
+          "unit": "",
+          "reference": ""
+        },
+        {
+          "test": "Oxacillin",
+          "value": "S",
+          "unit": "",
+          "reference": ""
+        },
+        {
+          "test": "Penicillin",
+          "value": "R",
+          "unit": "",
+          "reference": ""
+        },
+        {
+          "test": "Quinupristin/Dalfopristin",
+          "value": "S",
+          "unit": "",
+          "reference": ""
+        },
+        {
+          "test": "Rifampin",
+          "value": "S",
+          "unit": "",
+          "reference": ""
+        },
+        {
+          "test": "Tetracycline",
+          "value": "R",
+          "unit": "",
+          "reference": ""
+        },
+        {
+          "test": "Trimethoprim/Sulfa",
+          "value": "S",
+          "unit": "",
+          "reference": ""
+        },
+        {
+          "test": "Vancomycin",
+          "value": "S",
+          "unit": "",
+          "reference": ""
+        }
+      ],
+      "keyFindings": [
+        "Your culture was positive for staph infection and is sensitive to the antibiotics you are on"
+      ],
+      "textPreview": "10/25/24, 8:59 PM MyChart - Report\nName: Jennifer Beth Cartrette | DOB: 9/13/1982 | MRN: 71030963 | PCP: Timothy Kennard, MD | Legal Name: Jennifer Beth\nCartrette\nResults\nComments From the Doctor's Office\nHello:\nYour labs have returned\nYour culture was positive for staph infection and is sensitive to the antibiotics you are on\nPlease finish antibiotics and use the Bactroban as well let me know if any problems\nPlease don't hesitate to call or e-mail with questions or concerns\nEric Starr PA-C\nWrit"
+    },
+    {
+      "id": "doc_mllgj3li_hwe8tw",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2020/GP/06_June 19 2020_Dr Starr/ANTINUCLEAR AB BY MULTIPLEX.pdf",
+      "fileName": "ANTINUCLEAR AB BY MULTIPLEX.pdf",
+      "year": 2020,
+      "specialty": "primary_care",
+      "type": "lab_single",
+      "eventDate": "2020-06-23",
+      "provider": "Eric Chandley",
+      "facility": "Novant Health",
+      "fullText": "[941 characters - see full extraction file]",
+      "pageCount": 1,
+      "fileSizeBytes": 48881,
+      "extractedAt": "2026-02-13T22:26:33.846Z",
+      "classificationConfidence": 1,
+      "diagnoses": [],
+      "medications": [],
+      "procedures": [],
+      "labResults": [
+        {
+          "test": "ANA Direct",
+          "value": "Negative",
+          "unit": "",
+          "reference": "Normal value: Negative"
+        }
+      ],
+      "keyFindings": [],
+      "textPreview": "10/25/24, 9:05 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nANTINUCLEAR AB BY MULTIPLEX\nCollected on June 19, 2020 4:31 PM\nNovant Health\nEric Chandley 06/26/2020, 12:22 PM\nHere are your lab results from me.\nGood luck,\nEric\nMore results to share with Rheumatology.\nResults\nPerformed at: 01 - LabCorp Burlington\n1447 York Court, Burlington, NC 272153361\nLab Director: Sanjai Nagendra MD, Phone:"
+    },
+    {
+      "id": "doc_mllgj5bd_0wfyt7",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2020/GP/06_June 19 2020_Dr Starr/Anti-CCP Ab, IgG:IgA.pdf",
+      "fileName": "Anti-CCP Ab, IgG:IgA.pdf",
+      "year": 2020,
+      "specialty": "primary_care",
+      "type": "lab_single",
+      "eventDate": "2020-06-23",
+      "provider": "Eric Chandley",
+      "facility": "Novant Health",
+      "fullText": "[1197 characters - see full extraction file]",
+      "pageCount": 2,
+      "fileSizeBytes": 56171,
+      "extractedAt": "2026-02-13T22:26:36.073Z",
+      "classificationConfidence": 1,
+      "diagnoses": [],
+      "medications": [],
+      "procedures": [],
+      "labResults": [
+        {
+          "test": "Anti-CCP Ab, IgG/IgA",
+          "value": "8",
+          "unit": "units",
+          "reference": "0 - 19 units"
+        }
+      ],
+      "keyFindings": [],
+      "textPreview": "10/25/24, 9:05 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nAnti-CCP Ab, IgG/IgA\nCollected on June 19, 2020 4:31 PM\nNovant Health\nEric Chandley 06/26/2020, 12:21 PM\nHere are your lab results from me.\nGood luck,\nEric\nResults\nPerformed at: 01 - LabCorp Burlington\n1447 York Court, Burlington, NC 272153361\nLab Director: Sanjai Nagendra MD, Phone: 8007624344\nAnti-CCP Ab, IgG/IgA\nNormal range: 0"
+    },
+    {
+      "id": "doc_mllgj6zs_8vagyy",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2020/GP/06_June 19 2020_Dr Starr/ENDOMYSIAL ANTIBODY IGA.pdf",
+      "fileName": "ENDOMYSIAL ANTIBODY IGA.pdf",
+      "year": 2020,
+      "specialty": "primary_care",
+      "type": "lab_single",
+      "eventDate": "2020-06-23",
+      "provider": "Eric Chandley",
+      "facility": "Novant Health",
+      "fullText": "[901 characters - see full extraction file]",
+      "pageCount": 1,
+      "fileSizeBytes": 50044,
+      "extractedAt": "2026-02-13T22:26:38.248Z",
+      "classificationConfidence": 1,
+      "diagnoses": [],
+      "medications": [],
+      "procedures": [],
+      "labResults": [
+        {
+          "test": "Endomysial IgA",
+          "value": "Negative",
+          "unit": null,
+          "reference": "Normal value: Negative"
+        }
+      ],
+      "keyFindings": [],
+      "textPreview": "10/25/24, 9:07 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nENDOMYSIAL ANTIBODY IGA\nCollected on June 19, 2020 4:31 PM\nNovant Health\nEric Chandley 06/26/2020, 12:21 PM\nHere are your lab results from me.\nGood luck,\nEric\nResults\nPerformed at: 01 - LabCorp Burlington\n1447 York Court, Burlington, NC 272153361\nLab Director: Sanjai Nagendra MD, Phone: 8007624344\nEndomysial IgA\nNormal value: Nega"
+    },
+    {
+      "id": "doc_mllgj8b6_xp599a",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2020/GP/06_June 19 2020_Dr Starr/Free T4.pdf",
+      "fileName": "Free T4.pdf",
+      "year": 2020,
+      "specialty": "primary_care",
+      "type": "lab_single",
+      "eventDate": "2020-06-19",
+      "provider": "Eric Chandley",
+      "facility": "Novant Health",
+      "fullText": "[1159 characters - see full extraction file]",
+      "pageCount": 2,
+      "fileSizeBytes": 55717,
+      "extractedAt": "2026-02-13T22:26:39.954Z",
+      "classificationConfidence": 1,
+      "diagnoses": [],
+      "medications": [],
+      "procedures": [],
+      "labResults": [
+        {
+          "test": "Free T4",
+          "value": "0.92",
+          "unit": "ng/dL",
+          "reference": "0.82 - 1.77 ng/dL"
+        }
+      ],
+      "keyFindings": [],
+      "textPreview": "10/25/24, 9:03 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nFREE T4\nCollected on June 19, 2020 4:31 PM\nNovant Health\nNew comments\nEric Chandley 06/26/2020, 12:22 PM\nHere are your lab results from me.\nGood luck,\nEric\nMore results to share with Rheumatology.\nResults\nPerformed at: 01 - LabCorp Burlington\n1447 York Court, Burlington, NC 272153361\nLab Director: Sanjai Nagendra MD, Phone: 800762"
+    },
+    {
+      "id": "doc_mllgj9ws_ayauhf",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2020/GP/06_June 19 2020_Dr Starr/LYME, TOTAL AB TEST:REFLEX.pdf",
+      "fileName": "LYME, TOTAL AB TEST:REFLEX.pdf",
+      "year": 2020,
+      "specialty": "primary_care",
+      "type": "lab_single",
+      "eventDate": "2020-06-23",
+      "provider": "Eric Chandley",
+      "facility": "Novant Health",
+      "fullText": "[1216 characters - see full extraction file]",
+      "pageCount": 2,
+      "fileSizeBytes": 51857,
+      "extractedAt": "2026-02-13T22:26:42.028Z",
+      "classificationConfidence": 1,
+      "diagnoses": [],
+      "medications": [],
+      "procedures": [],
+      "labResults": [
+        {
+          "test": "Lyme IgG,IgM Ab",
+          "value": "<0.91",
+          "unit": "ISR",
+          "reference": "0.00 - 0.90 ISR"
+        }
+      ],
+      "keyFindings": [],
+      "textPreview": "10/25/24, 9:05 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nLYME, TOTAL AB TEST/REFLEX\nCollected on June 19, 2020 4:31 PM\nNovant Health\nEric Chandley 06/26/2020, 12:22 PM\nHere are your lab results from me.\nGood luck,\nEric\nMore results to share with Rheumatology.\nResults\nPerformed at: 01 - LabCorp Burlington\n1447 York Court, Burlington, NC 272153361\nLab Director: Sanjai Nagendra MD, Phone: "
+    },
+    {
+      "id": "doc_mllgjbwb_4sxnom",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2020/GP/06_June 19 2020_Dr Starr/RHEUMATOID FACTOR.pdf",
+      "fileName": "RHEUMATOID FACTOR.pdf",
+      "year": 2020,
+      "specialty": "primary_care",
+      "type": "lab_single",
+      "eventDate": "2020-06-19",
+      "provider": "Eric Chandley",
+      "facility": "Novant Health",
+      "fullText": "[936 characters - see full extraction file]",
+      "pageCount": 1,
+      "fileSizeBytes": 48629,
+      "extractedAt": "2026-02-13T22:26:44.603Z",
+      "classificationConfidence": 1,
+      "diagnoses": [],
+      "medications": [],
+      "procedures": [],
+      "labResults": [
+        {
+          "test": "RA Quant",
+          "value": "<10.0",
+          "unit": "IU/mL",
+          "reference": "0.0 - 13.9 IU/mL"
+        }
+      ],
+      "keyFindings": [],
+      "textPreview": "10/25/24, 9:05 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nRHEUMATOID FACTOR\nCollected on June 19, 2020 4:31 PM\nNovant Health\nEric Chandley 06/26/2020, 12:22 PM\nHere are your lab results from me.\nGood luck,\nEric\nMore results to share with Rheumatology.\nResults\nPerformed at: 01 - LabCorp Burlington\n1447 York Court, Burlington, NC 272153361\nLab Director: Sanjai Nagendra MD, Phone: 800762434"
+    },
+    {
+      "id": "doc_mllgjdbf_9uxt22",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2020/GP/06_June 19 2020_Dr Starr/SEDIMENTATION RATE, AUTOMATED.pdf",
+      "fileName": "SEDIMENTATION RATE, AUTOMATED.pdf",
+      "year": 2020,
+      "specialty": "primary_care",
+      "type": "lab_single",
+      "eventDate": "2020-06-19",
+      "provider": "Eric Chandley",
+      "facility": "Novant Health",
+      "fullText": "[898 characters - see full extraction file]",
+      "pageCount": 1,
+      "fileSizeBytes": 52185,
+      "extractedAt": "2026-02-13T22:26:46.443Z",
+      "classificationConfidence": 1,
+      "diagnoses": [],
+      "medications": [],
+      "procedures": [],
+      "labResults": [
+        {
+          "test": "Sed Rate",
+          "value": "11",
+          "unit": "mm/hr",
+          "reference": "0 - 32 mm/hr"
+        }
+      ],
+      "keyFindings": [],
+      "textPreview": "10/25/24, 9:07 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nSEDIMENTATION RATE, AUTOMATED\nCollected on June 19, 2020 4:31 PM\nNovant Health\nEric Chandley 06/26/2020, 12:21 PM\nHere are your lab results from me.\nGood luck,\nEric\nResults\nPerformed at: 01 - LabCorp Burlington\n1447 York Court, Burlington, NC 272153361\nLab Director: Sanjai Nagendra MD, Phone: 8007624344\nSed Rate\nNormal range: 0 - "
+    },
+    {
+      "id": "doc_mllgjetg_5esll6",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2020/GP/06_June 19 2020_Dr Starr/T3 Free.pdf",
+      "fileName": "T3 Free.pdf",
+      "year": 2020,
+      "specialty": "primary_care",
+      "type": "lab_single",
+      "eventDate": "2020-06-23",
+      "provider": "Eric Chandley",
+      "facility": "Novant Health",
+      "fullText": "[1155 characters - see full extraction file]",
+      "pageCount": 2,
+      "fileSizeBytes": 54133,
+      "extractedAt": "2026-02-13T22:26:48.388Z",
+      "classificationConfidence": 1,
+      "diagnoses": [],
+      "medications": [],
+      "procedures": [],
+      "labResults": [
+        {
+          "test": "T3, Free",
+          "value": "3.2",
+          "unit": "pg/mL",
+          "reference": "2.0 - 4.4 pg/mL"
+        }
+      ],
+      "keyFindings": [],
+      "textPreview": "10/25/24, 9:03 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nT3 FREE\nCollected on June 19, 2020 4:31 PM\nNovant Health\nNew comments\nEric Chandley 06/26/2020, 12:22 PM\nHere are your lab results from me.\nGood luck,\nEric\nMore results to share with Rheumatology.\nResults\nPerformed at: 01 - LabCorp Burlington\n1447 York Court, Burlington, NC 272153361\nLab Director: Sanjai Nagendra MD, Phone: 800762"
+    },
+    {
+      "id": "doc_mllgjggp_1dp7qb",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2020/GP/06_June 19 2020_Dr Starr/T3 REVERSE.pdf",
+      "fileName": "T3 REVERSE.pdf",
+      "year": 2020,
+      "specialty": "primary_care",
+      "type": "lab_single",
+      "eventDate": "2020-06-23",
+      "provider": "Eric Chandley",
+      "facility": "Novant Health",
+      "fullText": "[1319 characters - see full extraction file]",
+      "pageCount": 2,
+      "fileSizeBytes": 55907,
+      "extractedAt": "2026-02-13T22:26:50.521Z",
+      "classificationConfidence": 1,
+      "diagnoses": [],
+      "medications": [],
+      "procedures": [],
+      "labResults": [
+        {
+          "test": "Reverse T3, Serum",
+          "value": "9.7",
+          "unit": "ng/dL",
+          "reference": "9.2 - 24.1 ng/dL"
+        }
+      ],
+      "keyFindings": [],
+      "textPreview": "10/25/24, 9:04 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nT3 REVERSE\nCollected on June 19, 2020 4:31 PM\nNovant Health\nNew comments\nEric Chandley 06/26/2020, 12:22 PM\nHere are your lab results from me.\nGood luck,\nEric\nMore results to share with Rheumatology.\nResults\nPerformed at: 01 - LabCorp Burlington\n1447 York Court, Burlington, NC 272153361\nLab Director: Sanjai Nagendra MD, Phone: 800"
+    },
+    {
+      "id": "doc_mllgjj18_ybqz3n",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2020/GP/06_June 19 2020_Dr Starr/T3 UPTAKE (T4 Order Required for FTI).pdf",
+      "fileName": "T3 UPTAKE (T4 Order Required for FTI).pdf",
+      "year": 2020,
+      "specialty": "primary_care",
+      "type": "lab_single",
+      "eventDate": "2020-06-23",
+      "provider": "Eric Chandley",
+      "facility": "Novant Health",
+      "fullText": "[1002 characters - see full extraction file]",
+      "pageCount": 1,
+      "fileSizeBytes": 55925,
+      "extractedAt": "2026-02-13T22:26:53.852Z",
+      "classificationConfidence": 1,
+      "diagnoses": [],
+      "medications": [],
+      "procedures": [],
+      "labResults": [
+        {
+          "test": "T3 Uptake",
+          "value": "25",
+          "unit": "%",
+          "reference": "24 - 39 %"
+        },
+        {
+          "test": "Free Thyroxine Index",
+          "value": "1.7",
+          "unit": "",
+          "reference": "1.2 - 4.9"
+        }
+      ],
+      "keyFindings": [],
+      "textPreview": "10/25/24, 9:04 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nT3 UPTAKE (T4 Order Required for FTI)\nCollected on June 19, 2020 4:31 PM\nNovant Health\nEric Chandley 06/26/2020, 12:22 PM\nHere are your lab results from me.\nGood luck,\nEric\nMore results to share with Rheumatology.\nResults\nPerformed at: 01 - LabCorp Burlington\n1447 York Court, Burlington, NC 272153361\nLab Director: Sanjai Nagendra "
+    },
+    {
+      "id": "doc_mllgjkcp_h88xxu",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2020/GP/06_June 19 2020_Dr Starr/T4.pdf",
+      "fileName": "T4.pdf",
+      "year": 2020,
+      "specialty": "primary_care",
+      "type": "lab_single",
+      "eventDate": "2020-06-23",
+      "provider": "Eric Chandley",
+      "facility": "Novant Health",
+      "fullText": "[1145 characters - see full extraction file]",
+      "pageCount": 2,
+      "fileSizeBytes": 54256,
+      "extractedAt": "2026-02-13T22:26:55.561Z",
+      "classificationConfidence": 1,
+      "diagnoses": [],
+      "medications": [],
+      "procedures": [],
+      "labResults": [
+        {
+          "test": "T4, Total",
+          "value": "6.6",
+          "unit": "ug/dL",
+          "reference": "4.5 - 12.0 ug/dL"
+        }
+      ],
+      "keyFindings": [],
+      "textPreview": "10/25/24, 9:03 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nT4\nCollected on June 19, 2020 4:31 PM\nNovant Health\nNew comments\nEric Chandley 06/26/2020, 12:22 PM\nHere are your lab results from me.\nGood luck,\nEric\nMore results to share with Rheumatology.\nResults\nPerformed at: 01 - LabCorp Burlington\n1447 York Court, Burlington, NC 272153361\nLab Director: Sanjai Nagendra MD, Phone: 8007624344\n"
+    },
+    {
+      "id": "doc_mllgjmeb_m9dcss",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2020/GP/06_June 19 2020_Dr Starr/TSH.pdf",
+      "fileName": "TSH.pdf",
+      "year": 2020,
+      "specialty": "primary_care",
+      "type": "lab_single",
+      "eventDate": "2020-06-19",
+      "provider": "Eric Chandley",
+      "facility": "Novant Health",
+      "fullText": "[1146 characters - see full extraction file]",
+      "pageCount": 2,
+      "fileSizeBytes": 54312,
+      "extractedAt": "2026-02-13T22:26:58.211Z",
+      "classificationConfidence": 1,
+      "diagnoses": [],
+      "medications": [],
+      "procedures": [],
+      "labResults": [
+        {
+          "test": "TSH",
+          "value": "3.080",
+          "unit": "uIU/mL",
+          "reference": "0.450 - 4.500 uIU/mL"
+        }
+      ],
+      "keyFindings": [],
+      "textPreview": "10/25/24, 9:03 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nTSH\nCollected on June 19, 2020 4:31 PM\nNovant Health\nNew comments\nEric Chandley 06/26/2020, 12:22 PM\nHere are your lab results from me.\nGood luck,\nEric\nMore results to share with Rheumatology.\nResults\nPerformed at: 01 - LabCorp Burlington\n1447 York Court, Burlington, NC 272153361\nLab Director: Sanjai Nagendra MD, Phone: 8007624344"
+    },
+    {
+      "id": "doc_mllgjofr_fp5xmj",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2020/GP/06_June 19 2020_Dr Starr/URIC ACID.pdf",
+      "fileName": "URIC ACID.pdf",
+      "year": 2020,
+      "specialty": "primary_care",
+      "type": "lab_single",
+      "eventDate": "2020-06-23",
+      "provider": "Eric Chandley",
+      "facility": "Novant Health",
+      "fullText": "[1201 characters - see full extraction file]",
+      "pageCount": 2,
+      "fileSizeBytes": 54863,
+      "extractedAt": "2026-02-13T22:27:00.855Z",
+      "classificationConfidence": 1,
+      "diagnoses": [],
+      "medications": [],
+      "procedures": [],
+      "labResults": [
+        {
+          "test": "Uric Acid",
+          "value": "4.9",
+          "unit": "mg/dL",
+          "reference": "2.5 - 7.1 mg/dL"
+        }
+      ],
+      "keyFindings": [],
+      "textPreview": "10/25/24, 9:04 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nURIC ACID\nCollected on June 19, 2020 4:31 PM\nNovant Health\nNew comments\nEric Chandley 06/26/2020, 12:22 PM\nHere are your lab results from me.\nGood luck,\nEric\nMore results to share with Rheumatology.\nResults\nPerformed at: 01 - LabCorp Burlington\n1447 York Court, Burlington, NC 272153361\nLab Director: Sanjai Nagendra MD, Phone: 8007"
+    },
+    {
+      "id": "doc_mllgjunp_wta0q6",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2020/Orthopedic Surgeon/01_Jan 28 2020_Dr Chandley/Cell count with crystals, synovial fluid.pdf",
+      "fileName": "Cell count with crystals, synovial fluid.pdf",
+      "year": 2020,
+      "specialty": "orthopedic surgeon",
+      "type": "lab_panel",
+      "eventDate": "2020-01-28",
+      "provider": "Eric Chandley",
+      "facility": "Novant Health",
+      "fullText": "[1642 characters - see full extraction file]",
+      "pageCount": 2,
+      "fileSizeBytes": 74440,
+      "extractedAt": "2026-02-13T22:27:08.918Z",
+      "classificationConfidence": 1,
+      "diagnoses": [],
+      "medications": [],
+      "procedures": [],
+      "labResults": [
+        {
+          "test": "Color, Fluid",
+          "value": "Yellow",
+          "unit": "",
+          "reference": "Normal value: Yellow"
+        },
+        {
+          "test": "Clarity, Fluid",
+          "value": "Slightly hazy",
+          "unit": "",
+          "reference": "Normal value: Clear"
+        },
+        {
+          "test": "NUCLEATED CELLS, SYNOVIAL FLD",
+          "value": "1,878",
+          "unit": "cells/uL",
+          "reference": "Normal range: 0 - 200 cells/uL"
+        },
+        {
+          "test": "RBC, Fluid",
+          "value": "Rare",
+          "unit": "/uL",
+          "reference": "Normal value: Not Estab."
+        },
+        {
+          "test": "Polys, Fluid",
+          "value": "0",
+          "unit": "%",
+          "reference": "Normal value: Not Estab."
+        },
+        {
+          "test": "Lymphs, Fluid",
+          "value": "49",
+          "unit": "%",
+          "reference": "Normal value: Not Estab."
+        },
+        {
+          "test": "MACROPHAGES",
+          "value": "51",
+          "unit": "%",
+          "reference": "Normal value: Not Estab."
+        },
+        {
+          "test": "Eos, Fluid",
+          "value": "0",
+          "unit": "%",
+          "reference": "Normal value: Not Estab."
+        },
+        {
+          "test": "LINING CELLS, SYNOVIAL",
+          "value": "0",
+          "unit": "%",
+          "reference": "Normal value: Not Estab."
+        },
+        {
+          "test": "Crystals, Joint Fluid",
+          "value": "None seen",
+          "unit": "",
+          "reference": "Normal value: None seen"
+        }
+      ],
+      "keyFindings": [
+        "No crystals seen under normal or polarized light."
+      ],
+      "textPreview": "10/25/24, 9:38 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nCell count with crystals, synovial fluid\nCollected on January 28, 2020 12:00 AM\nNovant Health\nResults\nPerformed at: 01 - LabCorp Burlington\n1447 York Court, Burlington, NC 272153361\nLab Director: Sanjai Nagendra MD, Phone: 8007624344\nColor, Fluid Clarity, Fluid\nNormal value: Yellow Normal value: Clear\nValue Value\nYellow Slightly h"
+    },
+    {
+      "id": "doc_mllgjwvk_utqw0s",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2020/Orthopedic Surgeon/02_Feb 12 2020_Dr Chandley/ANTINUCLEAR AB BY MULTIPLEX.pdf",
+      "fileName": "ANTINUCLEAR AB BY MULTIPLEX.pdf",
+      "year": 2020,
+      "specialty": "orthopedic surgeon",
+      "type": "lab_single",
+      "eventDate": "2020-02-16",
+      "provider": "Eric Chandley",
+      "facility": "Novant Health",
+      "fullText": "[825 characters - see full extraction file]",
+      "pageCount": 1,
+      "fileSizeBytes": 46360,
+      "extractedAt": "2026-02-13T22:27:11.792Z",
+      "classificationConfidence": 1,
+      "diagnoses": [],
+      "medications": [],
+      "procedures": [],
+      "labResults": [
+        {
+          "test": "ANA Direct",
+          "value": "Negative",
+          "unit": "",
+          "reference": "Normal value: Negative"
+        }
+      ],
+      "keyFindings": [],
+      "textPreview": "10/25/24, 9:42 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nANTINUCLEAR AB BY MULTIPLEX\nCollected on February 12, 2020 5:26 PM\nNovant Health\nResults\nPerformed at: 01 - LabCorp Burlington\n1447 York Court, Burlington, NC 272153361\nLab Director: Sanjai Nagendra MD, Phone: 8007624344\nANA Direct\nNormal value: Negative\nValue\nNegative\nAuthorizing provider: Eric Chandley\nCollection date: February "
+    },
+    {
+      "id": "doc_mllgk07u_ys75q8",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2020/Orthopedic Surgeon/02_Feb 12 2020_Dr Chandley/Anti-CCP Ab, IgG:IgA.pdf",
+      "fileName": "Anti-CCP Ab, IgG:IgA.pdf",
+      "year": 2020,
+      "specialty": "orthopedic surgeon",
+      "type": "lab_single",
+      "eventDate": "2020-02-16",
+      "provider": "Eric Chandley",
+      "facility": "Novant Health",
+      "fullText": "[905 characters - see full extraction file]",
+      "pageCount": 1,
+      "fileSizeBytes": 51259,
+      "extractedAt": "2026-02-13T22:27:16.122Z",
+      "classificationConfidence": 1,
+      "diagnoses": [],
+      "medications": [],
+      "procedures": [],
+      "labResults": [
+        {
+          "test": "Anti-CCP Ab, IgG/IgA",
+          "value": "14",
+          "unit": "units",
+          "reference": "0 - 19 units"
+        }
+      ],
+      "keyFindings": [],
+      "textPreview": "10/25/24, 9:42 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nAnti-CCP Ab, IgG/IgA\nCollected on February 12, 2020 5:26 PM\nNovant Health\nResults\nPerformed at: 01 - LabCorp Burlington\n1447 York Court, Burlington, NC 272153361\nLab Director: Sanjai Nagendra MD, Phone: 8007624344\nAnti-CCP Ab, IgG/IgA\nNormal range: 0 - 19 units\n14\n0 19\nNegative <20\nWeak positive 20 - 39\nModerate positive 40 - 59\nS"
+    },
+    {
+      "id": "doc_mllgk21l_jbfcnj",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2020/Orthopedic Surgeon/02_Feb 12 2020_Dr Chandley/C-REACTIVE PROTEIN.pdf",
+      "fileName": "C-REACTIVE PROTEIN.pdf",
+      "year": 2020,
+      "specialty": "orthopedic surgeon",
+      "type": "lab_single",
+      "eventDate": "2020-02-12",
+      "provider": "Eric Chandley",
+      "facility": "Novant Health",
+      "fullText": "[807 characters - see full extraction file]",
+      "pageCount": 1,
+      "fileSizeBytes": 43892,
+      "extractedAt": "2026-02-13T22:27:18.489Z",
+      "classificationConfidence": 1,
+      "diagnoses": [],
+      "medications": [],
+      "procedures": [],
+      "labResults": [
+        {
+          "test": "CRP",
+          "value": "<1",
+          "unit": "mg/L",
+          "reference": "0 - 10 mg/L"
+        }
+      ],
+      "keyFindings": [],
+      "textPreview": "10/25/24, 9:43 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nC-REACTIVE PROTEIN\nCollected on February 12, 2020 5:26 PM\nNovant Health\nResults\nPerformed at: 01 - LabCorp Burlington\n1447 York Court, Burlington, NC 272153361\nLab Director: Sanjai Nagendra MD, Phone: 8007624344\nCRP\nNormal range: 0 - 10 mg/L\nValue\n<1\nAuthorizing provider: Eric Chandley\nCollection date: February 12, 2020 5:26 PM\nSp"
+    },
+    {
+      "id": "doc_mllgk41g_mfhgwe",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2020/Orthopedic Surgeon/02_Feb 12 2020_Dr Chandley/ENDOMYSIAL ANTIBODY IGA.pdf",
+      "fileName": "ENDOMYSIAL ANTIBODY IGA.pdf",
+      "year": 2020,
+      "specialty": "orthopedic surgeon",
+      "type": "lab_single",
+      "eventDate": "2020-02-12",
+      "provider": "Eric Chandley",
+      "facility": "Novant Health",
+      "fullText": "[824 characters - see full extraction file]",
+      "pageCount": 1,
+      "fileSizeBytes": 48012,
+      "extractedAt": "2026-02-13T22:27:21.076Z",
+      "classificationConfidence": 1,
+      "diagnoses": [],
+      "medications": [],
+      "procedures": [],
+      "labResults": [
+        {
+          "test": "Endomysial IgA",
+          "value": "Negative",
+          "unit": "",
+          "reference": "Normal value: Negative"
+        }
+      ],
+      "keyFindings": [],
+      "textPreview": "10/25/24, 9:43 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nENDOMYSIAL ANTIBODY IGA\nCollected on February 12, 2020 5:26 PM\nNovant Health\nResults\nPerformed at: 01 - LabCorp Burlington\n1447 York Court, Burlington, NC 272153361\nLab Director: Sanjai Nagendra MD, Phone: 8007624344\nEndomysial IgA\nNormal value: Negative\nValue\nNegative\nAuthorizing provider: Eric Chandley\nCollection date: February "
+    },
+    {
+      "id": "doc_mllgk6k9_qevr2e",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2020/Orthopedic Surgeon/02_Feb 12 2020_Dr Chandley/FREE T4.pdf",
+      "fileName": "FREE T4.pdf",
+      "year": 2020,
+      "specialty": "orthopedic surgeon",
+      "type": "lab_single",
+      "eventDate": "2020-02-12",
+      "provider": "Eric Chandley",
+      "facility": "Novant Health",
+      "fullText": "[813 characters - see full extraction file]",
+      "pageCount": 1,
+      "fileSizeBytes": 49384,
+      "extractedAt": "2026-02-13T22:27:24.345Z",
+      "classificationConfidence": 1,
+      "diagnoses": [],
+      "medications": [],
+      "procedures": [],
+      "labResults": [
+        {
+          "test": "Free T4",
+          "value": "1.16",
+          "unit": "ng/dL",
+          "reference": "0.82 - 1.77 ng/dL"
+        }
+      ],
+      "keyFindings": [],
+      "textPreview": "10/25/24, 9:44 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nFREE T4\nCollected on February 12, 2020 5:26 PM\nNovant Health\nResults\nPerformed at: 01 - LabCorp Burlington\n1447 York Court, Burlington, NC 272153361\nLab Director: Sanjai Nagendra MD, Phone: 8007624344\nFree T4\nNormal range: 0.82 - 1.77 ng/dL\n1.16\n0.82 1.77\nAuthorizing provider: Eric Chandley\nCollection date: February 12, 2020 5:26 "
+    },
+    {
+      "id": "doc_mllgk8d8_78t3g6",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2020/Orthopedic Surgeon/02_Feb 12 2020_Dr Chandley/LYME, TOTAL AB TEST:REFLEX.pdf",
+      "fileName": "LYME, TOTAL AB TEST:REFLEX.pdf",
+      "year": 2020,
+      "specialty": "orthopedic surgeon",
+      "type": "lab_single",
+      "eventDate": "2020-02-16",
+      "provider": "Eric Chandley",
+      "facility": "Novant Health",
+      "fullText": "[885 characters - see full extraction file]",
+      "pageCount": 1,
+      "fileSizeBytes": 48289,
+      "extractedAt": "2026-02-13T22:27:26.684Z",
+      "classificationConfidence": 1,
+      "diagnoses": [],
+      "medications": [],
+      "procedures": [],
+      "labResults": [
+        {
+          "test": "Lyme IgG,IgM Ab",
+          "value": "<0.91",
+          "unit": "ISR",
+          "reference": "0.00 - 0.90 ISR"
+        }
+      ],
+      "keyFindings": [],
+      "textPreview": "10/25/24, 9:41 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nLYME, TOTAL AB TEST/REFLEX\nCollected on February 12, 2020 5:26 PM\nNovant Health\nResults\nPerformed at: 01 - LabCorp Burlington\n1447 York Court, Burlington, NC 272153361\nLab Director: Sanjai Nagendra MD, Phone: 8007624344\nLyme IgG,IgM Ab\nNormal range: 0.00 - 0.90 ISR\nValue\n<0.91\nNegative <0.91\nEquivocal 0.91 - 1.09\nPositive >1.09\nAu"
+    },
+    {
+      "id": "doc_mllgk9y8_g00zzo",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2020/Orthopedic Surgeon/02_Feb 12 2020_Dr Chandley/RHEUMATOID FACTOR.pdf",
+      "fileName": "RHEUMATOID FACTOR.pdf",
+      "year": 2020,
+      "specialty": "orthopedic surgeon",
+      "type": "lab_single",
+      "eventDate": "2020-02-12",
+      "provider": "Eric Chandley",
+      "facility": "Novant Health",
+      "fullText": "[819 characters - see full extraction file]",
+      "pageCount": 1,
+      "fileSizeBytes": 50065,
+      "extractedAt": "2026-02-13T22:27:28.736Z",
+      "classificationConfidence": 1,
+      "diagnoses": [],
+      "medications": [],
+      "procedures": [],
+      "labResults": [
+        {
+          "test": "RA Quant",
+          "value": "10.0",
+          "unit": "IU/mL",
+          "reference": "0.0 - 13.9 IU/mL"
+        }
+      ],
+      "keyFindings": [],
+      "textPreview": "10/25/24, 9:42 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nRHEUMATOID FACTOR\nCollected on February 12, 2020 5:26 PM\nNovant Health\nResults\nPerformed at: 01 - LabCorp Burlington\n1447 York Court, Burlington, NC 272153361\nLab Director: Sanjai Nagendra MD, Phone: 8007624344\nRA Quant\nNormal range: 0.0 - 13.9 IU/mL\n10.0\n0 13.9\nAuthorizing provider: Eric Chandley\nCollection date: February 12, 202"
+    },
+    {
+      "id": "doc_mllgkbtp_ue0d9l",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2020/Orthopedic Surgeon/02_Feb 12 2020_Dr Chandley/SEDEMENTATION RATE.pdf",
+      "fileName": "SEDEMENTATION RATE.pdf",
+      "year": 2020,
+      "specialty": "orthopedic surgeon",
+      "type": "lab_single",
+      "eventDate": "2020-02-12",
+      "provider": "Eric Chandley",
+      "facility": "Novant Health",
+      "fullText": "[823 characters - see full extraction file]",
+      "pageCount": 1,
+      "fileSizeBytes": 49372,
+      "extractedAt": "2026-02-13T22:27:31.165Z",
+      "classificationConfidence": 1,
+      "diagnoses": [],
+      "medications": [],
+      "procedures": [],
+      "labResults": [
+        {
+          "test": "Sed Rate",
+          "value": "13",
+          "unit": "mm/hr",
+          "reference": "0 - 32 mm/hr"
+        }
+      ],
+      "keyFindings": [],
+      "textPreview": "10/25/24, 9:43 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nSEDIMENTATION RATE, AUTOMATED\nCollected on February 12, 2020 5:26 PM\nNovant Health\nResults\nPerformed at: 01 - LabCorp Burlington\n1447 York Court, Burlington, NC 272153361\nLab Director: Sanjai Nagendra MD, Phone: 8007624344\nSed Rate\nNormal range: 0 - 32 mm/hr\n13\n0 32\nAuthorizing provider: Eric Chandley\nCollection date: February 12,"
+    },
+    {
+      "id": "doc_mllgkdf7_x7vn3r",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2020/Orthopedic Surgeon/02_Feb 12 2020_Dr Chandley/T3 REVERSE.pdf",
+      "fileName": "T3 REVERSE.pdf",
+      "year": 2020,
+      "specialty": "orthopedic surgeon",
+      "type": "lab_single",
+      "eventDate": "2020-02-16",
+      "provider": "Eric Chandley",
+      "facility": "Novant Health",
+      "fullText": "[981 characters - see full extraction file]",
+      "pageCount": 1,
+      "fileSizeBytes": 51065,
+      "extractedAt": "2026-02-13T22:27:33.235Z",
+      "classificationConfidence": 1,
+      "diagnoses": [],
+      "medications": [],
+      "procedures": [],
+      "labResults": [
+        {
+          "test": "Reverse T3, Serum",
+          "value": "11.3",
+          "unit": "ng/dL",
+          "reference": "9.2 - 24.1 ng/dL"
+        }
+      ],
+      "keyFindings": [],
+      "textPreview": "10/25/24, 10:03 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nT3 REVERSE\nCollected on February 12, 2020 5:26 PM\nNovant Health\nResults\nPerformed at: 01 - LabCorp Burlington\n1447 York Court, Burlington, NC 272153361\nLab Director: Sanjai Nagendra MD, Phone: 8007624344\nReverse T3, Serum\nNormal range: 9.2 - 24.1 ng/dL\n11.3\n9.2 24.1\nThis test was developed and its performance characteristics\ndete"
+    },
+    {
+      "id": "doc_mllgkh0q_pdi976",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2020/Orthopedic Surgeon/02_Feb 12 2020_Dr Chandley/T3 UPTAKE (T4 Order Required for FTI).pdf",
+      "fileName": "T3 UPTAKE (T4 Order Required for FTI).pdf",
+      "year": 2020,
+      "specialty": "orthopedic surgeon",
+      "type": "lab_single",
+      "eventDate": "2020-02-12",
+      "provider": "Eric Chandley",
+      "facility": "Novant Health",
+      "fullText": "[1016 characters - see full extraction file]",
+      "pageCount": 1,
+      "fileSizeBytes": 56553,
+      "extractedAt": "2026-02-13T22:27:37.898Z",
+      "classificationConfidence": 1,
+      "diagnoses": [],
+      "medications": [],
+      "procedures": [],
+      "labResults": [
+        {
+          "test": "T3 Uptake",
+          "value": "26",
+          "unit": "%",
+          "reference": "24 - 39 %"
+        },
+        {
+          "test": "Free Thyroxine Index",
+          "value": "2.0",
+          "unit": "",
+          "reference": "1.2 - 4.9"
+        }
+      ],
+      "keyFindings": [],
+      "textPreview": "10/25/24, 10:04 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nT3 UPTAKE (T4 Order Required for FTI)\nCollected on February 12, 2020 5:26 PM\nNovant Health\nEric Chandley 06/26/2020, 12:22 PM\nHere are your lab results from me.\nGood luck,\nEric\nMore results to share with Rheumatology.\nResults\nPerformed at: 01 - LabCorp Burlington\n1447 York Court, Burlington, NC 272153361\nLab Director: Sanjai Nage"
+    },
+    {
+      "id": "doc_mllgki93_u4ib62",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2020/Orthopedic Surgeon/02_Feb 12 2020_Dr Chandley/T3.pdf",
+      "fileName": "T3.pdf",
+      "year": 2020,
+      "specialty": "orthopedic surgeon",
+      "type": "lab_single",
+      "eventDate": "2020-02-12",
+      "provider": "Eric Chandley",
+      "facility": "Novant Health",
+      "fullText": "[809 characters - see full extraction file]",
+      "pageCount": 1,
+      "fileSizeBytes": 49635,
+      "extractedAt": "2026-02-13T22:27:39.495Z",
+      "classificationConfidence": 1,
+      "diagnoses": [],
+      "medications": [],
+      "procedures": [],
+      "labResults": [
+        {
+          "test": "T3, Free",
+          "value": "3.8",
+          "unit": "pg/mL",
+          "reference": "2.0 - 4.4 pg/mL"
+        }
+      ],
+      "keyFindings": [],
+      "textPreview": "10/25/24, 9:44 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nT3 FREE\nCollected on February 12, 2020 5:26 PM\nNovant Health\nResults\nPerformed at: 01 - LabCorp Burlington\n1447 York Court, Burlington, NC 272153361\nLab Director: Sanjai Nagendra MD, Phone: 8007624344\nT3, Free\nNormal range: 2.0 - 4.4 pg/mL\n3.8\n2 4.4\nAuthorizing provider: Eric Chandley\nCollection date: February 12, 2020 5:26 PM\nSpe"
+    },
+    {
+      "id": "doc_mllgkjop_d5v2b4",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2020/Orthopedic Surgeon/02_Feb 12 2020_Dr Chandley/T4.pdf",
+      "fileName": "T4.pdf",
+      "year": 2020,
+      "specialty": "orthopedic surgeon",
+      "type": "lab_single",
+      "eventDate": "2020-02-16",
+      "provider": "Eric Chandley",
+      "facility": "Novant Health",
+      "fullText": "[807 characters - see full extraction file]",
+      "pageCount": 1,
+      "fileSizeBytes": 47600,
+      "extractedAt": "2026-02-13T22:27:41.353Z",
+      "classificationConfidence": 1,
+      "diagnoses": [],
+      "medications": [],
+      "procedures": [],
+      "labResults": [
+        {
+          "test": "T4, Total",
+          "value": "7.5",
+          "unit": "ug/dL",
+          "reference": "4.5 - 12.0 ug/dL"
+        }
+      ],
+      "keyFindings": [],
+      "textPreview": "10/25/24, 10:03 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nT4\nCollected on February 12, 2020 5:26 PM\nNovant Health\nResults\nPerformed at: 01 - LabCorp Burlington\n1447 York Court, Burlington, NC 272153361\nLab Director: Sanjai Nagendra MD, Phone: 8007624344\nT4, Total\nNormal range: 4.5 - 12.0 ug/dL\n7.5\n4.5 12\nAuthorizing provider: Eric Chandley\nCollection date: February 12, 2020 5:26 PM\nSpec"
+    },
+    {
+      "id": "doc_mllgkkus_llexl0",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2020/Orthopedic Surgeon/02_Feb 12 2020_Dr Chandley/TSH.pdf",
+      "fileName": "TSH.pdf",
+      "year": 2020,
+      "specialty": "orthopedic surgeon",
+      "type": "lab_single",
+      "eventDate": "2020-02-12",
+      "provider": "Eric Chandley",
+      "facility": "Novant Health",
+      "fullText": "[809 characters - see full extraction file]",
+      "pageCount": 1,
+      "fileSizeBytes": 49681,
+      "extractedAt": "2026-02-13T22:27:42.868Z",
+      "classificationConfidence": 1,
+      "diagnoses": [],
+      "medications": [],
+      "procedures": [],
+      "labResults": [
+        {
+          "test": "TSH",
+          "value": "7.090",
+          "unit": "uIU/mL",
+          "reference": "0.450 - 4.500 uIU/mL"
+        }
+      ],
+      "keyFindings": [],
+      "textPreview": "10/25/24, 9:44 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nTSH\nCollected on February 12, 2020 5:26 PM\nNovant Health\nResults\nPerformed at: 01 - LabCorp Burlington\n1447 York Court, Burlington, NC 272153361\nLab Director: Sanjai Nagendra MD, Phone: 8007624344\nTSH\nNormal range: 0.450 - 4.500 uIU/mL\n7.090\n0.45 4.5\nAuthorizing provider: Eric Chandley\nCollection date: February 12, 2020 5:26 PM\nSp"
+    },
+    {
+      "id": "doc_mllgklzk_u89grc",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2020/Orthopedic Surgeon/02_Feb 12 2020_Dr Chandley/URIC ACID.pdf",
+      "fileName": "URIC ACID.pdf",
+      "year": 2020,
+      "specialty": "orthopedic surgeon",
+      "type": "lab_single",
+      "eventDate": "2020-02-12",
+      "provider": "Eric Chandley",
+      "facility": "Novant Health",
+      "fullText": "[852 characters - see full extraction file]",
+      "pageCount": 1,
+      "fileSizeBytes": 50788,
+      "extractedAt": "2026-02-13T22:27:44.336Z",
+      "classificationConfidence": 1,
+      "diagnoses": [],
+      "medications": [],
+      "procedures": [],
+      "labResults": [
+        {
+          "test": "Uric Acid",
+          "value": "4.9",
+          "unit": "mg/dL",
+          "reference": "2.5 - 7.1 mg/dL"
+        }
+      ],
+      "keyFindings": [],
+      "textPreview": "10/25/24, 9:41 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nURIC ACID\nCollected on February 12, 2020 5:26 PM\nNovant Health\nResults\nPerformed at: 01 - LabCorp Burlington\n1447 York Court, Burlington, NC 272153361\nLab Director: Sanjai Nagendra MD, Phone: 8007624344\nUric Acid\nNormal range: 2.5 - 7.1 mg/dL\n4.9\n2.5 7.1\nTherapeutic target for gout patients: <6.0\nAuthorizing provider: Eric Chandle"
+    },
+    {
+      "id": "doc_mllgksld_ud5u84",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2020/Orthopedic Surgeon/DrChandley_01_28_2020.pdf",
+      "fileName": "DrChandley_01_28_2020.pdf",
+      "year": 2020,
+      "specialty": "orthopedic surgeon",
+      "type": "after_visit_summary",
+      "eventDate": "2020-01-28",
+      "provider": "Eric A Chandley, PA",
+      "facility": null,
+      "fullText": "[10004 characters - see full extraction file]",
+      "pageCount": 9,
+      "fileSizeBytes": 175866,
+      "extractedAt": "2026-02-13T22:27:52.897Z",
+      "classificationConfidence": 0.9,
+      "diagnoses": [
+        "Chronic pain of right knee",
+        "Effusion of right knee",
+        "Hashimoto's thyroiditis",
+        "Graves' disease",
+        "Pain of upper abdomen"
+      ],
+      "medications": [
+        "acetaminophen (TYLENOL) 325 mg tablet",
+        "amphetamine-dextroamphetamine (ADDERALL) 20 MG tablet",
+        "ARIPiprazole (ABILIFY) 10 mg tablet",
+        "methylPREDNISolone (MEDROL DOSE PACK) 4 mg tablet",
+        "mupirocin (BACTROBAN) 2% ointment",
+        "Naproxen-Esomeprazole (VIMOVO) 500-20MG TBEC per DR tablet",
+        "ondansetron (ZOFRAN ODT) 4 mg disintegrating tablet"
+      ],
+      "procedures": [
+        "X-ray knee right AP lateral and axial",
+        "US Guided Needle Placement",
+        "bupivacaine (MARCAINE) 0.25% injection 2.5 mg",
+        "lidocaine (XYLOCAINE) 1% injection 5 mL",
+        "betamethasone sod phos & acetate (CELESTONE SOLUSPAN) 6 mg/mL injection",
+        "Culture, Body Fluid Synovial Fld",
+        "Body fluid crystal Body Fluid",
+        "Synovial fluid, cell count Synovial Fld",
+        "Gram Stain Joint Fluid",
+        "Culture, Anaerobic Joint Fluid"
+      ],
+      "labResults": [],
+      "keyFindings": [
+        "The patient reports the symptoms are a 8 of ten with activity and a 3 at rest.",
+        "The patient does have an effusion of the knee.",
+        "The patient has point tenderness along the medial joint line of the affected knee.",
+        "The patient can extend the knee to 0 degrees and flex to 90 degrees.",
+        "Lachman's test and posterior drawer test are negative.",
+        "Varus and Valgus stress testing do not reveal ligamentous laxity.",
+        "Squat testing is positive at 45 degrees.",
+        "Thessaly's test is positive for pain along the medial and lateral joint line of the right knee.",
+        "The skin overlying the knee on today's examination is within normal limits.",
+        "There are no fractures or dislocations on these films.",
+        "The joint spaces of the right knee appear to be well-maintained.",
+        "The patient is a small right knee effusion.",
+        "Bone density appears to be adequate."
+      ],
+      "textPreview": "Appointment Details\nAfter Visit Summary\nNotes\nProgress Notes\nEric Chandley at 01/28/20 1700\n\n--- PAGE BREAK ---\n\n\n\n--- PAGE BREAK ---\n\nOrthopedics\nHPI:\nJenniferBethCartretteisa37y.o.yearoldfemalethatpresentstotheofficetodaywithachiefcomplaintofrightkneepain.Thepatientreportsthesymptoms\nbeganDecember25,2019.Thepatientreportsthesymptomsarea8oftenwithactivityanda3atrest.Whenaskedtopointtotheareaofmaximum\ndiscomfortthepatientplacedtheirfingersovertheanteriorandmedialrightknee.Thepatientreportsthesym"
+    },
+    {
+      "id": "doc_mllgkvwv_on1vrk",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2020/Rheumatology/07_July 8 2020_Dr Patel/ACUTE HEPATITIS PANEL.pdf",
+      "fileName": "ACUTE HEPATITIS PANEL.pdf",
+      "year": 2020,
+      "specialty": "rheumatology",
+      "type": "lab_panel",
+      "eventDate": "2020-07-09",
+      "provider": "Amit Patel MD",
+      "facility": "Novant Health",
+      "fullText": "[2133 characters - see full extraction file]",
+      "pageCount": 2,
+      "fileSizeBytes": 61722,
+      "extractedAt": "2026-02-13T22:27:57.199Z",
+      "classificationConfidence": 1,
+      "diagnoses": [],
+      "medications": [],
+      "procedures": [],
+      "labResults": [
+        {
+          "test": "Hep A IgM",
+          "value": "Negative",
+          "unit": "",
+          "reference": "Normal value: Negative"
+        },
+        {
+          "test": "Hepatitis B Surface Ag",
+          "value": "Negative",
+          "unit": "",
+          "reference": "Normal value: Negative"
+        },
+        {
+          "test": "Hep B Core IgM Ab",
+          "value": "Negative",
+          "unit": "",
+          "reference": "Normal value: Negative"
+        },
+        {
+          "test": "Hepatitis C Virus Ab",
+          "value": "<0.1",
+          "unit": "s/co ratio",
+          "reference": "Normal range: 0.0 - 0.9 s/co ratio"
+        }
+      ],
+      "keyFindings": [
+        "Your blood counts, kidney function and liver function are all within normal ranges.",
+        "The testing we did looking for antibodies specific for conditions like lupus, scleroderma, Sjogren's syndrome, inflammatory muscle diseases were all normal.",
+        "The test that can be seen associated with psoriatic arthritis was also normal, but this does not completely rule out this condition.",
+        "Your screening test for tuberculosis and hepatitis were both negative.",
+        "The marker of inflammation that we checked was also improved."
+      ],
+      "textPreview": "10/25/24, 8:24 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nACUTE HEPATITIS PANEL\nCollected on July 9, 2020 4:50 PM\nNovant Health\nAmit Patel 07/14/2020, 1:17 PM\nMs Cartrette,\nI have reviewed your recent lab results. Your blood counts,\nkidney function and liver function are all within normal ranges.\nThe testing we did looking for antibodies specific for conditions\nlike lupus, scleroderma, S"
+    },
+    {
+      "id": "doc_mllgl01t_0fvpb5",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2020/Rheumatology/07_July 8 2020_Dr Patel/ANTINUCLEAR AB 9 BY MULTIPLEX.pdf",
+      "fileName": "ANTINUCLEAR AB 9 BY MULTIPLEX.pdf",
+      "year": 2020,
+      "specialty": "rheumatology",
+      "type": "lab_panel",
+      "eventDate": "2020-07-09",
+      "provider": "Amit Patel MD",
+      "facility": "Novant Health",
+      "fullText": "[4236 characters - see full extraction file]",
+      "pageCount": 5,
+      "fileSizeBytes": 86496,
+      "extractedAt": "2026-02-13T22:28:02.561Z",
+      "classificationConfidence": 1,
+      "diagnoses": [],
+      "medications": [],
+      "procedures": [],
+      "labResults": [
+        {
+          "test": "Anti-DNA (DS) Ab Qn",
+          "value": "3",
+          "unit": "IU/mL",
+          "reference": "Normal range: 0 - 9 IU/mL"
+        },
+        {
+          "test": "RNP Antibodies",
+          "value": "<0.2",
+          "unit": "AI",
+          "reference": "Normal range: 0.0 - 0.9 AI"
+        },
+        {
+          "test": "Smith Antibodies",
+          "value": "<0.2",
+          "unit": "AI",
+          "reference": "Normal range: 0.0 - 0.9 AI"
+        },
+        {
+          "test": "Antiscleroderma-70 Abs",
+          "value": "<0.2",
+          "unit": "AI",
+          "reference": "Normal range: 0.0 - 0.9 AI"
+        },
+        {
+          "test": "Sjogren's Antibodies(SSA)",
+          "value": "<0.2",
+          "unit": "AI",
+          "reference": "Normal range: 0.0 - 0.9 AI"
+        },
+        {
+          "test": "Sjogren's Antibodies(SSB)",
+          "value": "<0.2",
+          "unit": "AI",
+          "reference": "Normal range: 0.0 - 0.9 AI"
+        },
+        {
+          "test": "Antichromatin Antibodies",
+          "value": "<0.2",
+          "unit": "AI",
+          "reference": "Normal range: 0.0 - 0.9 AI"
+        },
+        {
+          "test": "Anti-Jo-1",
+          "value": "<0.2",
+          "unit": "AI",
+          "reference": "Normal range: 0.0 - 0.9 AI"
+        },
+        {
+          "test": "Anti-Centromere B Antibodies",
+          "value": "<0.2",
+          "unit": "AI",
+          "reference": "Normal range: 0.0 - 0.9 AI"
+        }
+      ],
+      "keyFindings": [
+        "blood counts, kidney function and liver function are all within normal ranges",
+        "antibodies specific for conditions like lupus, scleroderma, Sjogren's syndrome, inflammatory muscle diseases were all normal",
+        "test associated with psoriatic arthritis was also normal",
+        "screening test for tuberculosis and hepatitis were both negative",
+        "marker of inflammation was also improved"
+      ],
+      "textPreview": "10/25/24, 8:25 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nANTINUCLEAR AB 9 BY MULTIPLEX\nCollected on July 9, 2020 4:50 PM\nNovant Health\nAmit Patel 07/14/2020, 1:17 PM\nMs Cartrette,\nI have reviewed your recent lab results. Your blood counts,\nkidney function and liver function are all within normal ranges.\nThe testing we did looking for antibodies specific for conditions\nlike lupus, sclero"
+    },
+    {
+      "id": "doc_mllgl25l_h3etbx",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2020/Rheumatology/07_July 8 2020_Dr Patel/C-REACTIVE PROTEIN.pdf",
+      "fileName": "C-REACTIVE PROTEIN.pdf",
+      "year": 2020,
+      "specialty": "rheumatology",
+      "type": "lab_single",
+      "eventDate": "2020-07-09",
+      "provider": "Amit Patel MD",
+      "facility": "Novant Health",
+      "fullText": "[1757 characters - see full extraction file]",
+      "pageCount": 2,
+      "fileSizeBytes": 52795,
+      "extractedAt": "2026-02-13T22:28:05.289Z",
+      "classificationConfidence": 1,
+      "diagnoses": [],
+      "medications": [],
+      "procedures": [],
+      "labResults": [
+        {
+          "test": "CRP",
+          "value": "<1",
+          "unit": "mg/L",
+          "reference": "0 - 10 mg/L"
+        }
+      ],
+      "keyFindings": [
+        "blood counts, kidney function and liver function are all within normal ranges",
+        "antibodies specific for conditions like lupus, scleroderma, Sjogren's syndrome, inflammatory muscle diseases were all normal",
+        "test associated with psoriatic arthritis was also normal",
+        "screening test for tuberculosis and hepatitis were both negative",
+        "marker of inflammation was also improved"
+      ],
+      "textPreview": "10/25/24, 8:23 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nC-REACTIVE PROTEIN\nCollected on July 9, 2020 4:50 PM\nNovant Health\nAmit Patel 07/14/2020, 1:17 PM\nMs Cartrette,\nI have reviewed your recent lab results. Your blood counts,\nkidney function and liver function are all within normal ranges.\nThe testing we did looking for antibodies specific for conditions\nlike lupus, scleroderma, Sjog"
+    },
+    {
+      "id": "doc_mllgl42n_eiq63w",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2020/Rheumatology/07_July 8 2020_Dr Patel/CK.pdf",
+      "fileName": "CK.pdf",
+      "year": 2020,
+      "specialty": "rheumatology",
+      "type": "lab_single",
+      "eventDate": "2020-07-09",
+      "provider": "Amit Patel MD",
+      "facility": "Novant Health",
+      "fullText": "[1794 characters - see full extraction file]",
+      "pageCount": 2,
+      "fileSizeBytes": 56432,
+      "extractedAt": "2026-02-13T22:28:07.775Z",
+      "classificationConfidence": 1,
+      "diagnoses": [],
+      "medications": [],
+      "procedures": [],
+      "labResults": [
+        {
+          "test": "Total CK",
+          "value": "56",
+          "unit": "U/L",
+          "reference": "32 - 182 U/L"
+        }
+      ],
+      "keyFindings": [
+        "blood counts, kidney function and liver function are all within normal ranges",
+        "antibodies specific for conditions like lupus, scleroderma, Sjogren's syndrome, inflammatory muscle diseases were all normal",
+        "test associated with psoriatic arthritis was also normal",
+        "screening test for tuberculosis and hepatitis were both negative",
+        "marker of inflammation was also improved"
+      ],
+      "textPreview": "10/25/24, 8:24 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nCK\nCollected on July 9, 2020 4:50 PM\nNovant Health\nAmit Patel 07/14/2020, 1:17 PM\nMs Cartrette,\nI have reviewed your recent lab results. Your blood counts,\nkidney function and liver function are all within normal ranges.\nThe testing we did looking for antibodies specific for conditions\nlike lupus, scleroderma, Sjogren's syndrome, "
+    },
+    {
+      "id": "doc_mllgl68t_1y8oos",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2020/Rheumatology/07_July 8 2020_Dr Patel/CREATININE.pdf",
+      "fileName": "CREATININE.pdf",
+      "year": 2020,
+      "specialty": "rheumatology",
+      "type": "lab_single",
+      "eventDate": "2020-07-09",
+      "provider": "Amit Patel MD",
+      "facility": "Novant Health",
+      "fullText": "[1896 characters - see full extraction file]",
+      "pageCount": 2,
+      "fileSizeBytes": 61538,
+      "extractedAt": "2026-02-13T22:28:10.589Z",
+      "classificationConfidence": 1,
+      "diagnoses": [],
+      "medications": [],
+      "procedures": [],
+      "labResults": [
+        {
+          "test": "Creatinine",
+          "value": "0.98",
+          "unit": "mg/dL",
+          "reference": "0.57 - 1.00 mg/dL"
+        },
+        {
+          "test": "eGFR If NonAfrican American",
+          "value": "74",
+          "unit": "mL/min/1.73",
+          "reference": ">59 mL/min/1.73"
+        },
+        {
+          "test": "eGFR If African American",
+          "value": "85",
+          "unit": "mL/min/1.73",
+          "reference": ">59 mL/min/1.73"
+        }
+      ],
+      "keyFindings": [
+        "blood counts, kidney function and liver function are all within normal ranges",
+        "antibodies specific for conditions like lupus, scleroderma, Sjogren's syndrome, inflammatory muscle diseases were all normal",
+        "test associated with psoriatic arthritis was also normal",
+        "screening test for tuberculosis and hepatitis were both negative",
+        "marker of inflammation was also improved"
+      ],
+      "textPreview": "10/25/24, 8:22 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nCREATININE\nCollected on July 9, 2020 4:50 PM\nNovant Health\nAmit Patel 07/14/2020, 1:17 PM\nMs Cartrette,\nI have reviewed your recent lab results. Your blood counts,\nkidney function and liver function are all within normal ranges.\nThe testing we did looking for antibodies specific for conditions\nlike lupus, scleroderma, Sjogren's sy"
+    },
+    {
+      "id": "doc_mllgl9ce_sv1sxu",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2020/Rheumatology/07_July 8 2020_Dr Patel/HEPATIC FUNCTION PANEL.pdf",
+      "fileName": "HEPATIC FUNCTION PANEL.pdf",
+      "year": 2020,
+      "specialty": "rheumatology",
+      "type": "lab_panel",
+      "eventDate": "2020-07-09",
+      "provider": "Amit Patel MD",
+      "facility": "Novant Health",
+      "fullText": "[2095 characters - see full extraction file]",
+      "pageCount": 2,
+      "fileSizeBytes": 74193,
+      "extractedAt": "2026-02-13T22:28:14.606Z",
+      "classificationConfidence": 1,
+      "diagnoses": [],
+      "medications": [],
+      "procedures": [],
+      "labResults": [
+        {
+          "test": "Total Protein",
+          "value": "6.7",
+          "unit": "g/dL",
+          "reference": "6.0 - 8.5 g/dL"
+        },
+        {
+          "test": "Albumin, Serum",
+          "value": "4.3",
+          "unit": "g/dL",
+          "reference": "3.8 - 4.8 g/dL"
+        },
+        {
+          "test": "Total Bilirubin",
+          "value": "0.2",
+          "unit": "mg/dL",
+          "reference": "0.0 - 1.2 mg/dL"
+        },
+        {
+          "test": "Bilirubin, Direct",
+          "value": "0.08",
+          "unit": "mg/dL",
+          "reference": "0.00 - 0.40 mg/dL"
+        },
+        {
+          "test": "Alkaline Phosphatase",
+          "value": "45",
+          "unit": "IU/L",
+          "reference": "39 - 117 IU/L"
+        },
+        {
+          "test": "AST",
+          "value": "11",
+          "unit": "IU/L",
+          "reference": "0 - 40 IU/L"
+        },
+        {
+          "test": "ALT (SGPT)",
+          "value": "8",
+          "unit": "IU/L",
+          "reference": "0 - 32 IU/L"
+        }
+      ],
+      "keyFindings": [
+        "blood counts, kidney function and liver function are all within normal ranges",
+        "antibodies specific for conditions like lupus, scleroderma, Sjogren's syndrome, inflammatory muscle diseases were all normal",
+        "test associated with psoriatic arthritis was also normal",
+        "screening test for tuberculosis and hepatitis were both negative",
+        "marker of inflammation was also improved"
+      ],
+      "textPreview": "10/25/24, 8:22 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nHEPATIC FUNCTION PANEL\nCollected on July 9, 2020 4:50 PM\nNovant Health\nAmit Patel 07/14/2020, 1:17 PM\nMs Cartrette,\nI have reviewed your recent lab results. Your blood counts,\nkidney function and liver function are all within normal ranges.\nThe testing we did looking for antibodies specific for conditions\nlike lupus, scleroderma, "
+    },
+    {
+      "id": "doc_mllglbph_8y012s",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2020/Rheumatology/07_July 8 2020_Dr Patel/HLA-B27 ANTIGEN.pdf",
+      "fileName": "HLA-B27 ANTIGEN.pdf",
+      "year": 2020,
+      "specialty": "rheumatology",
+      "type": "lab_single",
+      "eventDate": "2020-07-13",
+      "provider": "Amit Patel MD",
+      "facility": "Novant Health",
+      "fullText": "[2398 characters - see full extraction file]",
+      "pageCount": 2,
+      "fileSizeBytes": 54807,
+      "extractedAt": "2026-02-13T22:28:17.669Z",
+      "classificationConfidence": 1,
+      "diagnoses": [],
+      "medications": [],
+      "procedures": [],
+      "labResults": [
+        {
+          "test": "HLA B27",
+          "value": "Negative",
+          "unit": null,
+          "reference": null
+        }
+      ],
+      "keyFindings": [
+        "Your blood counts, kidney function and liver function are all within normal ranges.",
+        "The testing we did looking for antibodies specific for conditions like lupus, scleroderma, Sjogren's syndrome, inflammatory muscle diseases were all normal.",
+        "The test that can be seen associated with psoriatic arthritis was also normal, but this does not completely rule out this condition.",
+        "Your screening test for tuberculosis and hepatitis were both negative.",
+        "The marker of inflammation that we checked was also improved."
+      ],
+      "textPreview": "10/25/24, 8:25 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nHLA-B27 ANTIGEN\nCollected on July 9, 2020 4:50 PM\nNovant Health\nAmit Patel 07/14/2020, 1:17 PM\nMs Cartrette,\nI have reviewed your recent lab results. Your blood counts,\nkidney function and liver function are all within normal ranges.\nThe testing we did looking for antibodies specific for conditions\nlike lupus, scleroderma, Sjogren"
+    }
+  ],
+  "errors": [],
+  "bySpecialty": {
+    "primary_care": 14,
+    "orthopedic surgeon": 16,
+    "rheumatology": 7
+  },
+  "byType": {
+    "pathology": 1,
+    "lab_single": 31,
+    "lab_panel": 4,
+    "after_visit_summary": 1
+  }
+}

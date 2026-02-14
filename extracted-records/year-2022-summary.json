@@ -1,0 +1,1772 @@
+{
+  "year": 2022,
+  "importedAt": "2026-02-13T22:31:25.375Z",
+  "totalFiles": 27,
+  "successful": 27,
+  "failed": 0,
+  "documents": [
+    {
+      "id": "doc_mllgme05_2saz6r",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2022/GI/GI Follow Up Notes.pdf",
+      "fileName": "GI Follow Up Notes.pdf",
+      "year": 2022,
+      "specialty": "gastroenterology",
+      "type": "consult_note",
+      "eventDate": "2022-06-13",
+      "provider": "Vinaya Maddukuri, MD",
+      "facility": "13808 PROFESSIONAL CENTER DRIVE, HUNTERSVILLE NC 28078-7948",
+      "fullText": "[13534 characters - see full extraction file]",
+      "pageCount": 8,
+      "fileSizeBytes": 586812,
+      "extractedAt": "2026-02-13T22:29:07.301Z",
+      "classificationConfidence": 0.9,
+      "diagnoses": [
+        "Pain of upper abdomen",
+        "Nausea and vomiting, intractability of vomiting not specified, unspecified vomiting type",
+        "Constipation, unspecified constipation type",
+        "Family history of colon cancer",
+        "Encounter for screening colonoscopy",
+        "NSAID long-term use",
+        "ADHD",
+        "Anorexia",
+        "Bipolar disorder",
+        "Broken teeth upper left, lower right",
+        "Colitis age 25 Ischemic",
+        "Colon polyp 2005 Ischemic Colitis",
+        "DDD (degenerative disc disease), cervical",
+        "Graves' disease",
+        "Graves' eye disease",
+        "Presence of dental prosthetic device Right lower x1",
+        "PTSD (post-traumatic stress disorder)",
+        "Psoriatic arthritis",
+        "Immunodeficiency due to drugs",
+        "Chronic right shoulder pain",
+        "Anorexia nervosa with bulimia",
+        "Bipolar affective disorder",
+        "Victim of sexual assault (rape)"
+      ],
+      "medications": [
+        "amphetamine-dextroamphetamine (ADDERALL) 20 MG tablet",
+        "chlorhexidine (PERIDEX) 0.12% solution",
+        "folic acid 1 mg tablet",
+        "methotrexate 2.5 MG tablet",
+        "mupirocin (BACTROBAN) 2 % ointment",
+        "ondansetron (ZOFRAN-ODT) 4 mg disintegrating tablet",
+        "PANTOPRAZOLE SODIUM (PROTONIX) 40 MG TABLET"
+      ],
+      "procedures": [
+        "EGD Diagnostic",
+        "COLONOSCOPY"
+      ],
+      "labResults": [
+        {
+          "test": "WBC",
+          "value": "7.7",
+          "unit": null,
+          "reference": null
+        },
+        {
+          "test": "Hemoglobin",
+          "value": "13.2",
+          "unit": null,
+          "reference": null
+        },
+        {
+          "test": "Hematocrit",
+          "value": "38.3",
+          "unit": null,
+          "reference": null
+        },
+        {
+          "test": "MCV",
+          "value": "90",
+          "unit": null,
+          "reference": null
+        },
+        {
+          "test": "Platelet Count",
+          "value": "241",
+          "unit": null,
+          "reference": null
+        },
+        {
+          "test": "NA",
+          "value": "139",
+          "unit": null,
+          "reference": null
+        },
+        {
+          "test": "CALCIUM",
+          "value": "9.2",
+          "unit": null,
+          "reference": null
+        },
+        {
+          "test": "ALKPHOS",
+          "value": "53",
+          "unit": null,
+          "reference": null
+        },
+        {
+          "test": "AST",
+          "value": "11",
+          "unit": null,
+          "reference": null
+        },
+        {
+          "test": "ALT",
+          "value": "7",
+          "unit": null,
+          "reference": null
+        },
+        {
+          "test": "BILITOT",
+          "value": "0.3",
+          "unit": null,
+          "reference": null
+        },
+        {
+          "test": "K",
+          "value": "5.1",
+          "unit": null,
+          "reference": null
+        },
+        {
+          "test": "CL",
+          "value": "101",
+          "unit": null,
+          "reference": null
+        },
+        {
+          "test": "CO2",
+          "value": "26",
+          "unit": null,
+          "reference": null
+        },
+        {
+          "test": "BUN",
+          "value": "11",
+          "unit": null,
+          "reference": null
+        },
+        {
+          "test": "CREATININE",
+          "value": "0.83",
+          "unit": null,
+          "reference": null
+        },
+        {
+          "test": "GLUCOSE",
+          "value": "89",
+          "unit": null,
+          "reference": null
+        },
+        {
+          "test": "TSH",
+          "value": "2.890",
+          "unit": null,
+          "reference": null
+        },
+        {
+          "test": "Hemoglobin A1c",
+          "value": "4.8",
+          "unit": null,
+          "reference": null
+        },
+        {
+          "test": "CRP",
+          "value": "2",
+          "unit": null,
+          "reference": null
+        },
+        {
+          "test": "Sed Rate",
+          "value": "16",
+          "unit": null,
+          "reference": null
+        }
+      ],
+      "keyFindings": [
+        "Postprandial abdominal pain and nausea without GI bleeding or weight loss",
+        "Chronic constipation",
+        "History of colon ulcers, etiology unclear",
+        "Family history of colon cancer",
+        "Chronic NSAID use",
+        "history of bulimia",
+        "Overall, suspect functional bowel disease with functional dyspepsia and constipation predominant IBS"
+      ],
+      "textPreview": "10/26/24, 5:59 AM MyChart - Visit Summary\nName: Jennifer Beth Cartrette | DOB: 9/13/1982 | MRN: 71030963 | PCP: Timothy Kennard, MD | Legal Name: Jennifer Beth\nCartrette\nAppointment Details\nNotes\nProgress Notes\nVinaya Maddukuri at 06/13/22 1020\n13808 PROFESSIONAL CENTER DRIVE\nHUNTERSVILLE NC 28078-7948\n704-377-4009\nConsultation\nReferring Physician: Starr, Eric W, PA\nSubjective\nPatient ID: Jennifer Beth Cartrette is a 39 y.o. (DOB 9/13/1982) female.\nCC:\nPatient presents with\n• Emesis\nReports pers"
+    },
+    {
+      "id": "doc_mllgmfcf_nh7o87",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2022/GP/06_June 8 2022_Dr Starr/T3.pdf",
+      "fileName": "T3.pdf",
+      "year": 2022,
+      "specialty": "primary_care",
+      "type": "lab_single",
+      "eventDate": "2022-06-09",
+      "provider": "Eric Starr PA-C",
+      "facility": "Novant Health",
+      "fullText": "[1167 characters - see full extraction file]",
+      "pageCount": 2,
+      "fileSizeBytes": 54336,
+      "extractedAt": "2026-02-13T22:29:09.039Z",
+      "classificationConfidence": 1,
+      "diagnoses": [],
+      "medications": [],
+      "procedures": [],
+      "labResults": [
+        {
+          "test": "T3, Total",
+          "value": "108",
+          "unit": "ng/dL",
+          "reference": "71 - 180 ng/dL"
+        }
+      ],
+      "keyFindings": [
+        "Normal; thyroid studies"
+      ],
+      "textPreview": "10/25/24, 9:13 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nT3\nCollected on June 8, 2022 11:09 AM\nNovant Health\nEric Starr 06/9/2022, 10:48 AM\nHello:\nYour labs have returned\nNormal; thyroid studies\nPlease don't hesitate to call or e-mail with questions or concerns\nEric Starr PA-C\nResults\nPerformed at: 01 - Labcorp Burlington\n1447 York Court, Burlington, NC 272153361\nLab Director: Sanjai Na"
+    },
+    {
+      "id": "doc_mllgmkql_cen8nr",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2022/GP/06_June 8 2022_Dr Starr/TSH+FREE T4.pdf",
+      "fileName": "TSH+FREE T4.pdf",
+      "year": 2022,
+      "specialty": "primary_care",
+      "type": "lab_panel",
+      "eventDate": "2022-06-08",
+      "provider": "Eric Starr",
+      "facility": "Novant Health",
+      "fullText": "[1237 characters - see full extraction file]",
+      "pageCount": 2,
+      "fileSizeBytes": 57724,
+      "extractedAt": "2026-02-13T22:29:16.029Z",
+      "classificationConfidence": 1,
+      "diagnoses": [],
+      "medications": [],
+      "procedures": [],
+      "labResults": [
+        {
+          "test": "TSH",
+          "value": "2.890",
+          "unit": "uIU/mL",
+          "reference": "0.450 - 4.500 uIU/mL"
+        },
+        {
+          "test": "Free T4",
+          "value": "1.15",
+          "unit": "ng/dL",
+          "reference": "0.82 - 1.77 ng/dL"
+        }
+      ],
+      "keyFindings": [
+        "Normal; thyroid studies"
+      ],
+      "textPreview": "10/25/24, 9:12 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nTSH+FREE T4\nCollected on June 8, 2022 11:09 AM\nNovant Health\nEric Starr 06/9/2022, 10:48 AM\nHello:\nYour labs have returned\nNormal; thyroid studies\nPlease don't hesitate to call or e-mail with questions or concerns\nEric Starr PA-C\nResults\nPerformed at: 01 - Labcorp Burlington\n1447 York Court, Burlington, NC 272153361\nLab Director: "
+    },
+    {
+      "id": "doc_mllgmmjc_bccm17",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2022/GP/10_Oct 26 2022_SCANS/CT HEAD WO CONTRAST.pdf",
+      "fileName": "CT HEAD WO CONTRAST.pdf",
+      "year": 2022,
+      "specialty": "primary_care",
+      "type": "imaging_ct",
+      "eventDate": "2022-10-26",
+      "provider": "Whitney Feltus, MD",
+      "facility": "Novant Health",
+      "fullText": "[1678 characters - see full extraction file]",
+      "pageCount": 2,
+      "fileSizeBytes": 45891,
+      "extractedAt": "2026-02-13T22:29:18.360Z",
+      "classificationConfidence": 1,
+      "diagnoses": [
+        "head injury with LOC yesterday"
+      ],
+      "medications": [],
+      "procedures": [
+        "CT HEAD WO CONTRAST"
+      ],
+      "labResults": [],
+      "keyFindings": [
+        "No acute intracranial findings.",
+        "No acute territorial infarct, intracranial hemorrhage, or mass effect.",
+        "The ventricles and sulci are age-appropriate.",
+        "The paranasal sinuses are clear.",
+        "The mastoid air cells are well aerated.",
+        "Asymmetric protrusion of the right globe is again noted.",
+        "The visualized orbits are otherwise unremarkable.",
+        "There is no displaced calvarial fracture."
+      ],
+      "textPreview": "10/25/24, 10:11 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nCT HEAD WO CONTRAST\nCollected on October 26, 2022 6:01 PM\nNovant Health\nResults\nImpression\nIMPRESSION:\nNo acute intracranial findings.\nElectronically Signed by: Whitney Feltus, MD, on 10/26/2022 6:03 PM\nNarrative\nHEAD CT WITHOUT INJECTED CONTRAST\nTECHNIQUE: Axial scans were obtained through the brain without contrast. CT dose red"
+    },
+    {
+      "id": "doc_mllgmqnm_2iesdi",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2022/GP/10_Oct 26 2022_SCANS/Radiology Report.pdf",
+      "fileName": "Radiology Report.pdf",
+      "year": 2022,
+      "specialty": "primary_care",
+      "type": "hospital_note",
+      "eventDate": "2022-10-26",
+      "provider": "David F Locascio, MD",
+      "facility": "NOVANT HEALTH MATTHEWS MEDICAL CENTER",
+      "fullText": "[11986 characters - see full extraction file]",
+      "pageCount": 7,
+      "fileSizeBytes": 520599,
+      "extractedAt": "2026-02-13T22:29:23.698Z",
+      "classificationConfidence": 1,
+      "diagnoses": [
+        "Fall, initial encounter",
+        "Contusion of lower back, initial encounter",
+        "Closed head injury, initial encounter",
+        "ADHD",
+        "Anorexia",
+        "Bipolar disorder",
+        "Broken teeth upper left, lower right",
+        "Colitis age 25",
+        "Colon polyp 2005",
+        "DDD (degenerative disc disease), cervical",
+        "Graves' disease",
+        "Graves' eye disease",
+        "Presence of dental prosthetic device",
+        "PTSD (post-traumatic stress disorder)"
+      ],
+      "medications": [
+        "AMPHETAMINE-DEXTROAMPHETAMINE (ADDERALL) 20 MG TABLET",
+        "CHLORHEXIDINE (PERIDEX) 0.12% SOLUTION",
+        "FOLIC ACID 1 MG TABLET",
+        "METHOTREXATE 2.5 MG TABLET",
+        "MUPIROCIN (BACTROBAN) 2 % OINTMENT",
+        "ONDANSETRON (ZOFRAN-ODT) 4 MG DISINTEGRATING TABLET",
+        "PANTOPRAZOLE SODIUM (PROTONIX) 40 MG TABLET",
+        "HYDROCODONE-ACETAMINOPHEN (NORCO) 5-325 MG PER TABLET",
+        "MELOXICAM (MOBIC) 15 MG TABLET"
+      ],
+      "procedures": [
+        "Colonoscopy 2008",
+        "Sinus surgery 2008",
+        "Spinal fusion ACDF C4-5, C5-6"
+      ],
+      "labResults": [],
+      "keyFindings": [
+        "No acute intracranial findings.",
+        "No evidence of acute displaced fracture or malalignment.",
+        "No acute compression fracture or malalignment.",
+        "No evidence of external trauma. No radicular symptoms."
+      ],
+      "textPreview": "10/25/24, 10:21 PM MyChart - Visit Summary\nName: Jennifer Beth Cartrette | DOB: 9/13/1982 | MRN: 71030963 | PCP: Timothy Kennard, MD | Legal Name: Jennifer Beth\nCartrette\nAppointment Details\nNotes\nED Provider Notes\nDavid Locascio at 10/26/22 1656\nNOVANT HEALTH MATTHEWS MEDICAL CENTER\nED Provider Note\nJennifer Beth Cartrette 40 y.o. female DOB: 9/13/1982 MRN: 71030963\nHistory\nChief Complaint\nPatient presents with\n• Head Injury With LOC\nFell down 6 steps of stairs yesterday at 1600; endorses LOC f"
+    },
+    {
+      "id": "doc_mllgms4q_o7lito",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2022/GP/10_Oct 26 2022_SCANS/XR SACRUM AND COCCYX 2+ VIEWS.pdf",
+      "fileName": "XR SACRUM AND COCCYX 2+ VIEWS.pdf",
+      "year": 2022,
+      "specialty": "primary_care",
+      "type": "imaging_xray",
+      "eventDate": "2022-10-26",
+      "provider": "Robert L Dufour, MD",
+      "facility": "Novant Health",
+      "fullText": "[903 characters - see full extraction file]",
+      "pageCount": 1,
+      "fileSizeBytes": 40363,
+      "extractedAt": "2026-02-13T22:29:25.610Z",
+      "classificationConfidence": 1,
+      "diagnoses": [
+        "Injury-site NOS"
+      ],
+      "medications": [],
+      "procedures": [],
+      "labResults": [],
+      "keyFindings": [
+        "No evidence of acute displaced fracture or malalignment."
+      ],
+      "textPreview": "10/25/24, 10:12 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nXR SACRUM AND COCCYX 2+ VIEWS\nCollected on October 26, 2022 5:47 PM\nNovant Health\nResults\nXR SACRUM AND COCCYX:\nPROVIDED CLINICAL INFORMATION: Injury-site NOS\nCOMPARISON: None available\nFINDINGS:\nNo evidence of acute displaced fracture or malalignment.\nElectronically Signed by: Robert Dufour on 10/26/2022 5:48 PM\nOrdering provide"
+    },
+    {
+      "id": "doc_mllgmub6_vc3rgj",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2022/GP/10_Oct 26 2022_SCANS/XR Spine Lumbar 2-3 Views.pdf",
+      "fileName": "XR Spine Lumbar 2-3 Views.pdf",
+      "year": 2022,
+      "specialty": "primary_care",
+      "type": "imaging_xray",
+      "eventDate": "2022-10-26",
+      "provider": "Whitney Y Feltus, MD",
+      "facility": "Novant Health",
+      "fullText": "[1179 characters - see full extraction file]",
+      "pageCount": 1,
+      "fileSizeBytes": 43206,
+      "extractedAt": "2026-02-13T22:29:28.434Z",
+      "classificationConfidence": 1,
+      "diagnoses": [
+        "Lower Back Pain"
+      ],
+      "medications": [],
+      "procedures": [
+        "XR Spine Lumbar 2-3 Views"
+      ],
+      "labResults": [],
+      "keyFindings": [
+        "No acute compression fracture or malalignment.",
+        "The alignment is normal.",
+        "There is no evidence of compression fracture.",
+        "Disc space heights are preserved.",
+        "There are small multilevel endplate osteophytes.",
+        "Soft tissues are normal in appearance."
+      ],
+      "textPreview": "10/25/24, 10:12 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nXR Spine Lumbar 2-3 Views\nCollected on October 26, 2022 5:51 PM\nNovant Health\nResults\nImpression\nIMPRESSION:\nNo acute compression fracture or malalignment.\nElectronically Signed by: Whitney Feltus, MD, on 10/26/2022 5:52 PM\nNarrative\nXR SPINE LUMBAR 2-3 VIEWS\nPROVIDED CLINICAL INDICATION: Lower Back Pain\nADDITIONAL CLINICAL INDIC"
+    },
+    {
+      "id": "doc_mllgmx5y_7qkt25",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2022/Rheumatology/02_February 28 2022 - Dr Patel/ACUTE HEPATITIS PANEL .pdf",
+      "fileName": "ACUTE HEPATITIS PANEL .pdf",
+      "year": 2022,
+      "specialty": "rheumatology",
+      "type": "lab_panel",
+      "eventDate": "2022-02-28",
+      "provider": "Amit Patel MD",
+      "facility": "Novant Health",
+      "fullText": "[2873 characters - see full extraction file]",
+      "pageCount": 3,
+      "fileSizeBytes": 71138,
+      "extractedAt": "2026-02-13T22:29:32.134Z",
+      "classificationConfidence": 1,
+      "diagnoses": [],
+      "medications": [
+        "hydroxychloroquine"
+      ],
+      "procedures": [],
+      "labResults": [
+        {
+          "test": "Hep A IgM",
+          "value": "Negative",
+          "unit": "",
+          "reference": "Normal value: Negative"
+        },
+        {
+          "test": "Hepatitis B Surface Ag",
+          "value": "Negative",
+          "unit": "",
+          "reference": "Normal value: Negative"
+        },
+        {
+          "test": "Hep B Core IgM Ab",
+          "value": "Negative",
+          "unit": "",
+          "reference": "Normal value: Negative"
+        },
+        {
+          "test": "Hepatitis C Virus Ab",
+          "value": "0.2",
+          "unit": "s/co ratio",
+          "reference": "Normal range: 0.0 - 0.9 s/co ratio"
+        }
+      ],
+      "keyFindings": [
+        "Your blood counts, kidney function and liver function are all within normal ranges.",
+        "The testing we did looking for antibodies and markers assessed with conditions like systemic lupus erythematosus, rheumatoid arthritis, Sjogren's syndrome, scleroderma, inflammatory muscle diseases, psoriatic arthritis all came back normal.",
+        "Both markers of inflammation were within normal ranges."
+      ],
+      "textPreview": "10/25/24, 8:05 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nACUTE HEPATITIS PANEL\nCollected on February 28, 2022 4:42 PM\nNovant Health\nNew comments\nAmit Patel 03/9/2022, 6:35 AM\nI have reviewed your recent lab results.\nYour blood counts, kidney function and liver function are all\nwithin normal ranges.\nThe testing we did looking for antibodies and markers assessed\nwith conditions like syste"
+    },
+    {
+      "id": "doc_mllgn17o_mzfz5m",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2022/Rheumatology/02_February 28 2022 - Dr Patel/ANTINUCLEAR AB 9 BY MULTIPLEX.pdf",
+      "fileName": "ANTINUCLEAR AB 9 BY MULTIPLEX.pdf",
+      "year": 2022,
+      "specialty": "rheumatology",
+      "type": "lab_panel",
+      "eventDate": "2022-02-28",
+      "provider": "Amit Patel MD",
+      "facility": "Novant Health",
+      "fullText": "[4629 characters - see full extraction file]",
+      "pageCount": 5,
+      "fileSizeBytes": 89054,
+      "extractedAt": "2026-02-13T22:29:37.380Z",
+      "classificationConfidence": 1,
+      "diagnoses": [],
+      "medications": [
+        "hydroxychloroquine"
+      ],
+      "procedures": [],
+      "labResults": [
+        {
+          "test": "Anti-DNA (DS) Ab Qn",
+          "value": "3",
+          "unit": "IU/mL",
+          "reference": "0 - 9 IU/mL"
+        },
+        {
+          "test": "RNP Antibodies",
+          "value": "<0.2",
+          "unit": "AI",
+          "reference": "0.0 - 0.9 AI"
+        },
+        {
+          "test": "Smith Antibodies",
+          "value": "<0.2",
+          "unit": "AI",
+          "reference": "0.0 - 0.9 AI"
+        },
+        {
+          "test": "Antiscleroderma-70 Abs",
+          "value": "<0.2",
+          "unit": "AI",
+          "reference": "0.0 - 0.9 AI"
+        },
+        {
+          "test": "Sjogren's Antibodies(SSA)",
+          "value": "<0.2",
+          "unit": "AI",
+          "reference": "0.0 - 0.9 AI"
+        },
+        {
+          "test": "Sjogren's Antibodies(SSB)",
+          "value": "<0.2",
+          "unit": "AI",
+          "reference": "0.0 - 0.9 AI"
+        },
+        {
+          "test": "Antichromatin Antibodies",
+          "value": "<0.2",
+          "unit": "AI",
+          "reference": "0.0 - 0.9 AI"
+        },
+        {
+          "test": "Anti-Jo-1",
+          "value": "<0.2",
+          "unit": "AI",
+          "reference": "0.0 - 0.9 AI"
+        },
+        {
+          "test": "Anti-Centromere B Antibodies",
+          "value": "<0.2",
+          "unit": "AI",
+          "reference": "0.0 - 0.9 AI"
+        }
+      ],
+      "keyFindings": [
+        "Your blood counts, kidney function and liver function are all within normal ranges.",
+        "The testing we did looking for antibodies and markers assessed with conditions like systemic lupus erythematosus, rheumatoid arthritis, Sjogren's syndrome, scleroderma, inflammatory muscle diseases, psoriatic arthritis all came back normal.",
+        "Both markers of inflammation were within normal ranges."
+      ],
+      "textPreview": "10/25/24, 8:07 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nANTINUCLEAR AB 9 BY MULTIPLEX\nCollected on February 28, 2022 4:42 PM\nNovant Health\nNew comments\nAmit Patel 03/9/2022, 6:35 AM\nI have reviewed your recent lab results.\nYour blood counts, kidney function and liver function are all\nwithin normal ranges.\nThe testing we did looking for antibodies and markers assessed\nwith conditions li"
+    },
+    {
+      "id": "doc_mllgn3c1_yag6b6",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2022/Rheumatology/02_February 28 2022 - Dr Patel/Anti-CCP Ab, IgG:IgA.pdf",
+      "fileName": "Anti-CCP Ab, IgG:IgA.pdf",
+      "year": 2022,
+      "specialty": "rheumatology",
+      "type": "lab_single",
+      "eventDate": "2022-03-01",
+      "provider": "Amit Patel MD",
+      "facility": "Novant Health",
+      "fullText": "[2243 characters - see full extraction file]",
+      "pageCount": 2,
+      "fileSizeBytes": 59658,
+      "extractedAt": "2026-02-13T22:29:40.129Z",
+      "classificationConfidence": 1,
+      "diagnoses": [],
+      "medications": [
+        "hydroxychloroquine"
+      ],
+      "procedures": [],
+      "labResults": [
+        {
+          "test": "Anti-CCP Ab, IgG/IgA",
+          "value": "11",
+          "unit": "units",
+          "reference": "0 - 19 units"
+        }
+      ],
+      "keyFindings": [
+        "Your blood counts, kidney function and liver function are all within normal ranges.",
+        "The testing we did looking for antibodies and markers assessed with conditions like systemic lupus erythematosus, rheumatoid arthritis, Sjogren's syndrome, scleroderma, inflammatory muscle diseases, psoriatic arthritis all came back normal.",
+        "Both markers of inflammation were within normal ranges.",
+        "Because of these normal lab results, starting a stronger immune suppressing medication would not be recommended."
+      ],
+      "textPreview": "10/25/24, 8:09 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nAnti-CCP Ab, IgG/IgA\nCollected on February 28, 2022 4:42 PM\nNovant Health\nAmit Patel 03/9/2022, 6:35 AM\nI have reviewed your recent lab results.\nYour blood counts, kidney function and liver function are all\nwithin normal ranges.\nThe testing we did looking for antibodies and markers assessed\nwith conditions like systemic lupus eryt"
+    },
+    {
+      "id": "doc_mllgn5bc_m1bqdw",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2022/Rheumatology/02_February 28 2022 - Dr Patel/C-REACTIVE PROTEIN.pdf",
+      "fileName": "C-REACTIVE PROTEIN.pdf",
+      "year": 2022,
+      "specialty": "rheumatology",
+      "type": "lab_single",
+      "eventDate": "2022-02-28",
+      "provider": "Amit Patel MD",
+      "facility": "Novant Health",
+      "fullText": "[2141 characters - see full extraction file]",
+      "pageCount": 2,
+      "fileSizeBytes": 58665,
+      "extractedAt": "2026-02-13T22:29:42.696Z",
+      "classificationConfidence": 1,
+      "diagnoses": [],
+      "medications": [
+        "hydroxychloroquine"
+      ],
+      "procedures": [],
+      "labResults": [
+        {
+          "test": "CRP",
+          "value": "2",
+          "unit": "mg/L",
+          "reference": "0 - 10 mg/L"
+        }
+      ],
+      "keyFindings": [
+        "Your blood counts, kidney function and liver function are all within normal ranges.",
+        "The testing we did looking for antibodies and markers assessed with conditions like systemic lupus erythematosus, rheumatoid arthritis, Sjogren's syndrome, scleroderma, inflammatory muscle diseases, psoriatic arthritis all came back normal.",
+        "Both markers of inflammation were within normal ranges."
+      ],
+      "textPreview": "10/25/24, 8:08 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nC-REACTIVE PROTEIN\nCollected on February 28, 2022 4:42 PM\nNovant Health\nAmit Patel 03/9/2022, 6:35 AM\nI have reviewed your recent lab results.\nYour blood counts, kidney function and liver function are all\nwithin normal ranges.\nThe testing we did looking for antibodies and markers assessed\nwith conditions like systemic lupus erythe"
+    },
+    {
+      "id": "doc_mllgn9bn_quwyxk",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2022/Rheumatology/02_February 28 2022 - Dr Patel/CBC.pdf",
+      "fileName": "CBC.pdf",
+      "year": 2022,
+      "specialty": "rheumatology",
+      "type": "lab_panel",
+      "eventDate": "2022-02-28",
+      "provider": "Amit Patel MD",
+      "facility": "Novant Health",
+      "fullText": "[2772 characters - see full extraction file]",
+      "pageCount": 3,
+      "fileSizeBytes": 84588,
+      "extractedAt": "2026-02-13T22:29:47.891Z",
+      "classificationConfidence": 1,
+      "diagnoses": [],
+      "medications": [
+        "hydroxychloroquine"
+      ],
+      "procedures": [],
+      "labResults": [
+        {
+          "test": "WBC",
+          "value": "7.7",
+          "unit": "x10E3/uL",
+          "reference": "3.4 - 10.8 x10E3/uL"
+        },
+        {
+          "test": "RBC",
+          "value": "4.26",
+          "unit": "x10E6/uL",
+          "reference": "3.77 - 5.28 x10E6/uL"
+        },
+        {
+          "test": "Hemoglobin",
+          "value": "13.2",
+          "unit": "g/dL",
+          "reference": "11.1 - 15.9 g/dL"
+        },
+        {
+          "test": "Hematocrit",
+          "value": "38.3",
+          "unit": "%",
+          "reference": "34.0 - 46.6 %"
+        },
+        {
+          "test": "MCV",
+          "value": "90",
+          "unit": "fL",
+          "reference": "79 - 97 fL"
+        },
+        {
+          "test": "MCH",
+          "value": "31.0",
+          "unit": "pg",
+          "reference": "26.6 - 33.0 pg"
+        },
+        {
+          "test": "MCHC",
+          "value": "34.5",
+          "unit": "g/dL",
+          "reference": "31.5 - 35.7 g/dL"
+        },
+        {
+          "test": "RDW",
+          "value": "12.1",
+          "unit": "%",
+          "reference": "11.7 - 15.4 %"
+        },
+        {
+          "test": "Platelet Count",
+          "value": "241",
+          "unit": "x10E3/uL",
+          "reference": "150 - 450 x10E3/uL"
+        }
+      ],
+      "keyFindings": [
+        "Your blood counts, kidney function and liver function are all within normal ranges.",
+        "The testing we did looking for antibodies and markers assessed with conditions like systemic lupus erythematosus, rheumatoid arthritis, Sjogren's syndrome, scleroderma, inflammatory muscle diseases, psoriatic arthritis all came back normal.",
+        "Both markers of inflammation were within normal ranges."
+      ],
+      "textPreview": "10/25/24, 8:03 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nCBC\nCollected on February 28, 2022 4:42 PM\nNovant Health\nNew comments\nAmit Patel 03/9/2022, 6:35 AM\nI have reviewed your recent lab results.\nYour blood counts, kidney function and liver function are all\nwithin normal ranges.\nThe testing we did looking for antibodies and markers assessed\nwith conditions like systemic lupus erythema"
+    },
+    {
+      "id": "doc_mllgnd49_kfvg6q",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2022/Rheumatology/02_February 28 2022 - Dr Patel/CK.pdf",
+      "fileName": "CK.pdf",
+      "year": 2022,
+      "specialty": "rheumatology",
+      "type": "lab_single",
+      "eventDate": "2022-02-28",
+      "provider": "Amit Patel MD",
+      "facility": "Novant Health",
+      "fullText": "[2132 characters - see full extraction file]",
+      "pageCount": 2,
+      "fileSizeBytes": 58303,
+      "extractedAt": "2026-02-13T22:29:52.809Z",
+      "classificationConfidence": 1,
+      "diagnoses": [],
+      "medications": [
+        "hydroxychloroquine"
+      ],
+      "procedures": [],
+      "labResults": [
+        {
+          "test": "Total CK",
+          "value": "63",
+          "unit": "U/L",
+          "reference": "32 - 182 U/L"
+        }
+      ],
+      "keyFindings": [
+        "Your blood counts, kidney function and liver function are all within normal ranges.",
+        "The testing we did looking for antibodies and markers assessed with conditions like systemic lupus erythematosus, rheumatoid arthritis, Sjogren's syndrome, scleroderma, inflammatory muscle diseases, psoriatic arthritis all came back normal.",
+        "Both markers of inflammation were within normal ranges."
+      ],
+      "textPreview": "10/25/24, 8:09 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nCK\nCollected on February 28, 2022 4:42 PM\nNovant Health\nAmit Patel 03/9/2022, 6:35 AM\nI have reviewed your recent lab results.\nYour blood counts, kidney function and liver function are all\nwithin normal ranges.\nThe testing we did looking for antibodies and markers assessed\nwith conditions like systemic lupus erythematosus, rheumat"
+    },
+    {
+      "id": "doc_mllgnf8w_0pmxph",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2022/Rheumatology/02_February 28 2022 - Dr Patel/Creatine.pdf",
+      "fileName": "Creatine.pdf",
+      "year": 2022,
+      "specialty": "rheumatology",
+      "type": "lab_single",
+      "eventDate": "2022-02-28",
+      "provider": "Amit Patel MD",
+      "facility": "Novant Health",
+      "fullText": "[2400 characters - see full extraction file]",
+      "pageCount": 2,
+      "fileSizeBytes": 63052,
+      "extractedAt": "2026-02-13T22:29:55.568Z",
+      "classificationConfidence": 1,
+      "diagnoses": [],
+      "medications": [
+        "hydroxychloroquine"
+      ],
+      "procedures": [],
+      "labResults": [
+        {
+          "test": "Creatinine",
+          "value": "0.83",
+          "unit": "mg/dL",
+          "reference": "0.57 - 1.00 mg/dL"
+        },
+        {
+          "test": "eGFR",
+          "value": "92",
+          "unit": "mL/min/1.73",
+          "reference": ">59 mL/min/1.73"
+        }
+      ],
+      "keyFindings": [
+        "Your blood counts, kidney function and liver function are all within normal ranges.",
+        "The testing we did looking for antibodies and markers assessed with conditions like systemic lupus erythematosus, rheumatoid arthritis, Sjogren's syndrome, scleroderma, inflammatory muscle diseases, psoriatic arthritis all came back normal.",
+        "Both markers of inflammation were within normal ranges."
+      ],
+      "textPreview": "10/25/24, 8:04 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nCREATININE\nCollected on February 28, 2022 4:42 PM\nNovant Health\nAmit Patel 03/9/2022, 6:35 AM\nI have reviewed your recent lab results.\nYour blood counts, kidney function and liver function are all\nwithin normal ranges.\nThe testing we did looking for antibodies and markers assessed\nwith conditions like systemic lupus erythematosus,"
+    },
+    {
+      "id": "doc_mllgninc_ug9hwe",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2022/Rheumatology/02_February 28 2022 - Dr Patel/HEPATIC FUNCTION PANEL.pdf",
+      "fileName": "HEPATIC FUNCTION PANEL.pdf",
+      "year": 2022,
+      "specialty": "rheumatology",
+      "type": "lab_panel",
+      "eventDate": "2022-07-21",
+      "provider": "Amit Patel MD",
+      "facility": "Novant Health",
+      "fullText": "[1652 characters - see full extraction file]",
+      "pageCount": 2,
+      "fileSizeBytes": 72898,
+      "extractedAt": "2026-02-13T22:29:59.976Z",
+      "classificationConfidence": 1,
+      "diagnoses": [],
+      "medications": [],
+      "procedures": [],
+      "labResults": [
+        {
+          "test": "Total Protein",
+          "value": "7.1",
+          "unit": "g/dL",
+          "reference": "6.0 - 8.5 g/dL"
+        },
+        {
+          "test": "Albumin, Serum",
+          "value": "4.8",
+          "unit": "g/dL",
+          "reference": "3.8 - 4.8 g/dL"
+        },
+        {
+          "test": "Total Bilirubin",
+          "value": "0.3",
+          "unit": "mg/dL",
+          "reference": "0.0 - 1.2 mg/dL"
+        },
+        {
+          "test": "Bilirubin, Direct",
+          "value": "<0.10",
+          "unit": "mg/dL",
+          "reference": "0.00 - 0.40 mg/dL"
+        },
+        {
+          "test": "Alkaline Phosphatase",
+          "value": "43",
+          "unit": "IU/L",
+          "reference": "44 - 121 IU/L"
+        },
+        {
+          "test": "AST",
+          "value": "11",
+          "unit": "IU/L",
+          "reference": "0 - 40 IU/L"
+        },
+        {
+          "test": "ALT (SGPT)",
+          "value": "6",
+          "unit": "IU/L",
+          "reference": "0 - 32 IU/L"
+        }
+      ],
+      "keyFindings": [
+        "Your blood counts, kidney function and liver function are all within acceptable ranges.",
+        "There is no evidence to suggest that your methotrexate is leading to harm."
+      ],
+      "textPreview": "10/25/24, 8:09 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nHEPATIC FUNCTION PANEL\nCollected on July 21, 2022 4:30 PM\nNovant Health\nAmit Patel 07/22/2022, 8:40 AM\nI have reviewed your recent blood test results.\nYour blood counts, kidney function and liver function are all\nwithin acceptable ranges. There is no evidence to suggest that\nyour methotrexate is leading to harm.\nPlease continue yo"
+    },
+    {
+      "id": "doc_mllgnl9s_hstyne",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2022/Rheumatology/02_February 28 2022 - Dr Patel/HLA-B27 ANTIGEN.pdf",
+      "fileName": "HLA-B27 ANTIGEN.pdf",
+      "year": 2022,
+      "specialty": "rheumatology",
+      "type": "lab_single",
+      "eventDate": "2022-03-08",
+      "provider": "Amit Patel MD",
+      "facility": "Novant Health",
+      "fullText": "[2784 characters - see full extraction file]",
+      "pageCount": 2,
+      "fileSizeBytes": 58391,
+      "extractedAt": "2026-02-13T22:30:03.376Z",
+      "classificationConfidence": 1,
+      "diagnoses": [],
+      "medications": [
+        "hydroxychloroquine"
+      ],
+      "procedures": [],
+      "labResults": [
+        {
+          "test": "HLA B27",
+          "value": "Negative",
+          "unit": null,
+          "reference": null
+        }
+      ],
+      "keyFindings": [
+        "Your blood counts, kidney function and liver function are all within normal ranges.",
+        "The testing we did looking for antibodies and markers assessed with conditions like systemic lupus erythematosus, rheumatoid arthritis, Sjogren's syndrome, scleroderma, inflammatory muscle diseases, psoriatic arthritis all came back normal.",
+        "Both markers of inflammation were within normal ranges."
+      ],
+      "textPreview": "10/25/24, 8:08 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nHLA-B27 ANTIGEN\nCollected on February 28, 2022 4:42 PM\nNovant Health\nAmit Patel 03/9/2022, 6:35 AM\nI have reviewed your recent lab results.\nYour blood counts, kidney function and liver function are all\nwithin normal ranges.\nThe testing we did looking for antibodies and markers assessed\nwith conditions like systemic lupus erythemat"
+    },
+    {
+      "id": "doc_mllgnw8i_xb3d09",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2022/Rheumatology/02_February 28 2022 - Dr Patel/RHEUMATOID FACTOR.pdf",
+      "fileName": "RHEUMATOID FACTOR.pdf",
+      "year": 2022,
+      "specialty": "rheumatology",
+      "type": "lab_single",
+      "eventDate": "2022-02-28",
+      "provider": "Amit Patel MD",
+      "facility": "Novant Health",
+      "fullText": "[2150 characters - see full extraction file]",
+      "pageCount": 2,
+      "fileSizeBytes": 54652,
+      "extractedAt": "2026-02-13T22:30:17.586Z",
+      "classificationConfidence": 1,
+      "diagnoses": [],
+      "medications": [
+        "hydroxychloroquine"
+      ],
+      "procedures": [],
+      "labResults": [
+        {
+          "test": "RA Quant",
+          "value": "<10.0",
+          "unit": "IU/mL",
+          "reference": "<14.0 IU/mL"
+        }
+      ],
+      "keyFindings": [
+        "Your blood counts, kidney function and liver function are all within normal ranges.",
+        "The testing we did looking for antibodies and markers assessed with conditions like systemic lupus erythematosus, rheumatoid arthritis, Sjogren's syndrome, scleroderma, inflammatory muscle diseases, psoriatic arthritis all came back normal.",
+        "Both markers of inflammation were within normal ranges.",
+        "Because of these normal lab results, starting a stronger immune suppressing medication would not be recommended."
+      ],
+      "textPreview": "10/25/24, 8:08 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nRHEUMATOID FACTOR\nCollected on February 28, 2022 4:42 PM\nNovant Health\nAmit Patel 03/9/2022, 6:35 AM\nI have reviewed your recent lab results.\nYour blood counts, kidney function and liver function are all\nwithin normal ranges.\nThe testing we did looking for antibodies and markers assessed\nwith conditions like systemic lupus erythem"
+    },
+    {
+      "id": "doc_mllgny9c_qbrlly",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2022/Rheumatology/02_February 28 2022 - Dr Patel/SEDIMENTATION RATE, AUTOMATED.pdf",
+      "fileName": "SEDIMENTATION RATE, AUTOMATED.pdf",
+      "year": 2022,
+      "specialty": "rheumatology",
+      "type": "lab_single",
+      "eventDate": "2022-02-28",
+      "provider": "Amit Patel MD",
+      "facility": "Novant Health",
+      "fullText": "[2161 characters - see full extraction file]",
+      "pageCount": 2,
+      "fileSizeBytes": 58403,
+      "extractedAt": "2026-02-13T22:30:20.208Z",
+      "classificationConfidence": 1,
+      "diagnoses": [],
+      "medications": [
+        "hydroxychloroquine"
+      ],
+      "procedures": [],
+      "labResults": [
+        {
+          "test": "Sed Rate",
+          "value": "16",
+          "unit": "mm/hr",
+          "reference": "0 - 32 mm/hr"
+        }
+      ],
+      "keyFindings": [
+        "blood counts, kidney function and liver function are all within normal ranges",
+        "antibodies and markers assessed with conditions like systemic lupus erythematosus, rheumatoid arthritis, Sjogren's syndrome, scleroderma, inflammatory muscle diseases, psoriatic arthritis all came back normal",
+        "markers of inflammation were within normal ranges"
+      ],
+      "textPreview": "10/25/24, 8:08 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nSEDIMENTATION RATE, AUTOMATED\nCollected on February 28, 2022 4:42 PM\nNovant Health\nAmit Patel 03/9/2022, 6:35 AM\nI have reviewed your recent lab results.\nYour blood counts, kidney function and liver function are all\nwithin normal ranges.\nThe testing we did looking for antibodies and markers assessed\nwith conditions like systemic l"
+    },
+    {
+      "id": "doc_mllgoa7b_h54w4c",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2022/Rheumatology/03_19_2022_DrPatel_Rheumatology.pdf",
+      "fileName": "03_19_2022_DrPatel_Rheumatology.pdf",
+      "year": 2022,
+      "specialty": "rheumatology",
+      "type": "consult_note",
+      "eventDate": "2020-03-19",
+      "provider": "Amit M Patel, MD",
+      "facility": null,
+      "fullText": "[10715 characters - see full extraction file]",
+      "pageCount": 10,
+      "fileSizeBytes": 193722,
+      "extractedAt": "2026-02-13T22:30:35.687Z",
+      "classificationConfidence": 0.9,
+      "diagnoses": [
+        "Right knee pain",
+        "Left wrist pain",
+        "History of bulimia",
+        "History of degenerative disc disease in the cervical spine",
+        "Autoimmune thyroid disease",
+        "ADHD",
+        "Anorexia",
+        "Bipolar disorder",
+        "Broken teeth upper left, lower right",
+        "Colitis age 25 Ischemic",
+        "Colon polyp 2005 Ischemic Colitis",
+        "DDD (degenerative disc disease), cervical",
+        "Graves' disease",
+        "Presence of dental prosthetic device Right lower x1",
+        "PTSD (post-traumatic stress disorder)"
+      ],
+      "medications": [
+        "acetaminophen (TYLENOL) Take 650 mg by mouth every 6 (six) hours as needed for Pain. Take 3 325 mg tablet tablets prn",
+        "amphetamine-dextroamphetamine (ADDERALL) 20 MG tablet Take one tablet (20 mg dose) by mouth 3 (three) times a day for 30 days.",
+        "mupirocin (BACTROBAN) 2% Apply topically 2 (two) times daily.",
+        "naproxen sodium (ALEVE) 220 mg tablet Take 440 mg by mouth 2 (two) times daily with meals.",
+        "ondansetron (ZOFRAN ODT) 4 mg disintegrating tablet Take one tablet (4 mg dose) by mouth every 8 (eight) hours as needed for Nausea for up to 15 doses.",
+        "traZODone (DESYREL) 100 MG tablet Take one tablet (100 mg dose) by mouth at bedtime as needed for Sleep for up to 30 days. Take 1-2 tabs as needed for insomnia (Patient not taking: Reported on 3/19/2020)"
+      ],
+      "procedures": [
+        "Sinus surgery 2008",
+        "Spinal fusion ACDF C4-5, C5-6"
+      ],
+      "labResults": [
+        {
+          "test": "WBC",
+          "value": "6.1",
+          "unit": null,
+          "reference": null
+        },
+        {
+          "test": "HGB",
+          "value": "12.9",
+          "unit": null,
+          "reference": null
+        },
+        {
+          "test": "HCT",
+          "value": "37.7",
+          "unit": null,
+          "reference": null
+        },
+        {
+          "test": "MCV",
+          "value": "90",
+          "unit": null,
+          "reference": null
+        },
+        {
+          "test": "Plt Ct",
+          "value": "237",
+          "unit": null,
+          "reference": null
+        },
+        {
+          "test": "Creatinine",
+          "value": "0.69",
+          "unit": null,
+          "reference": null
+        },
+        {
+          "test": "ALT (SGPT)",
+          "value": "26",
+          "unit": null,
+          "reference": null
+        },
+        {
+          "test": "ANA direct",
+          "value": "negative",
+          "unit": null,
+          "reference": null
+        },
+        {
+          "test": "RF",
+          "value": "10.0",
+          "unit": null,
+          "reference": null
+        },
+        {
+          "test": "CCP",
+          "value": "14",
+          "unit": null,
+          "reference": null
+        },
+        {
+          "test": "ESR",
+          "value": "13",
+          "unit": null,
+          "reference": null
+        },
+        {
+          "test": "CRP",
+          "value": "<1",
+          "unit": null,
+          "reference": null
+        },
+        {
+          "test": "Uric acid",
+          "value": "4.9",
+          "unit": null,
+          "reference": null
+        },
+        {
+          "test": "Endomysial ab",
+          "value": "negative",
+          "unit": null,
+          "reference": null
+        },
+        {
+          "test": "Lyme IgG + IgM",
+          "value": "<0.91",
+          "unit": null,
+          "reference": null
+        },
+        {
+          "test": "TSH",
+          "value": "7.090",
+          "unit": null,
+          "reference": null
+        },
+        {
+          "test": "Synovial fluid: Cell count",
+          "value": "1878 nucleated cells (0 polys, 49 lymph, 51 macrophage, 0 eos), rare RBC",
+          "unit": null,
+          "reference": null
+        },
+        {
+          "test": "TSH",
+          "value": "<0.006",
+          "unit": null,
+          "reference": null
+        },
+        {
+          "test": "Thyroglobulin ab",
+          "value": "1.3",
+          "unit": null,
+          "reference": null
+        },
+        {
+          "test": "TPO ab",
+          "value": "236",
+          "unit": null,
+          "reference": null
+        }
+      ],
+      "keyFindings": [
+        "Right knee pain with intermittent swelling for the last 3 months",
+        "Negative ANA, rheumatoid factor, CCP, ESR, CRP, uric acid",
+        "MRI of the right knee recommended but not completed",
+        "Left wrist pain improves with compression",
+        "History of bulimia with ongoing symptoms of decreased food intake",
+        "Autoimmune thyroid disease with positive thyroglobulin and thyroid peroxidase antibodies noted in 2018",
+        "Recent testing reveals abnormal thyroid function",
+        "Erythema present on the anterior chest",
+        "Bony hypertrophy in the PIP joints, particularly the third fingers bilaterally",
+        "Patellofemoral grind present in both knees, with cool effusion overlying the superolateral aspect of the right knee"
+      ],
+      "textPreview": "Progress Notes\nAmit Patel at 03/19/20 1300\n\n--- PAGE BREAK ---\n\n\n\n--- PAGE BREAK ---\n\nAssessment:\nJenniferBethCartretteisa37y.o.WhiteorCaucasianfemalewhopresentswithrightkneepain.\n1.Rightkneepain:Withintermittentswellingforthelast3months. Shehasundergoneanumberofaspirationsandinjections,butfindsthatjointfluidre-accumulates. Shehas\nhadIVsteroidsaswellasoralsteroids,butfindsthatoralsteroidshavebeenmorebeneficial. NegativeANA,rheumatoidfactor,CCP,ESR,CRP,uricacid. Shedoesfollowwith\northopedics,whoh"
+    },
+    {
+      "id": "doc_mllgomqy_v2jxuf",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2022/Rheumatology/05_23_2022_DrPatel_Rheumatology.pdf",
+      "fileName": "05_23_2022_DrPatel_Rheumatology.pdf",
+      "year": 2022,
+      "specialty": "rheumatology",
+      "type": "office_visit",
+      "eventDate": "2020-06-23",
+      "provider": "Amit M Patel, MD",
+      "facility": null,
+      "fullText": "[16468 characters - see full extraction file]",
+      "pageCount": 13,
+      "fileSizeBytes": 259857,
+      "extractedAt": "2026-02-13T22:30:51.946Z",
+      "classificationConfidence": 0.9,
+      "diagnoses": [
+        "Polyarthralgia",
+        "History of bulimia",
+        "History of degenerative disc disease in the cervical spine",
+        "Autoimmune thyroid disease",
+        "ADHD",
+        "Anorexia",
+        "Bipolar disorder",
+        "Broken teeth upper left, lower right",
+        "Colitis age 25 Ischemic",
+        "Colon polyp 2005 Ischemic Colitis",
+        "DDD (degenerative disc disease), cervical",
+        "Graves' disease",
+        "Presence of dental prosthetic device Right lower x1",
+        "PTSD (post-traumatic stress disorder)"
+      ],
+      "medications": [
+        "amphetamine-dextroamphetamine (ADDERALL) 20MG tablet Take one tablet (20mg dose) by mouth 3 (three) times a day for 30 days.",
+        "mupirocin (BACTROBAN) 2% Apply topically 2 (two) times daily.",
+        "naproxen sodium (ALEVE) Take 440mg by mouth 2 (two) times daily with meals.",
+        "Rayos 5mg at night"
+      ],
+      "procedures": [
+        "C4-C5, C5-C6 ACDF in September 2018"
+      ],
+      "labResults": [
+        {
+          "test": "WBC",
+          "value": "6.1",
+          "unit": null,
+          "reference": "07/27/2018"
+        },
+        {
+          "test": "HGB",
+          "value": "12.9",
+          "unit": null,
+          "reference": "07/27/2018"
+        },
+        {
+          "test": "HCT",
+          "value": "37.7",
+          "unit": null,
+          "reference": "07/27/2018"
+        },
+        {
+          "test": "MCV",
+          "value": "90",
+          "unit": null,
+          "reference": "07/27/2018"
+        },
+        {
+          "test": "PltCt",
+          "value": "237",
+          "unit": null,
+          "reference": "07/27/2018"
+        },
+        {
+          "test": "Creatinine",
+          "value": "0.69",
+          "unit": null,
+          "reference": "07/27/2018"
+        },
+        {
+          "test": "ALT (SGPT)",
+          "value": "26",
+          "unit": null,
+          "reference": "02/14/2018"
+        },
+        {
+          "test": "ANA direct",
+          "value": "negative",
+          "unit": null,
+          "reference": "2/12/2020"
+        },
+        {
+          "test": "RF",
+          "value": "10.0",
+          "unit": null,
+          "reference": "2/12/2020"
+        },
+        {
+          "test": "CCP",
+          "value": "14",
+          "unit": null,
+          "reference": "2/12/2020"
+        },
+        {
+          "test": "ESR",
+          "value": "13",
+          "unit": null,
+          "reference": "2/12/2020"
+        },
+        {
+          "test": "CRP",
+          "value": "<1",
+          "unit": null,
+          "reference": "2/12/2020"
+        },
+        {
+          "test": "Uric acid",
+          "value": "4.9",
+          "unit": null,
+          "reference": "2/12/2020"
+        },
+        {
+          "test": "Endomysial ab",
+          "value": "negative",
+          "unit": null,
+          "reference": "2/12/2020"
+        },
+        {
+          "test": "Lyme IgG + IgM",
+          "value": "<0.91",
+          "unit": null,
+          "reference": "2/12/2020"
+        },
+        {
+          "test": "TSH",
+          "value": "7.090",
+          "unit": null,
+          "reference": "1/28/2020"
+        },
+        {
+          "test": "Synovial fluid Cell count",
+          "value": "1878 nucleated cells (0 polys, 49 lymph, 51 macrophage, 0 eos), rare RBC",
+          "unit": null,
+          "reference": null
+        },
+        {
+          "test": "TSH",
+          "value": "<0.006",
+          "unit": null,
+          "reference": "2/14/2018"
+        },
+        {
+          "test": "Thyroglobulin ab",
+          "value": "1.3",
+          "unit": null,
+          "reference": "2/14/2018"
+        },
+        {
+          "test": "TPO ab",
+          "value": "236",
+          "unit": null,
+          "reference": "2/14/2018"
+        }
+      ],
+      "keyFindings": [
+        "Polyarthralgia with pain in the left wrist and right knee",
+        "Negative ANA, rheumatoid factor, CCP, uric acid",
+        "Tenderness to palpation on exam",
+        "Abnormal thyroid function",
+        "Patellofemoral grind is present in both knees",
+        "Cool effusion overlying the superolateral aspect of the right knee",
+        "Small right knee effusion",
+        "Mild soft tissue swelling about the radial side of the wrist"
+      ],
+      "textPreview": "Progress Notes\nAmit Patel at 06/23/20 0940\n\n--- PAGE BREAK ---\n\n\n\n--- PAGE BREAK ---\n\nAssessment:\nJenniferBethCartretteisa37y.o.Caucasianfemalewithpolyarthralgia\n1. Polyarthralgia:Withpainintheleftwristandrightknee. Shefindsthatprednisonedoesnothelpwiththispain. PriortestingshowsnegativeANA,rheumatoidfactor,CCP,uric\nacid. Shedoeshavetendernesstopalpationonexamtoday. TestingthatwasorderedinMarch2020hasyetbeenresulted.\n2.Historyofbulimia:Withongoingsymptomsofdecreasedfoodintake. ShedoestakeNSAIDsd"
+    },
+    {
+      "id": "doc_mllgorue_q5e0h7",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2022/Rheumatology/07_July 21 2022 - Dr Patel/CBC.pdf",
+      "fileName": "CBC.pdf",
+      "year": 2022,
+      "specialty": "rheumatology",
+      "type": "lab_panel",
+      "eventDate": "2022-07-21",
+      "provider": "Amit Patel MD",
+      "facility": "Novant Health",
+      "fullText": "[1713 characters - see full extraction file]",
+      "pageCount": 2,
+      "fileSizeBytes": 78393,
+      "extractedAt": "2026-02-13T22:30:58.550Z",
+      "classificationConfidence": 1,
+      "diagnoses": [],
+      "medications": [
+        "methotrexate"
+      ],
+      "procedures": [],
+      "labResults": [
+        {
+          "test": "WBC",
+          "value": "6.4",
+          "unit": "x10E3/uL",
+          "reference": "3.4 - 10.8 x10E3/uL"
+        },
+        {
+          "test": "RBC",
+          "value": "4.16",
+          "unit": "x10E6/uL",
+          "reference": "3.77 - 5.28 x10E6/uL"
+        },
+        {
+          "test": "Hemoglobin",
+          "value": "13.1",
+          "unit": "g/dL",
+          "reference": "11.1 - 15.9 g/dL"
+        },
+        {
+          "test": "Hematocrit",
+          "value": "38.8",
+          "unit": "%",
+          "reference": "34.0 - 46.6 %"
+        },
+        {
+          "test": "MCV",
+          "value": "93",
+          "unit": "fL",
+          "reference": "79 - 97 fL"
+        },
+        {
+          "test": "MCH",
+          "value": "31.5",
+          "unit": "pg",
+          "reference": "26.6 - 33.0 pg"
+        },
+        {
+          "test": "MCHC",
+          "value": "33.8",
+          "unit": "g/dL",
+          "reference": "31.5 - 35.7 g/dL"
+        },
+        {
+          "test": "RDW",
+          "value": "13.5",
+          "unit": "%",
+          "reference": "11.7 - 15.4 %"
+        },
+        {
+          "test": "Platelet Count",
+          "value": "228",
+          "unit": "x10E3/uL",
+          "reference": "150 - 450 x10E3/uL"
+        }
+      ],
+      "keyFindings": [
+        "Your blood counts, kidney function and liver function are all within acceptable ranges.",
+        "There is no evidence to suggest that your methotrexate is leading to harm."
+      ],
+      "textPreview": "10/25/24, 8:16 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nCBC\nCollected on July 21, 2022 4:30 PM\nNovant Health\nAmit Patel 07/22/2022, 8:40 AM\nI have reviewed your recent blood test results.\nYour blood counts, kidney function and liver function are all\nwithin acceptable ranges. There is no evidence to suggest that\nyour methotrexate is leading to harm.\nPlease continue your medications at t"
+    },
+    {
+      "id": "doc_mllgouib_oxvmtj",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2022/Rheumatology/07_July 21 2022 - Dr Patel/CREATININE.pdf",
+      "fileName": "CREATININE.pdf",
+      "year": 2022,
+      "specialty": "rheumatology",
+      "type": "lab_single",
+      "eventDate": "2022-07-21",
+      "provider": "Amit Patel MD",
+      "facility": "Novant Health",
+      "fullText": "[1369 characters - see full extraction file]",
+      "pageCount": 2,
+      "fileSizeBytes": 56579,
+      "extractedAt": "2026-02-13T22:31:02.003Z",
+      "classificationConfidence": 1,
+      "diagnoses": [],
+      "medications": [
+        "methotrexate"
+      ],
+      "procedures": [],
+      "labResults": [
+        {
+          "test": "Creatinine",
+          "value": "0.90",
+          "unit": "mg/dL",
+          "reference": "0.57 - 1.00 mg/dL"
+        },
+        {
+          "test": "eGFR",
+          "value": "83",
+          "unit": "mL/min/1.73",
+          "reference": ">59 mL/min/1.73"
+        }
+      ],
+      "keyFindings": [
+        "Your blood counts, kidney function and liver function are all within acceptable ranges.",
+        "There is no evidence to suggest that your methotrexate is leading to harm."
+      ],
+      "textPreview": "10/25/24, 8:12 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nCREATININE\nCollected on July 21, 2022 4:30 PM\nNovant Health\nAmit Patel 07/22/2022, 8:40 AM\nI have reviewed your recent blood test results.\nYour blood counts, kidney function and liver function are all\nwithin acceptable ranges. There is no evidence to suggest that\nyour methotrexate is leading to harm.\nPlease continue your medicatio"
+    },
+    {
+      "id": "doc_mllgozi8_6bacns",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2022/Rheumatology/07_July 21 2022 - Dr Patel/HEPATIC FUNCTION PANEL .pdf",
+      "fileName": "HEPATIC FUNCTION PANEL .pdf",
+      "year": 2022,
+      "specialty": "rheumatology",
+      "type": "lab_panel",
+      "eventDate": "2022-02-28",
+      "provider": "Amit Patel MD",
+      "facility": "Novant Health",
+      "fullText": "[2487 characters - see full extraction file]",
+      "pageCount": 2,
+      "fileSizeBytes": 76685,
+      "extractedAt": "2026-02-13T22:31:08.480Z",
+      "classificationConfidence": 1,
+      "diagnoses": [],
+      "medications": [
+        "hydroxychloroquine"
+      ],
+      "procedures": [],
+      "labResults": [
+        {
+          "test": "Total Protein",
+          "value": "7.1",
+          "unit": "g/dL",
+          "reference": "6.0 - 8.5 g/dL"
+        },
+        {
+          "test": "Albumin, Serum",
+          "value": "4.6",
+          "unit": "g/dL",
+          "reference": "3.8 - 4.8 g/dL"
+        },
+        {
+          "test": "Total Bilirubin",
+          "value": "0.3",
+          "unit": "mg/dL",
+          "reference": "0.0 - 1.2 mg/dL"
+        },
+        {
+          "test": "Bilirubin, Direct",
+          "value": "<0.10",
+          "unit": "mg/dL",
+          "reference": "0.00 - 0.40 mg/dL"
+        },
+        {
+          "test": "Alkaline Phosphatase",
+          "value": "53",
+          "unit": "IU/L",
+          "reference": "44 - 121 IU/L"
+        },
+        {
+          "test": "AST",
+          "value": "11",
+          "unit": "IU/L",
+          "reference": "0 - 40 IU/L"
+        },
+        {
+          "test": "ALT (SGPT)",
+          "value": "7",
+          "unit": "IU/L",
+          "reference": "0 - 32 IU/L"
+        }
+      ],
+      "keyFindings": [
+        "Your blood counts, kidney function and liver function are all within normal ranges.",
+        "The testing we did looking for antibodies and markers assessed with conditions like systemic lupus erythematosus, rheumatoid arthritis, Sjogren's syndrome, scleroderma, inflammatory muscle diseases, psoriatic arthritis all came back normal.",
+        "Both markers of inflammation were within normal ranges."
+      ],
+      "textPreview": "10/25/24, 8:04 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nHEPATIC FUNCTION PANEL\nCollected on February 28, 2022 4:42 PM\nNovant Health\nNew comments\nAmit Patel 03/9/2022, 6:35 AM\nI have reviewed your recent lab results.\nYour blood counts, kidney function and liver function are all\nwithin normal ranges.\nThe testing we did looking for antibodies and markers assessed\nwith conditions like syst"
+    },
+    {
+      "id": "doc_mllgp2qv_m8qqgy",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2022/Rheumatology/07_July 21 2022 - Dr Patel/Hepatic Function Panel_Trends.PDF",
+      "fileName": "Hepatic Function Panel_Trends.PDF",
+      "year": 2022,
+      "specialty": "rheumatology",
+      "type": "lab_panel",
+      "eventDate": "2022-12-14",
+      "provider": null,
+      "facility": null,
+      "fullText": "[1409 characters - see full extraction file]",
+      "pageCount": 2,
+      "fileSizeBytes": 79376,
+      "extractedAt": "2026-02-13T22:31:12.679Z",
+      "classificationConfidence": 1,
+      "diagnoses": [],
+      "medications": [],
+      "procedures": [],
+      "labResults": [
+        {
+          "test": "Total Protein",
+          "value": "7.1",
+          "unit": "g/dL",
+          "reference": "6.0 - 8.5 g/dL"
+        },
+        {
+          "test": "Albumin",
+          "value": "4.5",
+          "unit": "g/dL",
+          "reference": "3.8 - 4.8 g/dL"
+        },
+        {
+          "test": "Total Bilirubin",
+          "value": "<0.2",
+          "unit": "mg/dL",
+          "reference": "0.0 - 1.2 mg/dL"
+        },
+        {
+          "test": "Bilirubin Direct",
+          "value": "<0.10",
+          "unit": "mg/dL",
+          "reference": "0.00 - 0.40 mg/dL"
+        },
+        {
+          "test": "Alkaline Phosphatase",
+          "value": "58",
+          "unit": "IU/L",
+          "reference": "44 - 121 IU/L"
+        },
+        {
+          "test": "AST (SGOT)",
+          "value": "17",
+          "unit": "IU/L",
+          "reference": "0 - 40 IU/L"
+        },
+        {
+          "test": "ALT",
+          "value": "16",
+          "unit": "IU/L",
+          "reference": "0 - 32 IU/L"
+        }
+      ],
+      "keyFindings": [],
+      "textPreview": "Result Trends\nFeb 14, 2018 - Dec 14, 2022\nBeth Cartrette Date of Birth: Sep 13, 1982\nFeb 14, 2018 - Jul 21, 2022 (Table 1 of 2)\nComponent Feb 14, 2018 Jul 9, 2020 Dec 16, 2021 Feb 28, 2022 Jul 21, 2022\nTotal Protein\nNormal Range: 6.0 - 8.5 7.2 g/dL 6.7 g/dL 6.8 g/dL 7.1 g/dL 7.1 g/dL\ng/dL\nAlbumin\nNormal Range: 3.5 - 5.5 4.5 g/dL\ng/dL\nAlbumin\nNormal Range: 3.8 - 4.8 4.3 g/dL 4.4 g/dL 4.6 g/dL 4.8 g/dL\ng/dL\nTotal Bilirubin\nNormal Range: 0.0 - 1.2 <0.2 mg/dL 0.2 mg/dL <0.2 mg/dL 0.3 mg/dL 0.3 mg/dL"
+    },
+    {
+      "id": "doc_mllgp67z_ldf6pq",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2022/Rheumatology/12_Dec 14 2022 - Dr Patel/CBC.pdf",
+      "fileName": "CBC.pdf",
+      "year": 2022,
+      "specialty": "rheumatology",
+      "type": "lab_panel",
+      "eventDate": "2022-12-14",
+      "provider": "Amit Patel MD",
+      "facility": "Novant Health",
+      "fullText": "[1657 characters - see full extraction file]",
+      "pageCount": 2,
+      "fileSizeBytes": 78158,
+      "extractedAt": "2026-02-13T22:31:17.183Z",
+      "classificationConfidence": 1,
+      "diagnoses": [],
+      "medications": [],
+      "procedures": [],
+      "labResults": [
+        {
+          "test": "WBC",
+          "value": "6.4",
+          "unit": "x10E3/uL",
+          "reference": "3.4 - 10.8 x10E3/uL"
+        },
+        {
+          "test": "RBC",
+          "value": "4.11",
+          "unit": "x10E6/uL",
+          "reference": "3.77 - 5.28 x10E6/uL"
+        },
+        {
+          "test": "Hemoglobin",
+          "value": "12.9",
+          "unit": "g/dL",
+          "reference": "11.1 - 15.9 g/dL"
+        },
+        {
+          "test": "Hematocrit",
+          "value": "38.7",
+          "unit": "%",
+          "reference": "34.0 - 46.6 %"
+        },
+        {
+          "test": "MCV",
+          "value": "94",
+          "unit": "fL",
+          "reference": "79 - 97 fL"
+        },
+        {
+          "test": "MCH",
+          "value": "31.4",
+          "unit": "pg",
+          "reference": "26.6 - 33.0 pg"
+        },
+        {
+          "test": "MCHC",
+          "value": "33.3",
+          "unit": "g/dL",
+          "reference": "31.5 - 35.7 g/dL"
+        },
+        {
+          "test": "RDW",
+          "value": "12.9",
+          "unit": "%",
+          "reference": "11.7 - 15.4 %"
+        },
+        {
+          "test": "Platelet Count",
+          "value": "277",
+          "unit": "x10E3/uL",
+          "reference": "150 - 450 x10E3/uL"
+        }
+      ],
+      "keyFindings": [
+        "Your blood counts, kidney function and liver function are all within acceptable ranges.",
+        "No changes are needed in your medications at this time."
+      ],
+      "textPreview": "10/25/24, 8:13 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nCBC\nCollected on December 14, 2022 3:19 PM\nNovant Health\nAmit Patel 12/15/2022, 6:26 AM\nI have reviewed your recent blood test results.\nYour blood counts, kidney function and liver function are all\nwithin acceptable ranges.\nNo changes are needed in your medications at this time.\nAmit Patel MD\nResults\nPerformed at: 01 - Labcorp Bur"
+    },
+    {
+      "id": "doc_mllgp8ml_vfa4ld",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2022/Rheumatology/12_Dec 14 2022 - Dr Patel/CREATININE.pdf",
+      "fileName": "CREATININE.pdf",
+      "year": 2022,
+      "specialty": "rheumatology",
+      "type": "lab_single",
+      "eventDate": "2022-12-14",
+      "provider": "Amit Patel MD",
+      "facility": "Novant Health",
+      "fullText": "[1311 characters - see full extraction file]",
+      "pageCount": 2,
+      "fileSizeBytes": 55514,
+      "extractedAt": "2026-02-13T22:31:20.301Z",
+      "classificationConfidence": 1,
+      "diagnoses": [],
+      "medications": [],
+      "procedures": [],
+      "labResults": [
+        {
+          "test": "Creatinine",
+          "value": "0.87",
+          "unit": "mg/dL",
+          "reference": "0.57 - 1.00 mg/dL"
+        },
+        {
+          "test": "eGFR",
+          "value": "86",
+          "unit": "mL/min/1.73",
+          "reference": ">59 mL/min/1.73"
+        }
+      ],
+      "keyFindings": [
+        "Your blood counts, kidney function and liver function are all within acceptable ranges.",
+        "No changes are needed in your medications at this time."
+      ],
+      "textPreview": "10/25/24, 8:14 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nCREATININE\nCollected on December 14, 2022 3:19 PM\nNovant Health\nAmit Patel 12/15/2022, 6:26 AM\nI have reviewed your recent blood test results.\nYour blood counts, kidney function and liver function are all\nwithin acceptable ranges.\nNo changes are needed in your medications at this time.\nAmit Patel MD\nResults\nPerformed at: 01 - Labc"
+    },
+    {
+      "id": "doc_mllgpcjj_cghada",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2022/Rheumatology/12_Dec 14 2022 - Dr Patel/HEPATIC FUNCTION PANEL.pdf",
+      "fileName": "HEPATIC FUNCTION PANEL.pdf",
+      "year": 2022,
+      "specialty": "rheumatology",
+      "type": "lab_panel",
+      "eventDate": "2022-12-14",
+      "provider": "Amit Patel MD",
+      "facility": "Novant Health",
+      "fullText": "[1594 characters - see full extraction file]",
+      "pageCount": 2,
+      "fileSizeBytes": 70151,
+      "extractedAt": "2026-02-13T22:31:25.375Z",
+      "classificationConfidence": 1,
+      "diagnoses": [],
+      "medications": [],
+      "procedures": [],
+      "labResults": [
+        {
+          "test": "Total Protein",
+          "value": "7.1",
+          "unit": "g/dL",
+          "reference": "6.0 - 8.5 g/dL"
+        },
+        {
+          "test": "Albumin, Serum",
+          "value": "4.5",
+          "unit": "g/dL",
+          "reference": "3.8 - 4.8 g/dL"
+        },
+        {
+          "test": "Total Bilirubin",
+          "value": "<0.2",
+          "unit": "mg/dL",
+          "reference": "0.0 - 1.2 mg/dL"
+        },
+        {
+          "test": "Bilirubin, Direct",
+          "value": "<0.10",
+          "unit": "mg/dL",
+          "reference": "0.00 - 0.40 mg/dL"
+        },
+        {
+          "test": "Alkaline Phosphatase",
+          "value": "58",
+          "unit": "IU/L",
+          "reference": "44 - 121 IU/L"
+        },
+        {
+          "test": "AST",
+          "value": "17",
+          "unit": "IU/L",
+          "reference": "0 - 40 IU/L"
+        },
+        {
+          "test": "ALT (SGPT)",
+          "value": "16",
+          "unit": "IU/L",
+          "reference": "0 - 32 IU/L"
+        }
+      ],
+      "keyFindings": [
+        "Your blood counts, kidney function and liver function are all within acceptable ranges.",
+        "No changes are needed in your medications at this time."
+      ],
+      "textPreview": "10/25/24, 8:14 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nHEPATIC FUNCTION PANEL\nCollected on December 14, 2022 3:19 PM\nNovant Health\nAmit Patel 12/15/2022, 6:26 AM\nI have reviewed your recent blood test results.\nYour blood counts, kidney function and liver function are all\nwithin acceptable ranges.\nNo changes are needed in your medications at this time.\nAmit Patel MD\nResults\nPerformed a"
+    }
+  ],
+  "errors": [],
+  "bySpecialty": {
+    "gastroenterology": 1,
+    "primary_care": 6,
+    "rheumatology": 20
+  },
+  "byType": {
+    "consult_note": 2,
+    "lab_single": 10,
+    "lab_panel": 10,
+    "imaging_ct": 1,
+    "hospital_note": 1,
+    "imaging_xray": 2,
+    "office_visit": 1
+  }
+}

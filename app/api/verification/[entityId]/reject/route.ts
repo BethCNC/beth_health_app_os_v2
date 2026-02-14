@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import { verificationActionSchema } from "@/lib/types/api";
-import { rejectVerificationTask } from "@/lib/repositories/store";
+import { rejectVerificationTask } from "@/lib/repositories/runtime";
 
 export async function POST(
   request: Request,
@@ -13,7 +13,7 @@ export async function POST(
     return NextResponse.json({ error: "Invalid payload", details: parsed.error.flatten() }, { status: 400 });
   }
 
-  const task = rejectVerificationTask(context.params.entityId, parsed.data.reviewer, parsed.data.note);
+  const task = await rejectVerificationTask(context.params.entityId, parsed.data.reviewer, parsed.data.note);
   if (!task) {
     return NextResponse.json({ error: "Verification task not found" }, { status: 404 });
   }

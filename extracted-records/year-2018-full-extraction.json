@@ -1,0 +1,1087 @@
+{
+  "year": 2018,
+  "importedAt": "2026-02-13T22:26:06.820Z",
+  "totalFiles": 25,
+  "successful": 25,
+  "failed": 0,
+  "documents": [
+    {
+      "id": "doc_mllggtve_jafsyq",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2018/Endocrinology/04_April 10 2018_Dr Kahn/FREE T4 .pdf",
+      "fileName": "FREE T4 .pdf",
+      "year": 2018,
+      "specialty": "endocrinology",
+      "type": "lab_single",
+      "eventDate": "2018-04-11",
+      "provider": "Yousuf Khan, MD",
+      "facility": "Novant Health",
+      "fullText": "10/25/24, 8:44 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nFREE T4\nCollected on April 10, 2018 4:35 PM\nNovant Health\nYousuf Khan, MD 04/11/2018, 5:01 PM\nHI Jennifer, thyroid antibody levels are high. These results are\nconsistent with Graves disease. However, your thyroid hormone\nlevels have returned to the normal range. This suggest, your\nGraves disease is undergoing remission. This is a good news. No\nthyroid medication is indicated at this point. Repeat thyroid labs\nin 2 months. Contact us for any questions. Thanks.\nResults\nPerformed at: 01 - LabCorp Burlington\n1447 York Court, Burlington, NC 272153361\nLab Director: William F Hancock MD, Phone: 8007624344\nFree T4\nNormal range: 0.82 - 1.77 ng/dL\n0.98\n0.82 1.77\nAuthorizing provider: Yousuf Khan, MD\nCollection date: April 10, 2018 4:35 PM\nSpecimens: Blood\nResult date: April 11, 2018 3:37 PM\nResult status: Final\nResulting lab:\nLABCORP\nMyChart® licensed from Epic Systems Corporation© 1999 - 2024\nhttps://my.atriumhealth.org/myatriumhealth/app/test-results/details?pageMode=1&eorderid=WP-24-2BhfO8AseATMpMYfrXmr9DA-3D-3D-24k3yfoIPKFQ8kBFQ… 1/1",
+      "pageCount": 1,
+      "fileSizeBytes": 52365,
+      "extractedAt": "2026-02-13T22:24:47.930Z",
+      "classificationConfidence": 1,
+      "diagnoses": [
+        "Graves disease"
+      ],
+      "medications": [],
+      "procedures": [],
+      "labResults": [
+        {
+          "test": "Free T4",
+          "value": "0.98",
+          "unit": "ng/dL",
+          "reference": "0.82 - 1.77 ng/dL"
+        }
+      ],
+      "keyFindings": [
+        "thyroid antibody levels are high",
+        "thyroid hormone levels have returned to the normal range",
+        "Graves disease is undergoing remission"
+      ]
+    },
+    {
+      "id": "doc_mllggwk6_c7lfjb",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2018/Endocrinology/04_April 10 2018_Dr Kahn/NM THYROID I-131 UPTAKE AND SCAN.pdf",
+      "fileName": "NM THYROID I-131 UPTAKE AND SCAN.pdf",
+      "year": 2018,
+      "specialty": "endocrinology",
+      "type": "imaging_other",
+      "eventDate": "2018-04-06",
+      "provider": "Yousuf Khan, MD",
+      "facility": "Novant Health",
+      "fullText": "10/25/24, 8:43 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nNM THYROID I-131 UPTAKE AND SCAN\nCollected on April 6, 2018 8:37 AM\nNovant Health\nYousuf Khan, MD 04/6/2018, 11:09 AM\nHI Jennifer, Nuclear Medicine thyroid uptake and scan results are\nconsistent with Graves disease. Please complete the lab work.\nWe will consider treatment with methimazole based on the lab\nresults. Please contact us for any questions. Thanks..\nResults\nImpression\nIMPRESSION:\n1. Graves' disease.\nNarrative\nRadiopharmaceuticals: 6 uCi of I-131 sodium iodide by mouth and 10.4 mCi of Tc 99m\nPertechnetate intravenously.\nRadioiodine uptake: The 24-hour uptake is calculated at 65% (normal 10 to 30%).\nThyroid imaging: The thyroid gland is mildly enlarged. There is homogeneous hyperactivity in\nboth lobes, le\u0000 slightly greater than right, with no dominant hot or cold nodules.\nAuthorizing provider: Yousuf Khan, MD\nReading physician: Daniel Scanga\nStudy date: April 6, 2018 8:38 AM\nCollection date: April 6, 2018 8:37 AM\nResult date: April 6, 2018 8:38 AM\nResult status: Final\nMyChart® licensed from Epic Systems Corporation© 1999 - 2024\nhttps://my.atriumhealth.org/myatriumhealth/app/test-results/details?pageMode=1&eorderid=WP-247o6CyJOJcznd0FQeo35n4g-3D-3D-24Bxcfjt9-2FV-2Fj-2BdL2Pd… 1/1",
+      "pageCount": 1,
+      "fileSizeBytes": 46081,
+      "extractedAt": "2026-02-13T22:24:51.414Z",
+      "classificationConfidence": 1,
+      "diagnoses": [
+        "Graves' disease"
+      ],
+      "medications": [],
+      "procedures": [
+        "NM THYROID I-131 UPTAKE AND SCAN"
+      ],
+      "labResults": [
+        {
+          "test": "Radioiodine uptake",
+          "value": "65",
+          "unit": "%",
+          "reference": "normal 10 to 30%"
+        }
+      ],
+      "keyFindings": [
+        "The thyroid gland is mildly enlarged.",
+        "There is homogeneous hyperactivity in both lobes, left slightly greater than right, with no dominant hot or cold nodules."
+      ]
+    },
+    {
+      "id": "doc_mllggxvy_u8l0tk",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2018/Endocrinology/04_April 10 2018_Dr Kahn/THYROID STIMULATING IMMUNOGLOBULIN.pdf",
+      "fileName": "THYROID STIMULATING IMMUNOGLOBULIN.pdf",
+      "year": 2018,
+      "specialty": "endocrinology",
+      "type": "lab_single",
+      "eventDate": "2018-04-11",
+      "provider": "Yousuf Khan, MD",
+      "facility": "Novant Health",
+      "fullText": "10/25/24, 8:44 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nTHYROID STIMULATING IMMUNOGLOBULIN\nCollected on April 10, 2018 4:35 PM\nNovant Health\nYousuf Khan, MD 04/11/2018, 5:01 PM\nHI Jennifer, thyroid antibody levels are high. These results are\nconsistent with Graves disease. However, your thyroid hormone\nlevels have returned to the normal range. This suggest, your\nGraves disease is undergoing remission. This is a good news. No\nthyroid medication is indicated at this point. Repeat thyroid labs\nin 2 months. Contact us for any questions. Thanks.\nResults\nPerformed at: 01 - LabCorp Burlington\n1447 York Court, Burlington, NC 272153361\nLab Director: William F Hancock MD, Phone: 8007624344\nThyroid Stim Immunoglobulin\nNormal range: 0.00 - 0.55 IU/L\n1.25\n0 0.55\n**Please note reference interval change**\nAuthorizing provider: Yousuf Khan, MD\nCollection date: April 10, 2018 4:35 PM\nSpecimens: Blood\nResult date: April 11, 2018 3:37 PM\nResult status: Final\nResulting lab:\nLABCORP\nMyChart® licensed from Epic Systems Corporation© 1999 - 2024\nhttps://my.atriumhealth.org/myatriumhealth/app/test-results/details?pageMode=1&eorderid=WP-245BvG6qGypzgX0G6cqI7miQ-3D-3D-24-2FLoXmvwRwZKuISR… 1/1",
+      "pageCount": 1,
+      "fileSizeBytes": 55824,
+      "extractedAt": "2026-02-13T22:24:53.134Z",
+      "classificationConfidence": 1,
+      "diagnoses": [
+        "Graves disease"
+      ],
+      "medications": [],
+      "procedures": [],
+      "labResults": [
+        {
+          "test": "Thyroid Stim Immunoglobulin",
+          "value": "1.25",
+          "unit": "IU/L",
+          "reference": "0.00 - 0.55 IU/L"
+        }
+      ],
+      "keyFindings": [
+        "thyroid antibody levels are high",
+        "thyroid hormone levels have returned to the normal range",
+        "Graves disease is undergoing remission"
+      ]
+    },
+    {
+      "id": "doc_mllggzl5_iel5q4",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2018/Endocrinology/04_April 10 2018_Dr Kahn/THYROTROPIN RECEPTOR,AB.pdf",
+      "fileName": "THYROTROPIN RECEPTOR,AB.pdf",
+      "year": 2018,
+      "specialty": "endocrinology",
+      "type": "lab_single",
+      "eventDate": "2018-04-11",
+      "provider": "Yousuf Khan, MD",
+      "facility": "Novant Health",
+      "fullText": "10/25/24, 8:44 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nTHYROTROPIN RECEPTOR,AB\nCollected on April 10, 2018 4:35 PM\nNovant Health\nYousuf Khan, MD 04/11/2018, 5:01 PM\nHI Jennifer, thyroid antibody levels are high. These results are\nconsistent with Graves disease. However, your thyroid hormone\nlevels have returned to the normal range. This suggest, your\nGraves disease is undergoing remission. This is a good news. No\nthyroid medication is indicated at this point. Repeat thyroid labs\nin 2 months. Contact us for any questions. Thanks.\nResults\nPerformed at: 01 - LabCorp Burlington\n1447 York Court, Burlington, NC 272153361\nLab Director: William F Hancock MD, Phone: 8007624344\nThyrotropin Receptor Ab, Serum\nNormal range: 0.00 - 1.75 IU/L\n1.31\n0 1.75\nAuthorizing provider: Yousuf Khan, MD\nCollection date: April 10, 2018 4:35 PM\nSpecimens: Blood\nResult date: April 11, 2018 3:37 PM\nResult status: Final\nResulting lab:\nLABCORP\nMyChart® licensed from Epic Systems Corporation© 1999 - 2024\nhttps://my.atriumhealth.org/myatriumhealth/app/test-results/details?pageMode=1&eorderid=WP-24EmfimBVQ-2BMcZjjhTujo5cw-3D-3D-24PWD9ribCi0MS2snltP… 1/1",
+      "pageCount": 1,
+      "fileSizeBytes": 54678,
+      "extractedAt": "2026-02-13T22:24:55.337Z",
+      "classificationConfidence": 1,
+      "diagnoses": [
+        "Graves disease"
+      ],
+      "medications": [],
+      "procedures": [],
+      "labResults": [
+        {
+          "test": "Thyrotropin Receptor Ab, Serum",
+          "value": "1.31",
+          "unit": "IU/L",
+          "reference": "0.00 - 1.75 IU/L"
+        }
+      ],
+      "keyFindings": [
+        "thyroid antibody levels are high",
+        "thyroid hormone levels have returned to the normal range",
+        "Graves disease is undergoing remission"
+      ]
+    },
+    {
+      "id": "doc_mllgh1bt_k6cew0",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2018/Endocrinology/04_April 10 2018_Dr Kahn/TSH.pdf",
+      "fileName": "TSH.pdf",
+      "year": 2018,
+      "specialty": "endocrinology",
+      "type": "lab_single",
+      "eventDate": "2018-04-11",
+      "provider": "Yousuf Khan, MD",
+      "facility": "Novant Health",
+      "fullText": "10/25/24, 8:45 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nTSH\nCollected on April 10, 2018 4:35 PM\nNovant Health\nYousuf Khan, MD 04/11/2018, 5:01 PM\nHI Jennifer, thyroid antibody levels are high. These results are\nconsistent with Graves disease. However, your thyroid hormone\nlevels have returned to the normal range. This suggest, your\nGraves disease is undergoing remission. This is a good news. No\nthyroid medication is indicated at this point. Repeat thyroid labs\nin 2 months. Contact us for any questions. Thanks.\nResults\nPerformed at: 01 - LabCorp Burlington\n1447 York Court, Burlington, NC 272153361\nLab Director: William F Hancock MD, Phone: 8007624344\nTSH\nNormal range: 0.450 - 4.500 uIU/mL\n1.340\n0.45 4.5\nAuthorizing provider: Yousuf Khan, MD\nCollection date: April 10, 2018 4:35 PM\nSpecimens: Blood\nResult date: April 11, 2018 3:37 PM\nResult status: Final\nResulting lab:\nLABCORP\nMyChart® licensed from Epic Systems Corporation© 1999 - 2024\nhttps://my.atriumhealth.org/myatriumhealth/app/test-results/details?pageMode=1&eorderid=WP-24xZikmT7POXYR2plBPvCd9w-3D-3D-24JiX-2B20mCWF4NaA6… 1/1",
+      "pageCount": 1,
+      "fileSizeBytes": 53512,
+      "extractedAt": "2026-02-13T22:24:57.593Z",
+      "classificationConfidence": 1,
+      "diagnoses": [
+        "Graves disease"
+      ],
+      "medications": [],
+      "procedures": [],
+      "labResults": [
+        {
+          "test": "TSH",
+          "value": "1.340",
+          "unit": "uIU/mL",
+          "reference": "0.450 - 4.500 uIU/mL"
+        }
+      ],
+      "keyFindings": [
+        "thyroid antibody levels are high",
+        "thyroid hormone levels have returned to the normal range",
+        "Graves disease is undergoing remission"
+      ]
+    },
+    {
+      "id": "doc_mllgh6s1_ihnxxl",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2018/GP/02_Feb 14 2018_Dr LiCause/CBC WITH DIFFERENTIAL.pdf",
+      "fileName": "CBC WITH DIFFERENTIAL.pdf",
+      "year": 2018,
+      "specialty": "primary_care",
+      "type": "lab_panel",
+      "eventDate": "2018-02-14",
+      "provider": "Gina LiCause",
+      "facility": "Novant Health",
+      "fullText": "10/25/24, 8:34 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nCBC WITH DIFFERENTIAL\nCollected on February 14, 2018 4:55 PM\nNovant Health\nGina LiCause 02/18/2018, 8:42 PM\nLabs suggest mild Hashimoto's but no treatment or intervention\nneeded. Repeat TSH and free T4 every 6 months. Hope you are\ndoing well and please let us know if you have any questions.\nTake care, Dr. LiCause\nGina LiCause 02/20/2018, 8:01 AM\nHello! Please forgive me, I did not give you as much information\nin my note to you as I should have. I should have said that I\nsuspect you have subclinical hyperthyroidism (early Hashimoto's\nis only 1 way this can happen). Subclinical hyperthyroidism can\nsometimes lead to Graves disease (a cause for the eyes to\nsometimes become more prominent). I do want you to proceed\nwith the MRI ordered of the orbits and would like you to come in\nfor one other thyroid blood test. If the MRI confirms Graves, then\nI would want you to see an endocrinologist (Dr Talip) to review\nhow to proceed from there. If the MRI does not confirm Grave's\ndisease, then you should get TSH and free T4 every 3 months for\nthe next year.\nResults\nPerformed at: 01 - LabCorp Burlington\n1447 York Court, Burlington, NC 272153361\nLab Director: William F Hancock MD, Phone: 8007624344\nWBC RBC\nNormal range: 3.4 - 10.8 x10E3/uL Normal range: 3.77 - 5.28 x10E6/uL\n8.2 4.57\n3.4 10.8 3.77 5.28\nhttps://my.atriumhealth.org/myatriumhealth/app/test-results/details?pageMode=1&eorderid=WP-240bp3BSKzEcB6t8qcdt-2F3oA-3D-3D-24L9vfQF4k5MdP69bXsv… 1/3\n\n--- PAGE BREAK ---\n\n10/25/24, 8:34 PM MyAtriumHealth - Test Details\nHemoglobin Hematocrit\nNormal range: 11.1 - 15.9 g/dL Normal range: 34.0 - 46.6 %\n13.0 37.8\n11.1 15.9 34 46.6\nMCV MCH\nNormal range: 79 - 97 fL Normal range: 26.6 - 33.0 pg\n83 28.4\n79 97 26.6 33\nMCHC RDW\nNormal range: 31.5 - 35.7 g/dL Normal range: 12.3 - 15.4 %\n34.4 15.0\n31.5 35.7 12.3 15.4\nPlatelet Count Neutrophils\nNormal range: 150 - 379 x10E3/uL Normal value: Not Estab. %\n230\nValue\n64\n150 379\nLymphs Relative Monocytes\nNormal value: Not Estab. % Normal value: Not Estab. %\nValue Value\n27 8\nEos Relative Basos Relative\nNormal value: Not Estab. % Normal value: Not Estab. %\nValue Value\n1 0\nhttps://my.atriumhealth.org/myatriumhealth/app/test-results/details?pageMode=1&eorderid=WP-240bp3BSKzEcB6t8qcdt-2F3oA-3D-3D-24L9vfQF4k5MdP69bXsv… 2/3\n\n--- PAGE BREAK ---\n\n10/25/24, 8:34 PM MyAtriumHealth - Test Details\nNeutrophils Absolute Lymphocytes Absolute\nNormal range: 1.4 - 7.0 x10E3/uL Normal range: 0.7 - 3.1 x10E3/uL\n5.2 2.2\n1.4 7 0.7 3.1\nMonocytes Absolute Eosinophils Absolute\nNormal range: 0.1 - 0.9 x10E3/uL Normal range: 0.0 - 0.4 x10E3/uL\n0.7 0.1\n0.1 0.9 0 0.4\nBasophils Absolute Immature Granulocytes\nNormal range: 0.0 - 0.2 x10E3/uL Normal value: Not Estab. %\n0.0\nValue\n0\n0 0.2\nImmature Grans (Abs)\nNormal range: 0.0 - 0.1 x10E3/uL\n0.0\n0 0.1\nAuthorizing provider: Gina LiCause\nCollection date: February 14, 2018 4:55 PM\nSpecimens: Blood\nResult date: February 15, 2018 12:37 PM\nResult status: Final\nResulting lab:\nLABCORP\nMyChart® licensed from Epic Systems Corporation© 1999 - 2024\nhttps://my.atriumhealth.org/myatriumhealth/app/test-results/details?pageMode=1&eorderid=WP-240bp3BSKzEcB6t8qcdt-2F3oA-3D-3D-24L9vfQF4k5MdP69bXsv… 3/3",
+      "pageCount": 3,
+      "fileSizeBytes": 110173,
+      "extractedAt": "2026-02-13T22:25:04.657Z",
+      "classificationConfidence": 1,
+      "diagnoses": [
+        "mild Hashimoto's",
+        "subclinical hyperthyroidism"
+      ],
+      "medications": [],
+      "procedures": [],
+      "labResults": [
+        {
+          "test": "WBC",
+          "value": "8.2",
+          "unit": "x10E3/uL",
+          "reference": "3.4 - 10.8 x10E3/uL"
+        },
+        {
+          "test": "RBC",
+          "value": "4.57",
+          "unit": "x10E6/uL",
+          "reference": "3.77 - 5.28 x10E6/uL"
+        },
+        {
+          "test": "Hemoglobin",
+          "value": "13.0",
+          "unit": "g/dL",
+          "reference": "11.1 - 15.9 g/dL"
+        },
+        {
+          "test": "Hematocrit",
+          "value": "37.8",
+          "unit": "%",
+          "reference": "34.0 - 46.6 %"
+        },
+        {
+          "test": "MCV",
+          "value": "83",
+          "unit": "fL",
+          "reference": "79 - 97 fL"
+        },
+        {
+          "test": "MCH",
+          "value": "28.4",
+          "unit": "pg",
+          "reference": "26.6 - 33.0 pg"
+        },
+        {
+          "test": "MCHC",
+          "value": "34.4",
+          "unit": "g/dL",
+          "reference": "31.5 - 35.7 g/dL"
+        },
+        {
+          "test": "RDW",
+          "value": "15.0",
+          "unit": "%",
+          "reference": "12.3 - 15.4 %"
+        },
+        {
+          "test": "Platelet Count",
+          "value": "230",
+          "unit": "x10E3/uL",
+          "reference": "150 - 379 x10E3/uL"
+        },
+        {
+          "test": "Neutrophils Absolute",
+          "value": "5.2",
+          "unit": "x10E3/uL",
+          "reference": "1.4 - 7.0 x10E3/uL"
+        },
+        {
+          "test": "Lymphocytes Absolute",
+          "value": "2.2",
+          "unit": "x10E3/uL",
+          "reference": "0.7 - 3.1 x10E3/uL"
+        },
+        {
+          "test": "Monocytes Absolute",
+          "value": "0.7",
+          "unit": "x10E3/uL",
+          "reference": "0.1 - 0.9 x10E3/uL"
+        },
+        {
+          "test": "Eosinophils Absolute",
+          "value": "0.1",
+          "unit": "x10E3/uL",
+          "reference": "0.0 - 0.4 x10E3/uL"
+        },
+        {
+          "test": "Basophils Absolute",
+          "value": "0.0",
+          "unit": "x10E3/uL",
+          "reference": "0.0 - 0.2 x10E3/uL"
+        },
+        {
+          "test": "Immature Grans (Abs)",
+          "value": "0.0",
+          "unit": "x10E3/uL",
+          "reference": "0.0 - 0.1 x10E3/uL"
+        }
+      ],
+      "keyFindings": [
+        "Labs suggest mild Hashimoto's but no treatment or intervention needed.",
+        "I suspect you have subclinical hyperthyroidism.",
+        "Subclinical hyperthyroidism can sometimes lead to Graves disease."
+      ]
+    },
+    {
+      "id": "doc_mllghbt6_1ik4r7",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2018/GP/02_Feb 14 2018_Dr LiCause/COMPREHENSIVE METABOLIC PANEL.pdf",
+      "fileName": "COMPREHENSIVE METABOLIC PANEL.pdf",
+      "year": 2018,
+      "specialty": "primary_care",
+      "type": "lab_panel",
+      "eventDate": "2018-02-14",
+      "provider": "Gina LiCause",
+      "facility": "Novant Health",
+      "fullText": "10/25/24, 8:33 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nCOMPREHENSIVE METABOLIC PANEL\nCollected on February 14, 2018 4:55 PM\nNovant Health\nGina LiCause 02/18/2018, 8:42 PM\nLabs suggest mild Hashimoto's but no treatment or intervention\nneeded. Repeat TSH and free T4 every 6 months. Hope you are\ndoing well and please let us know if you have any questions.\nTake care, Dr. LiCause\nGina LiCause 02/20/2018, 8:01 AM\nHello! Please forgive me, I did not give you as much information\nin my note to you as I should have. I should have said that I\nsuspect you have subclinical hyperthyroidism (early Hashimoto's\nis only 1 way this can happen). Subclinical hyperthyroidism can\nsometimes lead to Graves disease (a cause for the eyes to\nsometimes become more prominent). I do want you to proceed\nwith the MRI ordered of the orbits and would like you to come in\nfor one other thyroid blood test. If the MRI confirms Graves, then\nI would want you to see an endocrinologist (Dr Talip) to review\nhow to proceed from there. If the MRI does not confirm Grave's\ndisease, then you should get TSH and free T4 every 3 months for\nthe next year.\nResults\nPerformed at: 01 - LabCorp Burlington\n1447 York Court, Burlington, NC 272153361\nLab Director: William F Hancock MD, Phone: 8007624344\nGlucose BUN\nNormal range: 65 - 99 mg/dL Normal range: 6 - 20 mg/dL\n100 18\n65 99 6 20\nhttps://my.atriumhealth.org/myatriumhealth/app/test-results/details?pageMode=1&eorderid=WP-24RyT-2B7lHFYTzuhym6Bz4Lrw-3D-3D-243UJSu4-2Bp7X79X5… 1/3\n\n--- PAGE BREAK ---\n\n10/25/24, 8:33 PM MyAtriumHealth - Test Details\nCreatinine eGFR If NonAfrican American\nNormal range: 0.57 - 1.00 mg/dL Normal value: >59 mL/min/1.73\n0.60\nValue\n118\n0.57 1\neGFR If African American BUN/Creatinine Ratio\nNormal value: >59 mL/min/1.73 Normal range: 9 - 23\n30\nValue\n137\n9 23\nSodium Potassium\nNormal range: 134 - 144 mmol/L Normal range: 3.5 - 5.2 mmol/L\n139 3.9\n134 144 3.5 5.2\nChloride CO2\nNormal range: 96 - 106 mmol/L Normal range: 18 - 29 mmol/L\n99 21\n96 106 18 29\nCALCIUM Total Protein\nNormal range: 8.7 - 10.2 mg/dL Normal range: 6.0 - 8.5 g/dL\n8.9 7.2\n8.7 10.2 6 8.5\nAlbumin, Serum Globulin, Total\nNormal range: 3.5 - 5.5 g/dL Normal range: 1.5 - 4.5 g/dL\n4.5 2.7\n3.5 5.5 1.5 4.5\nhttps://my.atriumhealth.org/myatriumhealth/app/test-results/details?pageMode=1&eorderid=WP-24RyT-2B7lHFYTzuhym6Bz4Lrw-3D-3D-243UJSu4-2Bp7X79X5… 2/3\n\n--- PAGE BREAK ---\n\n10/25/24, 8:33 PM MyAtriumHealth - Test Details\nAlbumin/Globulin Ratio Total Bilirubin\nNormal range: 1.2 - 2.2 Normal range: 0.0 - 1.2 mg/dL\n1.7\nValue\n<0.2\n1.2 2.2\nAlkaline Phosphatase AST\nNormal range: 39 - 117 IU/L Normal range: 0 - 40 IU/L\n60 20\n39 117 0 40\nALT (SGPT)\nNormal range: 0 - 32 IU/L\n26\n0 32\nAuthorizing provider: Gina LiCause\nCollection date: February 14, 2018 4:55 PM\nSpecimens: Blood\nResult date: February 15, 2018 12:37 PM\nResult status: Final\nResulting lab:\nLABCORP\nMyChart® licensed from Epic Systems Corporation© 1999 - 2024\nhttps://my.atriumhealth.org/myatriumhealth/app/test-results/details?pageMode=1&eorderid=WP-24RyT-2B7lHFYTzuhym6Bz4Lrw-3D-3D-243UJSu4-2Bp7X79X5… 3/3",
+      "pageCount": 3,
+      "fileSizeBytes": 106555,
+      "extractedAt": "2026-02-13T22:25:11.178Z",
+      "classificationConfidence": 1,
+      "diagnoses": [
+        "mild Hashimoto's",
+        "subclinical hyperthyroidism"
+      ],
+      "medications": [],
+      "procedures": [],
+      "labResults": [
+        {
+          "test": "Glucose",
+          "value": "100",
+          "unit": "mg/dL",
+          "reference": "65 - 99 mg/dL"
+        },
+        {
+          "test": "BUN",
+          "value": "18",
+          "unit": "mg/dL",
+          "reference": "6 - 20 mg/dL"
+        },
+        {
+          "test": "Creatinine",
+          "value": "0.60",
+          "unit": "mg/dL",
+          "reference": "0.57 - 1.00 mg/dL"
+        },
+        {
+          "test": "eGFR If NonAfrican American",
+          "value": "118",
+          "unit": "mL/min/1.73",
+          "reference": ">59 mL/min/1.73"
+        },
+        {
+          "test": "eGFR If African American",
+          "value": "30",
+          "unit": "mL/min/1.73",
+          "reference": ">59 mL/min/1.73"
+        },
+        {
+          "test": "BUN/Creatinine Ratio",
+          "value": "137",
+          "unit": "",
+          "reference": "9 - 23"
+        },
+        {
+          "test": "Sodium",
+          "value": "139",
+          "unit": "mmol/L",
+          "reference": "134 - 144 mmol/L"
+        },
+        {
+          "test": "Potassium",
+          "value": "3.9",
+          "unit": "mmol/L",
+          "reference": "3.5 - 5.2 mmol/L"
+        },
+        {
+          "test": "Chloride",
+          "value": "99",
+          "unit": "mmol/L",
+          "reference": "96 - 106 mmol/L"
+        },
+        {
+          "test": "CO2",
+          "value": "21",
+          "unit": "mmol/L",
+          "reference": "18 - 29 mmol/L"
+        },
+        {
+          "test": "CALCIUM",
+          "value": "8.9",
+          "unit": "mg/dL",
+          "reference": "8.7 - 10.2 mg/dL"
+        },
+        {
+          "test": "Total Protein",
+          "value": "7.2",
+          "unit": "g/dL",
+          "reference": "6.0 - 8.5 g/dL"
+        },
+        {
+          "test": "Albumin, Serum",
+          "value": "4.5",
+          "unit": "g/dL",
+          "reference": "3.5 - 5.5 g/dL"
+        },
+        {
+          "test": "Globulin, Total",
+          "value": "2.7",
+          "unit": "g/dL",
+          "reference": "1.5 - 4.5 g/dL"
+        },
+        {
+          "test": "Albumin/Globulin Ratio",
+          "value": "1.7",
+          "unit": "",
+          "reference": "1.2 - 2.2"
+        },
+        {
+          "test": "Total Bilirubin",
+          "value": "<0.2",
+          "unit": "mg/dL",
+          "reference": "0.0 - 1.2 mg/dL"
+        },
+        {
+          "test": "Alkaline Phosphatase",
+          "value": "60",
+          "unit": "IU/L",
+          "reference": "39 - 117 IU/L"
+        },
+        {
+          "test": "AST",
+          "value": "20",
+          "unit": "IU/L",
+          "reference": "0 - 40 IU/L"
+        },
+        {
+          "test": "ALT (SGPT)",
+          "value": "26",
+          "unit": "IU/L",
+          "reference": "0 - 32 IU/L"
+        }
+      ],
+      "keyFindings": [
+        "Labs suggest mild Hashimoto's but no treatment or intervention needed.",
+        "I suspect you have subclinical hyperthyroidism.",
+        "Subclinical hyperthyroidism can sometimes lead to Graves disease."
+      ]
+    },
+    {
+      "id": "doc_mllgheis_sxfkce",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2018/GP/02_Feb 14 2018_Dr LiCause/Free T4.pdf",
+      "fileName": "Free T4.pdf",
+      "year": 2018,
+      "specialty": "primary_care",
+      "type": "lab_single",
+      "eventDate": "2018-02-14",
+      "provider": "Gina LiCause",
+      "facility": "Novant Health",
+      "fullText": "10/25/24, 8:35 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nFREE T4\nCollected on February 14, 2018 4:55 PM\nNovant Health\nGina LiCause 02/18/2018, 8:42 PM\nLabs suggest mild Hashimoto's but no treatment or intervention\nneeded. Repeat TSH and free T4 every 6 months. Hope you are\ndoing well and please let us know if you have any questions.\nTake care, Dr. LiCause\nGina LiCause 02/20/2018, 8:01 AM\nHello! Please forgive me, I did not give you as much information\nin my note to you as I should have. I should have said that I\nsuspect you have subclinical hyperthyroidism (early Hashimoto's\nis only 1 way this can happen). Subclinical hyperthyroidism can\nsometimes lead to Graves disease (a cause for the eyes to\nsometimes become more prominent). I do want you to proceed\nwith the MRI ordered of the orbits and would like you to come in\nfor one other thyroid blood test. If the MRI confirms Graves, then\nI would want you to see an endocrinologist (Dr Talip) to review\nhow to proceed from there. If the MRI does not confirm Grave's\ndisease, then you should get TSH and free T4 every 3 months for\nthe next year.\nResults\nPerformed at: 01 - LabCorp Burlington\n1447 York Court, Burlington, NC 272153361\nLab Director: William F Hancock MD, Phone: 8007624344\nhttps://my.atriumhealth.org/myatriumhealth/app/test-results/details?pageMode=1&eorderid=WP-24WBICujjfZ6RMh1rf1Bu3XA-3D-3D-244IlflkQdxxJN85QjyomX… 1/2\n\n--- PAGE BREAK ---\n\n10/25/24, 8:35 PM MyAtriumHealth - Test Details\nFree T4\nNormal range: 0.82 - 1.77 ng/dL\n1.43\n0.82 1.77\nAuthorizing provider: Gina LiCause\nCollection date: February 14, 2018 4:55 PM\nSpecimens: Blood\nResult date: February 15, 2018 12:37 PM\nResult status: Final\nResulting lab:\nLABCORP\nMyChart® licensed from Epic Systems Corporation© 1999 - 2024\nhttps://my.atriumhealth.org/myatriumhealth/app/test-results/details?pageMode=1&eorderid=WP-24WBICujjfZ6RMh1rf1Bu3XA-3D-3D-244IlflkQdxxJN85QjyomX… 2/2",
+      "pageCount": 2,
+      "fileSizeBytes": 57461,
+      "extractedAt": "2026-02-13T22:25:14.692Z",
+      "classificationConfidence": 1,
+      "diagnoses": [
+        "mild Hashimoto's",
+        "subclinical hyperthyroidism"
+      ],
+      "medications": [],
+      "procedures": [],
+      "labResults": [
+        {
+          "test": "Free T4",
+          "value": "1.43",
+          "unit": "ng/dL",
+          "reference": "0.82 - 1.77 ng/dL"
+        }
+      ],
+      "keyFindings": [
+        "Labs suggest mild Hashimoto's but no treatment or intervention needed.",
+        "I suspect you have subclinical hyperthyroidism (early Hashimoto's is only 1 way this can happen).",
+        "Subclinical hyperthyroidism can sometimes lead to Graves disease (a cause for the eyes to sometimes become more prominent)."
+      ]
+    },
+    {
+      "id": "doc_mllghghi_onrmr8",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2018/GP/02_Feb 14 2018_Dr LiCause/HEMOGLOBIN A1C.pdf",
+      "fileName": "HEMOGLOBIN A1C.pdf",
+      "year": 2018,
+      "specialty": "primary_care",
+      "type": "lab_single",
+      "eventDate": "2018-02-14",
+      "provider": "Gina LiCause",
+      "facility": "Novant Health",
+      "fullText": "10/25/24, 8:32 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nHEMOGLOBIN A1C\nCollected on February 14, 2018 4:55 PM\nNovant Health\nGina LiCause 02/18/2018, 8:42 PM\nLabs suggest mild Hashimoto's but no treatment or intervention\nneeded. Repeat TSH and free T4 every 6 months. Hope you are\ndoing well and please let us know if you have any questions.\nTake care, Dr. LiCause\nGina LiCause 02/20/2018, 8:01 AM\nHello! Please forgive me, I did not give you as much information\nin my note to you as I should have. I should have said that I\nsuspect you have subclinical hyperthyroidism (early Hashimoto's\nis only 1 way this can happen). Subclinical hyperthyroidism can\nsometimes lead to Graves disease (a cause for the eyes to\nsometimes become more prominent). I do want you to proceed\nwith the MRI ordered of the orbits and would like you to come in\nfor one other thyroid blood test. If the MRI confirms Graves, then\nI would want you to see an endocrinologist (Dr Talip) to review\nhow to proceed from there. If the MRI does not confirm Grave's\ndisease, then you should get TSH and free T4 every 3 months for\nthe next year.\nResults\nPerformed at: 01 - LabCorp Burlington\n1447 York Court, Burlington, NC 272153361\nLab Director: William F Hancock MD, Phone: 8007624344\nhttps://my.atriumhealth.org/myatriumhealth/app/test-results/details?pageMode=1&eorderid=WP-24bGy-2FC7AyleLEdXxoYHTXnA-3D-3D-24sifNuHxumsl6siRmP… 1/2\n\n--- PAGE BREAK ---\n\n10/25/24, 8:32 PM MyAtriumHealth - Test Details\nHemoglobin A1c\nNormal range: 4.8 - 5.6 %\n4.8\n4.8 5.6\nPre-diabetes: 5.7 - 6.4\nDiabetes: >6.4\nGlycemic control for adults with diabetes: <7.0\nAuthorizing provider: Gina LiCause\nCollection date: February 14, 2018 4:55 PM\nSpecimens: Blood\nResult date: February 15, 2018 12:37 PM\nResult status: Final\nResulting lab:\nLABCORP\nMyChart® licensed from Epic Systems Corporation© 1999 - 2024\nhttps://my.atriumhealth.org/myatriumhealth/app/test-results/details?pageMode=1&eorderid=WP-24bGy-2FC7AyleLEdXxoYHTXnA-3D-3D-24sifNuHxumsl6siRmP… 2/2",
+      "pageCount": 2,
+      "fileSizeBytes": 59019,
+      "extractedAt": "2026-02-13T22:25:17.239Z",
+      "classificationConfidence": 1,
+      "diagnoses": [
+        "mild Hashimoto's",
+        "subclinical hyperthyroidism"
+      ],
+      "medications": [],
+      "procedures": [],
+      "labResults": [
+        {
+          "test": "Hemoglobin A1c",
+          "value": "4.8",
+          "unit": "%",
+          "reference": "Normal range: 4.8 - 5.6 %"
+        }
+      ],
+      "keyFindings": [
+        "Labs suggest mild Hashimoto's but no treatment or intervention needed.",
+        "I suspect you have subclinical hyperthyroidism (early Hashimoto's is only 1 way this can happen).",
+        "Subclinical hyperthyroidism can sometimes lead to Graves disease."
+      ]
+    },
+    {
+      "id": "doc_mllghjwa_scm2lc",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2018/GP/02_Feb 14 2018_Dr LiCause/LIPID PANEL W:CHOL:HDL RATIO.pdf",
+      "fileName": "LIPID PANEL W:CHOL:HDL RATIO.pdf",
+      "year": 2018,
+      "specialty": "primary_care",
+      "type": "lab_panel",
+      "eventDate": "2018-02-14",
+      "provider": "Gina LiCause",
+      "facility": "Novant Health",
+      "fullText": "10/25/24, 8:32 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nLIPID PANEL W/CHOL/HDL RATIO\nCollected on February 14, 2018 4:55 PM\nNovant Health\nGina LiCause 02/18/2018, 8:42 PM\nLabs suggest mild Hashimoto's but no treatment or intervention\nneeded. Repeat TSH and free T4 every 6 months. Hope you are\ndoing well and please let us know if you have any questions.\nTake care, Dr. LiCause\nGina LiCause 02/20/2018, 8:01 AM\nHello! Please forgive me, I did not give you as much information\nin my note to you as I should have. I should have said that I\nsuspect you have subclinical hyperthyroidism (early Hashimoto's\nis only 1 way this can happen). Subclinical hyperthyroidism can\nsometimes lead to Graves disease (a cause for the eyes to\nsometimes become more prominent). I do want you to proceed\nwith the MRI ordered of the orbits and would like you to come in\nfor one other thyroid blood test. If the MRI confirms Graves, then\nI would want you to see an endocrinologist (Dr Talip) to review\nhow to proceed from there. If the MRI does not confirm Grave's\ndisease, then you should get TSH and free T4 every 3 months for\nthe next year.\nResults\nPerformed at: 01 - LabCorp Burlington\n1447 York Court, Burlington, NC 272153361\nLab Director: William F Hancock MD, Phone: 8007624344\nhttps://my.atriumhealth.org/myatriumhealth/app/test-results/details?pageMode=1&eorderid=WP-24oEx6V-2BM-2B-2B0wyuEGy-2FfVgLg-3D-3D-24-2BAL5zySQg… 1/3\n\n--- PAGE BREAK ---\n\n10/25/24, 8:32 PM MyAtriumHealth - Test Details\nCholesterol, Total\nNormal range: 100 - 199 mg/dL\n204\n100 199\nTriglycerides\nNormal range: 0 - 149 mg/dL\n93\n0 149\nHDL\nNormal value: >39 mg/dL\nValue\n68\nVLDL Cholesterol Cal\nNormal range: 5 - 40 mg/dL\n19\n5 40\nLDL\nNormal range: 0 - 99 mg/dL\n117\n0 99\nhttps://my.atriumhealth.org/myatriumhealth/app/test-results/details?pageMode=1&eorderid=WP-24oEx6V-2BM-2B-2B0wyuEGy-2FfVgLg-3D-3D-24-2BAL5zySQg… 2/3\n\n--- PAGE BREAK ---\n\n10/25/24, 8:32 PM MyAtriumHealth - Test Details\nChol/HDL Ratio\nNormal range: 0.0 - 4.4 ratio units\n3.0\n0 4.4\nT. Chol/HDL Ratio\nMen Women\n1/2 Avg.Risk 3.4 3.3\nAvg.Risk 5.0 4.4\n2X Avg.Risk 9.6 7.1\n3X Avg.Risk 23.4 11.0\nAuthorizing provider: Gina LiCause\nCollection date: February 14, 2018 4:55 PM\nSpecimens: Blood\nResult date: February 15, 2018 12:37 PM\nResult status: Final\nResulting lab:\nLABCORP\nMyChart® licensed from Epic Systems Corporation© 1999 - 2024\nhttps://my.atriumhealth.org/myatriumhealth/app/test-results/details?pageMode=1&eorderid=WP-24oEx6V-2BM-2B-2B0wyuEGy-2FfVgLg-3D-3D-24-2BAL5zySQg… 3/3",
+      "pageCount": 3,
+      "fileSizeBytes": 74713,
+      "extractedAt": "2026-02-13T22:25:21.658Z",
+      "classificationConfidence": 1,
+      "diagnoses": [
+        "mild Hashimoto's",
+        "subclinical hyperthyroidism"
+      ],
+      "medications": [],
+      "procedures": [],
+      "labResults": [
+        {
+          "test": "Cholesterol, Total",
+          "value": "204",
+          "unit": "mg/dL",
+          "reference": "100 - 199 mg/dL"
+        },
+        {
+          "test": "Triglycerides",
+          "value": "93",
+          "unit": "mg/dL",
+          "reference": "0 - 149 mg/dL"
+        },
+        {
+          "test": "HDL",
+          "value": "68",
+          "unit": "mg/dL",
+          "reference": ">39 mg/dL"
+        },
+        {
+          "test": "VLDL Cholesterol Cal",
+          "value": "19",
+          "unit": "mg/dL",
+          "reference": "5 - 40 mg/dL"
+        },
+        {
+          "test": "LDL",
+          "value": "117",
+          "unit": "mg/dL",
+          "reference": "0 - 99 mg/dL"
+        },
+        {
+          "test": "Chol/HDL Ratio",
+          "value": "3.0",
+          "unit": "ratio units",
+          "reference": "0.0 - 4.4 ratio units"
+        }
+      ],
+      "keyFindings": [
+        "Labs suggest mild Hashimoto's but no treatment or intervention needed.",
+        "Suspect you have subclinical hyperthyroidism.",
+        "Subclinical hyperthyroidism can sometimes lead to Graves disease."
+      ]
+    },
+    {
+      "id": "doc_mllghmrh_1lh3p5",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2018/GP/02_Feb 14 2018_Dr LiCause/MRI ORBITS WO W CONTRAST.pdf",
+      "fileName": "MRI ORBITS WO W CONTRAST.pdf",
+      "year": 2018,
+      "specialty": "primary_care",
+      "type": "imaging_mri",
+      "eventDate": "2018-02-25",
+      "provider": "Gina LiCause",
+      "facility": "Novant Health",
+      "fullText": "10/25/24, 8:36 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nMRI ORBITS WO W CONTRAST\nCollected on February 25, 2018 8:13 PM\nNovant Health\nGina LiCause 02/25/2018, 10:00 PM\nThe MRI does show slight prominence of the right more than le\u0000\neye (but not clearly Graves) and with the abnormalities of the\nthyroid labs, I would like her to see Dr Talip for her\nrecommendations. Once she is aware, please make this referral.\nWe may also try to call you regarding this. We will need\ndocumentation that you have received these instructions. Take\ncare, Dr. LiCause\nGina LiCause 02/26/2018, 10:38 PM\nI am afraid I don't know the answer, but if Dr Talip does not feel\nthis is related to Graves, we will have her see an ENT. Thank you.\nResults\nImpression\nIMPRESSION: Orbital asymmetry as described. No definite orbital mass lesion on the right.\nQuestion mild old medial orbital wall injury on the le\u0000. Le\u0000 sphenoethmoidal opacification\nalso noted.\nNarrative\nHISTORY: Proptosis.\nCOMPARISON: None.\nMultisequence, multiplanar images were performed on a high field MRI through the orbits\nbefore and a\u0000er the uneventful ministration of 6 cc Gadavist IV.\nThere is slight orbital asymmetry with the right globe protruding further than the le\u0000. I see no\nintra or extraconal mass lesion to account for this, and the orbital fat is preserved. The\nextraocular muscles are unremarkable. Slight asymmetric inward\nbowing of the le\u0000 medial orbital wall suggests a possible remote le\u0000 orbital injury. There is also\nopacification of a le\u0000 posterior ethmoid cell with opacification of adjacent portions of a\nhttps://my.atriumhealth.org/myatriumhealth/app/test-results/details?pageMode=1&eorderid=WP-24HjQEp9WkeWKR3ubr7m-2Fyhw-3D-3D-244-2Fm4zSb83pANL… 1/2\n\n--- PAGE BREAK ---\n\n10/25/24, 8:36 PM MyAtriumHealth - Test Details\nseptated le\u0000 sphenoid cell. Mild mucosal thickening is seen\nelsewhere within the ethmoids. No fluid level.\nThe visualized intracranial structures are unremarkable.\nAuthorizing provider: Gina LiCause\nReading physician: Robert Barr\nStudy date: February 25, 2018 8:16 PM\nCollection date: February 25, 2018 8:13 PM\nResult date: February 25, 2018 8:16 PM\nResult status: Final\nMyChart® licensed from Epic Systems Corporation© 1999 - 2024\nhttps://my.atriumhealth.org/myatriumhealth/app/test-results/details?pageMode=1&eorderid=WP-24HjQEp9WkeWKR3ubr7m-2Fyhw-3D-3D-244-2Fm4zSb83pANL… 2/2",
+      "pageCount": 2,
+      "fileSizeBytes": 51176,
+      "extractedAt": "2026-02-13T22:25:25.373Z",
+      "classificationConfidence": 1,
+      "diagnoses": [
+        "Orbital asymmetry",
+        "Question mild old medial orbital wall injury on the left",
+        "Left sphenoethmoidal opacification"
+      ],
+      "medications": [],
+      "procedures": [
+        "MRI ORBITS WO W CONTRAST"
+      ],
+      "labResults": [],
+      "keyFindings": [
+        "The MRI does show slight prominence of the right more than left eye (but not clearly Graves)",
+        "Orbital asymmetry as described",
+        "No definite orbital mass lesion on the right",
+        "Slight asymmetric inward bowing of the left medial orbital wall suggests a possible remote left orbital injury",
+        "Opacification of a left posterior ethmoid cell with opacification of adjacent portions of a septated left sphenoid cell",
+        "Mild mucosal thickening is seen elsewhere within the ethmoids",
+        "The visualized intracranial structures are unremarkable"
+      ]
+    },
+    {
+      "id": "doc_mllghp60_76og3v",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2018/GP/02_Feb 14 2018_Dr LiCause/T3.pdf",
+      "fileName": "T3.pdf",
+      "year": 2018,
+      "specialty": "primary_care",
+      "type": "lab_single",
+      "eventDate": "2018-02-14",
+      "provider": "Gina LiCause",
+      "facility": "Novant Health",
+      "fullText": "10/25/24, 8:34 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nT3\nCollected on February 14, 2018 4:55 PM\nNovant Health\nGina LiCause 02/18/2018, 8:42 PM\nLabs suggest mild Hashimoto's but no treatment or intervention\nneeded. Repeat TSH and free T4 every 6 months. Hope you are\ndoing well and please let us know if you have any questions.\nTake care, Dr. LiCause\nGina LiCause 02/20/2018, 8:01 AM\nHello! Please forgive me, I did not give you as much information\nin my note to you as I should have. I should have said that I\nsuspect you have subclinical hyperthyroidism (early Hashimoto's\nis only 1 way this can happen). Subclinical hyperthyroidism can\nsometimes lead to Graves disease (a cause for the eyes to\nsometimes become more prominent). I do want you to proceed\nwith the MRI ordered of the orbits and would like you to come in\nfor one other thyroid blood test. If the MRI confirms Graves, then\nI would want you to see an endocrinologist (Dr Talip) to review\nhow to proceed from there. If the MRI does not confirm Grave's\ndisease, then you should get TSH and free T4 every 3 months for\nthe next year.\nResults\nPerformed at: 01 - LabCorp Burlington\n1447 York Court, Burlington, NC 272153361\nLab Director: William F Hancock MD, Phone: 8007624344\nhttps://my.atriumhealth.org/myatriumhealth/app/test-results/details?pageMode=1&eorderid=WP-24l4s2QnNGofR1tdcBvz9KYg-3D-3D-24OlSI0ZnAu2daMHHoM4… 1/2\n\n--- PAGE BREAK ---\n\n10/25/24, 8:34 PM MyAtriumHealth - Test Details\nT3, Total\nNormal range: 71 - 180 ng/dL\n141\n71 180\nAuthorizing provider: Gina LiCause\nCollection date: February 14, 2018 4:55 PM\nSpecimens: Blood\nResult date: February 15, 2018 12:37 PM\nResult status: Final\nResulting lab:\nLABCORP\nMyChart® licensed from Epic Systems Corporation© 1999 - 2024\nhttps://my.atriumhealth.org/myatriumhealth/app/test-results/details?pageMode=1&eorderid=WP-24l4s2QnNGofR1tdcBvz9KYg-3D-3D-24OlSI0ZnAu2daMHHoM4… 2/2",
+      "pageCount": 2,
+      "fileSizeBytes": 57732,
+      "extractedAt": "2026-02-13T22:25:28.488Z",
+      "classificationConfidence": 1,
+      "diagnoses": [
+        "mild Hashimoto's",
+        "subclinical hyperthyroidism"
+      ],
+      "medications": [],
+      "procedures": [],
+      "labResults": [
+        {
+          "test": "T3, Total",
+          "value": "141",
+          "unit": "ng/dL",
+          "reference": "71 - 180 ng/dL"
+        }
+      ],
+      "keyFindings": [
+        "Labs suggest mild Hashimoto's but no treatment or intervention needed.",
+        "I suspect you have subclinical hyperthyroidism (early Hashimoto's is only 1 way this can happen).",
+        "Subclinical hyperthyroidism can sometimes lead to Graves disease (a cause for the eyes to sometimes become more prominent).",
+        "I do want you to proceed with the MRI ordered of the orbits and would like you to come in for one other thyroid blood test."
+      ]
+    },
+    {
+      "id": "doc_mllghrei_6m0exc",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2018/GP/02_Feb 14 2018_Dr LiCause/THYROGLOBULIN ANTIBODY.pdf",
+      "fileName": "THYROGLOBULIN ANTIBODY.pdf",
+      "year": 2018,
+      "specialty": "primary_care",
+      "type": "lab_single",
+      "eventDate": "2018-02-14",
+      "provider": "Gina LiCause",
+      "facility": "Novant Health",
+      "fullText": "10/25/24, 8:34 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nTHYROGLOBULIN ANTIBODY\nCollected on February 14, 2018 4:55 PM\nNovant Health\nGina LiCause 02/18/2018, 8:42 PM\nLabs suggest mild Hashimoto's but no treatment or intervention\nneeded. Repeat TSH and free T4 every 6 months. Hope you are\ndoing well and please let us know if you have any questions.\nTake care, Dr. LiCause\nGina LiCause 02/20/2018, 8:01 AM\nHello! Please forgive me, I did not give you as much information\nin my note to you as I should have. I should have said that I\nsuspect you have subclinical hyperthyroidism (early Hashimoto's\nis only 1 way this can happen). Subclinical hyperthyroidism can\nsometimes lead to Graves disease (a cause for the eyes to\nsometimes become more prominent). I do want you to proceed\nwith the MRI ordered of the orbits and would like you to come in\nfor one other thyroid blood test. If the MRI confirms Graves, then\nI would want you to see an endocrinologist (Dr Talip) to review\nhow to proceed from there. If the MRI does not confirm Grave's\ndisease, then you should get TSH and free T4 every 3 months for\nthe next year.\nResults\nPerformed at: 01 - LabCorp Burlington\n1447 York Court, Burlington, NC 272153361\nLab Director: William F Hancock MD, Phone: 8007624344\nhttps://my.atriumhealth.org/myatriumhealth/app/test-results/details?pageMode=1&eorderid=WP-24-2FA8Cr5K5WcxK0IoFUsKiag-3D-3D-24fL-2BjyjtRpaOSRssOZ… 1/2\n\n--- PAGE BREAK ---\n\n10/25/24, 8:34 PM MyAtriumHealth - Test Details\nThyroglobulin Ab\nNormal range: 0.0 - 0.9 IU/mL\n1.3\n0 0.9\nThyroglobulin Antibody measured by Beckman Coulter Methodology\nAuthorizing provider: Gina LiCause\nCollection date: February 14, 2018 4:55 PM\nSpecimens: Blood\nResult date: February 15, 2018 12:37 PM\nResult status: Final\nResulting lab:\nLABCORP\nMyChart® licensed from Epic Systems Corporation© 1999 - 2024\nhttps://my.atriumhealth.org/myatriumhealth/app/test-results/details?pageMode=1&eorderid=WP-24-2FA8Cr5K5WcxK0IoFUsKiag-3D-3D-24fL-2BjyjtRpaOSRssOZ… 2/2",
+      "pageCount": 2,
+      "fileSizeBytes": 58528,
+      "extractedAt": "2026-02-13T22:25:31.386Z",
+      "classificationConfidence": 1,
+      "diagnoses": [
+        "mild Hashimoto's",
+        "subclinical hyperthyroidism"
+      ],
+      "medications": [],
+      "procedures": [],
+      "labResults": [
+        {
+          "test": "Thyroglobulin Ab",
+          "value": "1.3",
+          "unit": "IU/mL",
+          "reference": "0.0 - 0.9 IU/mL"
+        }
+      ],
+      "keyFindings": [
+        "Labs suggest mild Hashimoto's but no treatment or intervention needed.",
+        "I suspect you have subclinical hyperthyroidism (early Hashimoto's is only 1 way this can happen).",
+        "Subclinical hyperthyroidism can sometimes lead to Graves disease (a cause for the eyes to sometimes become more prominent)."
+      ]
+    },
+    {
+      "id": "doc_mllghtf9_emu1za",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2018/GP/02_Feb 14 2018_Dr LiCause/THYROID PEROXIDASE AB.pdf",
+      "fileName": "THYROID PEROXIDASE AB.pdf",
+      "year": 2018,
+      "specialty": "primary_care",
+      "type": "lab_single",
+      "eventDate": "2018-02-15",
+      "provider": "Gina LiCause",
+      "facility": "Novant Health",
+      "fullText": "10/25/24, 8:34 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nTHYROID PEROXIDASE AB\nCollected on February 14, 2018 4:55 PM\nNovant Health\nGina LiCause 02/18/2018, 8:42 PM\nLabs suggest mild Hashimoto's but no treatment or intervention\nneeded. Repeat TSH and free T4 every 6 months. Hope you are\ndoing well and please let us know if you have any questions.\nTake care, Dr. LiCause\nGina LiCause 02/20/2018, 8:01 AM\nHello! Please forgive me, I did not give you as much information\nin my note to you as I should have. I should have said that I\nsuspect you have subclinical hyperthyroidism (early Hashimoto's\nis only 1 way this can happen). Subclinical hyperthyroidism can\nsometimes lead to Graves disease (a cause for the eyes to\nsometimes become more prominent). I do want you to proceed\nwith the MRI ordered of the orbits and would like you to come in\nfor one other thyroid blood test. If the MRI confirms Graves, then\nI would want you to see an endocrinologist (Dr Talip) to review\nhow to proceed from there. If the MRI does not confirm Grave's\ndisease, then you should get TSH and free T4 every 3 months for\nthe next year.\nResults\nPerformed at: 01 - LabCorp Burlington\n1447 York Court, Burlington, NC 272153361\nLab Director: William F Hancock MD, Phone: 8007624344\nhttps://my.atriumhealth.org/myatriumhealth/app/test-results/details?pageMode=1&eorderid=WP-24stNnNGhDWljqflIyY3OkXw-3D-3D-24Z1EV6Hv4-2FtURFXRa… 1/2\n\n--- PAGE BREAK ---\n\n10/25/24, 8:34 PM MyAtriumHealth - Test Details\nThyroid Peroxidase Ab\nNormal range: 0 - 34 IU/mL\n236\n0 34\nAuthorizing provider: Gina LiCause\nCollection date: February 14, 2018 4:55 PM\nSpecimens: Blood\nResult date: February 15, 2018 12:37 PM\nResult status: Final\nResulting lab:\nLABCORP\nMyChart® licensed from Epic Systems Corporation© 1999 - 2024\nhttps://my.atriumhealth.org/myatriumhealth/app/test-results/details?pageMode=1&eorderid=WP-24stNnNGhDWljqflIyY3OkXw-3D-3D-24Z1EV6Hv4-2FtURFXRa… 2/2",
+      "pageCount": 2,
+      "fileSizeBytes": 59832,
+      "extractedAt": "2026-02-13T22:25:34.005Z",
+      "classificationConfidence": 1,
+      "diagnoses": [
+        "mild Hashimoto's",
+        "subclinical hyperthyroidism"
+      ],
+      "medications": [],
+      "procedures": [],
+      "labResults": [
+        {
+          "test": "Thyroid Peroxidase Ab",
+          "value": "236",
+          "unit": "IU/mL",
+          "reference": "0 - 34 IU/mL"
+        }
+      ],
+      "keyFindings": [
+        "Labs suggest mild Hashimoto's but no treatment or intervention needed.",
+        "I suspect you have subclinical hyperthyroidism (early Hashimoto's is only 1 way this can happen).",
+        "Subclinical hyperthyroidism can sometimes lead to Graves disease (a cause for the eyes to sometimes become more prominent).",
+        "I do want you to proceed with the MRI ordered of the orbits and would like you to come in for one other thyroid blood test."
+      ]
+    },
+    {
+      "id": "doc_mllghvuy_nyx6jj",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2018/GP/02_Feb 14 2018_Dr LiCause/TSH.pdf",
+      "fileName": "TSH.pdf",
+      "year": 2018,
+      "specialty": "primary_care",
+      "type": "lab_single",
+      "eventDate": "2018-02-14",
+      "provider": "Gina LiCause",
+      "facility": "Novant Health",
+      "fullText": "10/25/24, 8:35 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nTSH\nCollected on February 14, 2018 4:55 PM\nNovant Health\nGina LiCause 02/18/2018, 8:42 PM\nLabs suggest mild Hashimoto's but no treatment or intervention\nneeded. Repeat TSH and free T4 every 6 months. Hope you are\ndoing well and please let us know if you have any questions.\nTake care, Dr. LiCause\nGina LiCause 02/20/2018, 8:01 AM\nHello! Please forgive me, I did not give you as much information\nin my note to you as I should have. I should have said that I\nsuspect you have subclinical hyperthyroidism (early Hashimoto's\nis only 1 way this can happen). Subclinical hyperthyroidism can\nsometimes lead to Graves disease (a cause for the eyes to\nsometimes become more prominent). I do want you to proceed\nwith the MRI ordered of the orbits and would like you to come in\nfor one other thyroid blood test. If the MRI confirms Graves, then\nI would want you to see an endocrinologist (Dr Talip) to review\nhow to proceed from there. If the MRI does not confirm Grave's\ndisease, then you should get TSH and free T4 every 3 months for\nthe next year.\nResults\nPerformed at: 01 - LabCorp Burlington\n1447 York Court, Burlington, NC 272153361\nLab Director: William F Hancock MD, Phone: 8007624344\nTSH\nNormal range: 0.450 - 4.500 uIU/mL\nValue\n<0.006\nhttps://my.atriumhealth.org/myatriumhealth/app/test-results/details?pageMode=1&eorderid=WP-244ZU1vSsd0mUQl-2B-2FjnghtJw-3D-3D-24vh7FJ0QpFSEefehjAz… 1/2\n\n--- PAGE BREAK ---\n\n10/25/24, 8:35 PM MyAtriumHealth - Test Details\nAuthorizing provider: Gina LiCause\nCollection date: February 14, 2018 4:55 PM\nSpecimens: Blood\nResult date: February 15, 2018 12:37 PM\nResult status: Final\nResulting lab:\nLABCORP\nMyChart® licensed from Epic Systems Corporation© 1999 - 2024\nhttps://my.atriumhealth.org/myatriumhealth/app/test-results/details?pageMode=1&eorderid=WP-244ZU1vSsd0mUQl-2B-2FjnghtJw-3D-3D-24vh7FJ0QpFSEefehjAz… 2/2",
+      "pageCount": 2,
+      "fileSizeBytes": 53049,
+      "extractedAt": "2026-02-13T22:25:37.162Z",
+      "classificationConfidence": 1,
+      "diagnoses": [
+        "mild Hashimoto's",
+        "subclinical hyperthyroidism"
+      ],
+      "medications": [],
+      "procedures": [],
+      "labResults": [
+        {
+          "test": "TSH",
+          "value": "<0.006",
+          "unit": "uIU/mL",
+          "reference": "0.450 - 4.500 uIU/mL"
+        }
+      ],
+      "keyFindings": [
+        "Labs suggest mild Hashimoto's but no treatment or intervention needed.",
+        "I suspect you have subclinical hyperthyroidism (early Hashimoto's is only 1 way this can happen).",
+        "Subclinical hyperthyroidism can sometimes lead to Graves disease (a cause for the eyes to sometimes become more prominent).",
+        "I do want you to proceed with the MRI ordered of the orbits and would like you to come in for one other thyroid blood test.",
+        "If the MRI confirms Graves, then I would want you to see an endocrinologist (Dr Talip) to review how to proceed from there.",
+        "If the MRI does not confirm Grave's disease, then you should get TSH and free T4 every 3 months for the next year."
+      ]
+    },
+    {
+      "id": "doc_mllghyd7_htx29a",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2018/GP/02_Feb 14 2018_Dr LiCause/XR SHOULDER 2+ VIEWS RIGHT.pdf",
+      "fileName": "XR SHOULDER 2+ VIEWS RIGHT.pdf",
+      "year": 2018,
+      "specialty": "primary_care",
+      "type": "imaging_xray",
+      "eventDate": "2018-02-15",
+      "provider": "Gina LiCause",
+      "facility": "Novant Health",
+      "fullText": "10/25/24, 8:35 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nXR SHOULDER 2+ VIEWS RIGHT\nCollected on February 15, 2018 8:36 AM\nNovant Health\nResults\nImpression\nIMPRESSION:\nNo evidence of acute acute or displaced fracture. No sign of osteomyelitis or other focal bony\nabnormality. No significant degenerative changes. So\u0000 tissues are within normal limits.\nNarrative\nXR SHOULDER MIN 2 VIEWS RIGHT\nPROVIDED CLINICAL INFORMATION: Pain in right shoulder\nADDITIONAL CLINICAL INFORMATION: Chronic right shoulder pain.\nCOMPARISON:\nNone available\nAuthorizing provider: Gina LiCause\nReading physician: David Scovill\nStudy date: February 15, 2018 8:37 AM\nCollection date: February 15, 2018 8:36 AM\nResult date: February 15, 2018 8:37 AM\nResult status: Final\nMyChart® licensed from Epic Systems Corporation© 1999 - 2024\nhttps://my.atriumhealth.org/myatriumhealth/app/test-results/details?pageMode=1&eorderid=WP-24AZJustEb-2BNiAbPgH50t5eA-3D-3D-24TqdeyPSSKNKU9LxA2… 1/1",
+      "pageCount": 1,
+      "fileSizeBytes": 42270,
+      "extractedAt": "2026-02-13T22:25:40.411Z",
+      "classificationConfidence": 1,
+      "diagnoses": [
+        "Pain in right shoulder",
+        "Chronic right shoulder pain"
+      ],
+      "medications": [],
+      "procedures": [],
+      "labResults": [],
+      "keyFindings": [
+        "No evidence of acute acute or displaced fracture.",
+        "No sign of osteomyelitis or other focal bony abnormality.",
+        "No significant degenerative changes.",
+        "Soft tissues are within normal limits."
+      ]
+    },
+    {
+      "id": "doc_mllgi0fn_8avcgd",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2018/Gyno/03_March 6 2018_Caver, NP/IGP, APTIMA HPV RFX 16,18,45 .pdf",
+      "fileName": "IGP, APTIMA HPV RFX 16,18,45 .pdf",
+      "year": 2018,
+      "specialty": "gyno",
+      "type": "pathology",
+      "eventDate": "2024-10-25",
+      "provider": "John Burnett Holt, MD",
+      "facility": "Presbyterian Pathology Group",
+      "fullText": "10/25/24, 8:37 PM MyChart - Report\nName: Jennifer Beth Cartrette | DOB: 9/13/1982 | MRN: 71030963 | PCP: Timothy Kennard, MD | Legal Name: Jennifer Beth\nCartrette\nResults\nComments From the Doctor's Office\nHello Jennifer Beth Cartrette\nYour pap smear results have returned. There were some questionable cells (termed \"abnormal\ncells of undetermined significance\"). When we get this result, we have the lab test for the HPV\nvirus, which causes almost all precancerous cellular abnormalities. This result was negative. That\ncombination of results is very reassuring and based on current national guidelines, I recommend\nrepeating the pap smear in three years BUT still have once yearly GYN visit and exam. Please let\nus know if you have any questions.\nCassandra Caver\nWomen's Health Nurse Practitioner\nWritten by Cassandra Caver on 3/10/2018 11:08 PM EST\nSeen by patient Jennifer Beth Cartrette on 10/25/2024 8:37 PM\nResults\nIGP, Aptima HPV, rfx 16/18,45 Endocervical Cervix (Lab ID/Accession # 065C1602170) (Order 523848449)\nIGP, Aptima HPV, rfx 16/18,45 Endocervical Cervix (Lab ID/Accession # 523848449C) (Order 523848449)\nNarrative\nSpecimen Comment: CO-BCH2018-6502170\nSpecimen Comment: No. of containers..01 ThinPrep Vial\nPerformed at: 01 - Presbyterian Pathology Group\n200 Hawthrone Lane, Charlotte, NC 282071118\nLab Director: Ricky Thompson MD, Phone: 7046445579\nPerformed at: 02 - LabCorp Burlington CYTO\n1447 York Court, Burlington, NC 272153361\nLab Director: William F Hancock MD, Phone: 8007624344\nPerformed at: 03 - LabCorp Burlington\n1447 York Court, Burlington, NC 272153361\nLab Director: William F Hancock MD, Phone: 8007624344\nResult Report\nClinician provided ICD10: Comment\nZ01.419\nElectronically Signed By:: Comment\nhttps://my.atriumhealth.org/myatriumhealth/app/test-results/details?pageMode=1&eorderid=WP-24QD8UxqyDZQCsicl-2FPlEEqw-3D-3D-24epNBJj79wJhE5wkvaP… 1/3\n\n--- PAGE BREAK ---\n\n10/25/24, 8:37 PM MyChart - Report\nJohn Burnett Holt, MD, Pathologist\nGyn Interpretation: Comment\nEPITHELIAL CELL ABNORMALITY.\nATYPICAL SQUAMOUS CELLS OF UNDETERMINED\nSIGNIFICANCE.\nGyn Note: Comment\nThe Pap smear is a screening test designed to aid in the\ndetection of\npremalignant and malignant conditions of the uterine cervix. It is\nnot a\ndiagnostic procedure and should not be used as the sole means\nof detecting\ncervical cancer. Both false-positive and false-negative reports do\noccur.\nHPV Aptima: Negative (Range: Negative)\nThis test detects fourteen high-risk HPV types\n(16/18/31/33/35/39/45/\n51/52/56/58/59/66/68) without differentiation.\nMicroscopic Observation: .\nPathologist provided ICD10: Comment\nR87.610\nPerformed By:: Comment\nShirley McKellar, Cytotechnologist (ASCP)\nSpecimen Adequacy: Comment\nSatisfactory for evaluation. Endocervical and/or squamous\nmetaplastic\ncells (endocervical component) are present.\nTest Methodology: Comment\nThis liquid based ThinPrep(R) pap test was screened with the\nuse of an image guided system.\nOrder Questions\nQuestion Answer Comment\nClinical History Negative\nCytology History LMP:mm/dd/yyyy 3/2/18\nAll Reviewers List\nCassandra I Caver, NP on 3/10/2018 11:08 PM\nResult Information\nFlag: Status: Final result Provider Status:\nAbnormal (Collected: 3/6/2018 Reviewed\n4:04 PM)\nLab Information\nhttps://my.atriumhealth.org/myatriumhealth/app/test-results/details?pageMode=1&eorderid=WP-24QD8UxqyDZQCsicl-2FPlEEqw-3D-3D-24epNBJj79wJhE5wkvaP… 2/3\n\n--- PAGE BREAK ---\n\n10/25/24, 8:37 PM MyChart - Report\nLABCORP\nAdditional Information\nSpecimen ID Bill Type Client ID\n065C1602170 Third-Party 32808905\nSpecimen Date Specimen Time Specimen Specimen\nTaken Taken Received Date Received Time Result Date Result Time\nMar 6, 2018 4:04 PM Mar 6, 2018 12:00 AM Mar 9, 2018 6:36 PM\nMyChart® licensed from Epic Systems Corporation© 1999 - 2024\nhttps://my.atriumhealth.org/myatriumhealth/app/test-results/details?pageMode=1&eorderid=WP-24QD8UxqyDZQCsicl-2FPlEEqw-3D-3D-24epNBJj79wJhE5wkvaP… 3/3",
+      "pageCount": 3,
+      "fileSizeBytes": 166837,
+      "extractedAt": "2026-02-13T22:25:43.091Z",
+      "classificationConfidence": 1,
+      "diagnoses": [
+        "EPITHELIAL CELL ABNORMALITY",
+        "ATYPICAL SQUAMOUS CELLS OF UNDETERMINED SIGNIFICANCE"
+      ],
+      "medications": [],
+      "procedures": [],
+      "labResults": [
+        {
+          "test": "HPV Aptima",
+          "value": "Negative",
+          "unit": "",
+          "reference": "Negative"
+        }
+      ],
+      "keyFindings": [
+        "abnormal cells of undetermined significance",
+        "HPV Aptima: Negative"
+      ]
+    },
+    {
+      "id": "doc_mllgi2ax_53irqg",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2018/Gyno/03_March 6 2018_Caver, NP/POCT HCG, URINE.pdf",
+      "fileName": "POCT HCG, URINE.pdf",
+      "year": 2018,
+      "specialty": "gyno",
+      "type": "lab_single",
+      "eventDate": "2018-03-06",
+      "provider": "Cassandra Caver",
+      "facility": "NH HUNTERSVILLE OB GYNECOLOGY (HUNTERSVILLE)",
+      "fullText": "10/25/24, 8:36 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nPOCT HCG, URINE\nCollected on March 6, 2018 3:11 PM\nNovant Health\nLab tests - Urine\nCassandra Caver 03/10/2018, 11:08 PM\nHello Jennifer Beth Cartrette\nYour pap smear results have returned. There were some\nquestionable cells (termed \"abnormal cells of undetermined\nsignificance\"). When we get this result, we have the lab test for\nthe HPV virus, which causes almost all precancerous cellular\nabnormalities. This result was negative. That combination of\nresults is very reassuring and based on current national\nguidelines, I recommend repeating the pap smear in three years\nBUT still have once yearly GYN visit and exam. Please let us know\nif you have any questions.\nCassandra Caver\nWomen's Health Nurse Practitioner\nResults\nHCG UHCG Internal Control\nNormal value: Negative mIU/mL\nValue\nValue\nAcceptable\nNegative\nAuthorizing provider: Cassandra Caver\nCollection date: March 6, 2018 3:11 PM\nResult date: March 6, 2018 3:11 PM\nResult status: Final\nResulting lab:\nNH HUNTERSVILLE OB GYNECOLOGY (HUNTERSVILLE)\n14330 Oakhill Park Lane, Suite 100\nHuntersville NC 28078-3314\n704-316-4830\nhttps://my.atriumhealth.org/myatriumhealth/app/test-results/details?pageMode=1&eorderid=WP-2497QTQhZN6w-2ByXBkE1bDmbA-3D-3D-240AxwehLlZ6Z2-2F… 1/2\n\n--- PAGE BREAK ---\n\n10/25/24, 8:36 PM MyAtriumHealth - Test Details\nMyChart® licensed from Epic Systems Corporation© 1999 - 2024\nhttps://my.atriumhealth.org/myatriumhealth/app/test-results/details?pageMode=1&eorderid=WP-2497QTQhZN6w-2ByXBkE1bDmbA-3D-3D-240AxwehLlZ6Z2-2F… 2/2",
+      "pageCount": 2,
+      "fileSizeBytes": 54146,
+      "extractedAt": "2026-02-13T22:25:45.513Z",
+      "classificationConfidence": 1,
+      "diagnoses": [
+        "abnormal cells of undetermined significance"
+      ],
+      "medications": [],
+      "procedures": [],
+      "labResults": [
+        {
+          "test": "HCG UHCG Internal Control",
+          "value": "Negative",
+          "unit": "mIU/mL",
+          "reference": "Normal value: Negative"
+        }
+      ],
+      "keyFindings": [
+        "HPV virus test result was negative"
+      ]
+    },
+    {
+      "id": "doc_mllgi41n_28sj3y",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2018/Orthepedic Surgeon/05_May 8 2018_Dr Gentile/FL ARTHROGRAM SHOULDER RIGHT.pdf",
+      "fileName": "FL ARTHROGRAM SHOULDER RIGHT.pdf",
+      "year": 2018,
+      "specialty": "orthepedic surgeon",
+      "type": "imaging_other",
+      "eventDate": "2018-05-08",
+      "provider": "Joseph Gentile",
+      "facility": "Novant Health",
+      "fullText": "10/25/24, 8:49 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nFL ARTHROGRAM SHOULDER RIGHT\nCollected on May 8, 2018 11:20 AM\nNovant Health\nResults\nImpression\nIMPRESSION:\n1. No conventional arthrographic evidence of full thickness rotator cuff tear.\n2. Please see the separately dictated post arthrogram MRI for additional findings.\nNarrative\nHISTORY: Pain.\nCOMPARISONS: X-rays dated 2/14/2018.\nPROCEDURE: Informed consent was obtained. The patient was placed supine on the\nfluoroscopy table. The skin anterior to the right shoulder was marked and prepped and draped\nin the usual sterile fashion. Following adequate local anesthesia with 1%\nXylocaine, a 22-gauge spinal needle was introduced into the glenohumeral joint. Permanent\nimage was obtained with the needle in the joint. Following administration of Xylocaine,\napproximately 12-15 cc of dilute gadolinium (0.1 cc of gadolinium mixed with\nXylocaine and contrast) was injected during intermittent fluoroscopic observation. The needle\nwas removed and hemostasis was achieved. The patient tolerated the procedure well without\napparent complication.\nFLUORO TIME: 18 seconds.\nNUMBER OF IMAGES: 4 fluoroscopic images.\nINTERPRETATION: Contrast injected into the glenohumeral joint remains within the\nglenohumeral joint without evidence of extravasation to suggest full thickness rotator cuff tear.\nAuthorizing provider: Joseph Gentile\nReading physician: Kevin Carroll\nStudy date: May 8, 2018 11:21 AM\nCollection date: May 8, 2018 11:20 AM\nResult date: May 8, 2018 11:21 AM\nhttps://my.atriumhealth.org/myatriumhealth/app/test-results/details?pageMode=1&eorderid=WP-24N3IqjOOeqWnGapUrFk4g2A-3D-3D-24iQoj-2FRonQdzZXdjdaR… 1/2\n\n--- PAGE BREAK ---\n\n10/25/24, 8:49 PM MyAtriumHealth - Test Details\nResult status: Final\nMyChart® licensed from Epic Systems Corporation© 1999 - 2024\nhttps://my.atriumhealth.org/myatriumhealth/app/test-results/details?pageMode=1&eorderid=WP-24N3IqjOOeqWnGapUrFk4g2A-3D-3D-24iQoj-2FRonQdzZXdjdaR… 2/2",
+      "pageCount": 2,
+      "fileSizeBytes": 46786,
+      "extractedAt": "2026-02-13T22:25:47.771Z",
+      "classificationConfidence": 1,
+      "diagnoses": [
+        "Pain"
+      ],
+      "medications": [
+        "1% Xylocaine"
+      ],
+      "procedures": [
+        "FL ARTHROGRAM SHOULDER RIGHT"
+      ],
+      "labResults": [],
+      "keyFindings": [
+        "No conventional arthrographic evidence of full thickness rotator cuff tear.",
+        "Contrast injected into the glenohumeral joint remains within the glenohumeral joint without evidence of extravasation to suggest full thickness rotator cuff tear."
+      ]
+    },
+    {
+      "id": "doc_mllgi63p_yfqexf",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2018/Orthepedic Surgeon/05_May 8 2018_Dr Gentile/MRI SHOULDER RIGHT W CONTRAST.pdf",
+      "fileName": "MRI SHOULDER RIGHT W CONTRAST.pdf",
+      "year": 2018,
+      "specialty": "orthepedic surgeon",
+      "type": "imaging_mri",
+      "eventDate": "2018-05-08",
+      "provider": "Joseph Gentile",
+      "facility": "Novant Health",
+      "fullText": "10/25/24, 8:48 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nMRI SHOULDER RIGHT W CONTRAST\nCollected on May 8, 2018 10:27 AM\nNovant Health\nResults\nImpression\nIMPRESSION:\n1. No visualized rotator cuff or labral tear.\n2. Suspected mild strain of the infraspinatus muscle.\nNarrative\nMRI SHOULDER RIGHT W IV CONTRAST 5/8/2018 9:23 AM\nINDICATION: evaluate for labral tear and instability\nCOMPARISON: None.\nTECHNIQUE: Multiplanar imaging of the shoulder was performed with intra-articular contrast.\nFINDINGS:\nROTATOR CUFF: No full-thickness rotator cuff tear is identified. No partial-thickness tear is\nvisualized. There is some minimal edema signal which infiltrates the posterior margin of the\ninfraspinatus muscle, suspicious for a strain. No drainable fluid\ncollection is present. No rotator cuff muscle atrophy is present.\nGLENOHUMERAL JOINT: There are no definitive lesions of the bony glenoid or cartilaginous\nlabrum.\nLONG HEAD BICEPS TENDON: The tendon is intact and located in its normal anatomic position.\nACROMIOCLAVICULAR JOINT: The acromioclavicular joint is well-preserved. Note is made of a\ntype 2 acromion.\nAuthorizing provider: Joseph Gentile\nReading physician: Jeffrey Stanczak\nStudy date: May 8, 2018 10:44 AM\nCollection date: May 8, 2018 10:27 AM\nResult date: May 8, 2018 10:44 AM\nhttps://my.atriumhealth.org/myatriumhealth/app/test-results/details?pageMode=1&eorderid=WP-242Xd89B7Oqy0dAjqZbyCFIA-3D-3D-244va5H-2Batl3xgzla1wSV… 1/2\n\n--- PAGE BREAK ---\n\n10/25/24, 8:48 PM MyAtriumHealth - Test Details\nResult status: Final\nMyChart® licensed from Epic Systems Corporation© 1999 - 2024\nhttps://my.atriumhealth.org/myatriumhealth/app/test-results/details?pageMode=1&eorderid=WP-242Xd89B7Oqy0dAjqZbyCFIA-3D-3D-244va5H-2Batl3xgzla1wSV… 2/2",
+      "pageCount": 2,
+      "fileSizeBytes": 46671,
+      "extractedAt": "2026-02-13T22:25:50.437Z",
+      "classificationConfidence": 1,
+      "diagnoses": [
+        "No visualized rotator cuff or labral tear",
+        "Suspected mild strain of the infraspinatus muscle"
+      ],
+      "medications": [],
+      "procedures": [],
+      "labResults": [],
+      "keyFindings": [
+        "No full-thickness rotator cuff tear is identified",
+        "No partial-thickness tear is visualized",
+        "Minimal edema signal infiltrates the posterior margin of the infraspinatus muscle, suspicious for a strain",
+        "No drainable fluid collection is present",
+        "No rotator cuff muscle atrophy is present",
+        "No definitive lesions of the bony glenoid or cartilaginous labrum",
+        "The tendon is intact and located in its normal anatomic position",
+        "The acromioclavicular joint is well-preserved",
+        "Note is made of a type 2 acromion"
+      ]
+    },
+    {
+      "id": "doc_mllgi7s4_gs2nau",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2018/Spinal/Dr Hartman/08_Aug 7 2018_Dr Hartman/MyAtriumHealth - Test XR Lateral Spine Additional.pdf",
+      "fileName": "MyAtriumHealth - Test XR Lateral Spine Additional.pdf",
+      "year": 2018,
+      "specialty": "spinal",
+      "type": "imaging_xray",
+      "eventDate": "2018-08-07",
+      "provider": "Jeffrey D Stanczak",
+      "facility": "Novant Health",
+      "fullText": "10/25/24, 8:55 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nXR Lateral Spine Additional\nCollected on August 7, 2018 12:25 PM\nNovant Health\nResults\nImpression\nIMPRESSION: As above.\nElectronically Signed by: Jeffrey D Stanczak\nNarrative\nXR LATERAL SPINE ADDITIONAL 8/7/2018 6:00 AM\nINDICATION: C4-C6 ACDF\nCOMPARISON: Intraoperative image from the same day.\nFINDINGS: A single crosstable lateral view demonstrates interim C4-C6 ACDF.\nOrdering provider: Mark Hartman\nReading physician: Jeffrey Stanczak\nStudy date: August 7, 2018 12:26 PM\nCollection date: August 7, 2018 12:25 PM\nResult date: August 7, 2018 12:26 PM\nResult status: Final\nMyChart® licensed from Epic Systems Corporation© 1999 - 2024\nhttps://my.atriumhealth.org/myatriumhealth/app/test-results/details?pageMode=1&eorderid=WP-24QibugvwXaHq1j-2BpMYcKzwQ-3D-3D-24ChtjH-2BHDBznK9… 1/1",
+      "pageCount": 1,
+      "fileSizeBytes": 42344,
+      "extractedAt": "2026-02-13T22:25:52.612Z",
+      "classificationConfidence": 1,
+      "diagnoses": [],
+      "medications": [],
+      "procedures": [
+        "C4-C6 ACDF"
+      ],
+      "labResults": [],
+      "keyFindings": [
+        "A single crosstable lateral view demonstrates interim C4-C6 ACDF."
+      ]
+    },
+    {
+      "id": "doc_mllgi9k7_51yx46",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2018/Spinal/Dr Hartman/08_Aug 7 2018_Dr Hartman/XR Spine Cervical 1 View.pdf",
+      "fileName": "XR Spine Cervical 1 View.pdf",
+      "year": 2018,
+      "specialty": "spinal",
+      "type": "imaging_xray",
+      "eventDate": "2018-08-07",
+      "provider": "Jeffrey D Stanczak",
+      "facility": "Novant Health",
+      "fullText": "10/25/24, 8:56 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nXR Spine Cervical 1 View\nCollected on August 7, 2018 12:26 PM\nNovant Health\nResults\nImpression\nIMPRESSION: As above.\nElectronically Signed by: Jeffrey D Stanczak\nNarrative\nXR SPINE CERVICAL 1 VIEW 8/7/2018 6:00 AM\nINDICATION: C4-C6 ACDF\nCOMPARISON: 6/5/2018.\nFINDINGS: A single crosstable lateral view demonstrates anterior localization of C5-C6.\nOrdering provider: Mark Hartman\nReading physician: Jeffrey Stanczak\nStudy date: August 7, 2018 12:26 PM\nCollection date: August 7, 2018 12:26 PM\nResult date: August 7, 2018 12:26 PM\nResult status: Final\nMyChart® licensed from Epic Systems Corporation© 1999 - 2024\nhttps://my.atriumhealth.org/myatriumhealth/app/test-results/details?pageMode=1&eorderid=WP-24kA7S7mXD8y-2FUNJols65ZZA-3D-3D-24PC6rHFvE2otsleS027… 1/1",
+      "pageCount": 1,
+      "fileSizeBytes": 41529,
+      "extractedAt": "2026-02-13T22:25:54.919Z",
+      "classificationConfidence": 1,
+      "diagnoses": [],
+      "medications": [],
+      "procedures": [],
+      "labResults": [],
+      "keyFindings": [
+        "A single crosstable lateral view demonstrates anterior localization of C5-C6."
+      ]
+    },
+    {
+      "id": "doc_mllgicw6_iiy2nu",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2018/Spinal/EMG (1 EXTREMITY).pdf",
+      "fileName": "EMG (1 EXTREMITY).pdf",
+      "year": 2018,
+      "specialty": "spinal",
+      "type": "imaging_other",
+      "eventDate": "2018-07-25",
+      "provider": "Joseph Zuhosky, M.D.",
+      "facility": "Total Spine Specialists",
+      "fullText": "Total Spine Spedialists\nElectrodiagnostid Report\nPatient: Cartrette, Jennifer Beth Phykician: Joseph Zuhosky, M.D.\nSex: Female Test Date: 07/ 25/18\nAge: 35\nI.D.#: 71030963 9/13/82\nRef. M.D.: Dr. Mark Hartman\nHistory/Comments:\nPlease see recent office notes for history and physical ex ination. EMG and NCS indicated to evaluate\nfor right cervical radiculopathy.\nMotor Nerve Study\nRight Median Nerve\nI\nRec Site: APB Lat (ms) Dur (ms) Amp (mV) Area (mVms) Dist (mm) c.v. m/s)\nStim Site\nWrist 3.5 5.9 8.5 31.4 80\nElbow 8.2 5.8 8.5 30.4 270 57.9\nRight Ulnar Nerve\nRec Site: ADM Lat (ms) Dur (ms) Amp (mV) !Area (mVms) Dist (mm) c.v. (m/s)\nStim Site I\nWrist 3.5 5.1 10.8 126. 9 80\nB.Elbow 6.5 5.4 10.4 126. 8 210 70.0\nA.Elbow 8.7 5.6 10.1 126. 7 170 78.5\nSensory Nerve Study\nRight Median Nerve\nStim Site: Wrist Lat (ms) Pk Lat (ms) Amp (uV) Dist (mm)\nRec Site\n3rd dig. 3.5 3.5 36.7 140\nRight Ulnar Nerve\nStim Site: Wrist Lat (ms) Pk Lat (ms) Amp (uV) Dist (mm)\nRec Site\n5th dig 3.5 3.5 54.7 140\n\n--- PAGE BREAK ---\n\npage 2\nPatient: Cartrette, Jennifer Beth Test Date: 07 /25/18\nI.D.#: 71030963 9/13/82\nEMG Study\nName Ins Act Fibs PSW Fascics Polyph Amp MU Dur Config Pattern Recruit\n!\nR. Dors. Int .1 norm none none none none orm norm norm norm norm\nR. Ext. Ind. Pro. norm none none none none orm norm norm norm norm\nR. Pronator Ter. norm none none none none form norm norm norm norm\nR. Triceps norm none none none none rorm norm norm norm norm,\nR. Biceps Brachi. norm none none none none rorm norm norm norm norm\nR. Deltoid norm none none none none , orm norm norm norm norm:\nR. cs Para spinal Normal norm none none none\nR. C6 Paraspinal Normal norm none none none\nR. C7 Para spinal Normal norm none none none\nSummary/Interpretation: ,\nNerve conduction studies of select motor and sensory n,erves were performed in the right upper limb. For\nfull results, please refer to the tabulated forms enclosed. The median and ulnar motor Studies\ndemonstrate normal distal latencies, amplitudes and cortduction velocities. For the ulndr nerve, there is\nno significant nerve conduction slowing or amplitude reduction across the elbow. The median and ulnar\nsensory distal latencies and amplitudes are also normal! I\nEMG needle examination of select muscles in the rightlupper limb and cervical paraspiJials was also\nperformed in the standard fashion. For full results, plcraser efer to the tabulated forms enclosed. Briefly,\nall muscles tested reveal normal insertional activity with no evidence of muscle membdme irritability in\nthe form of positive sharp waves or fibrillation potenfol.Is. All muscles sampled reveal 'voluntary motor\nunit action potentials which are normal in number,appearance and recruitment. Likewise in the cervical\nparaspinals, insertional activity is normal at all levels ei amined with no muscle membqme irritability\nevident at any level.\nIMPRESSION:\n1) Normal study.\n2) There is no electrodiagnostic evidence of a cervical [adiculopathy, myopathy or generalized peripheral\nneuropathy involving the right upper limb.\nI\nI\nThank you for allowing us to share in the care of this ~atient. If we can be of further assistance, please\ndo not hesitate to contact us.\nJoseph Zu)i.osky, M.D.\nBoard Certified\nAmerican Board of Eledtrodiagnostic Medicine\n\n--- PAGE BREAK ---\n\npage 1\nPatient: Cartrette, Jennifer Beth Teslt Date: 07/25/18\nI.D.#: 71030963 9/13/82 I\nI\nR. Median MNC R. Ulnar MNC R. Median SNC\nI\n20uV'\nR. Ulnar SNC",
+      "pageCount": 3,
+      "fileSizeBytes": 60349,
+      "extractedAt": "2026-02-13T22:25:59.238Z",
+      "classificationConfidence": 1,
+      "diagnoses": [
+        "Normal study",
+        "There is no electrodiagnostic evidence of a cervical radiculopathy, myopathy or generalized peripheral neuropathy involving the right upper limb"
+      ],
+      "medications": [],
+      "procedures": [
+        "EMG and NCS indicated to evaluate for right cervical radiculopathy"
+      ],
+      "labResults": [],
+      "keyFindings": [
+        "Nerve conduction studies of select motor and sensory nerves were performed in the right upper limb",
+        "The median and ulnar motor studies demonstrate normal distal latencies, amplitudes and conduction velocities",
+        "For the ulnar nerve, there is no significant nerve conduction slowing or amplitude reduction across the elbow",
+        "The median and ulnar sensory distal latencies and amplitudes are also normal",
+        "EMG needle examination of select muscles in the right upper limb and cervical paraspinals was also performed in the standard fashion",
+        "All muscles tested reveal normal insertional activity with no evidence of muscle membrane irritability in the form of positive sharp waves or fibrillation potentials",
+        "All muscles sampled reveal voluntary motor unit action potentials which are normal in number, appearance and recruitment",
+        "In the cervical paraspinals, insertional activity is normal at all levels examined with no muscle membrane irritability evident at any level"
+      ]
+    },
+    {
+      "id": "doc_mllgih35_hdlpmt",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2018/Spinal/Physiatrist/06_June 7 2018_Dr Zuhosky/MRI SPINE CERVICAL WO CONTRAST .pdf",
+      "fileName": "MRI SPINE CERVICAL WO CONTRAST .pdf",
+      "year": 2018,
+      "specialty": "spinal",
+      "type": "imaging_mri",
+      "eventDate": "2018-06-07",
+      "provider": "James Johnson",
+      "facility": "Novant Health",
+      "fullText": "10/25/24, 8:50 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nMRI SPINE CERVICAL WO CONTRAST\nCollected on June 7, 2018 2:57 PM\nNovant Health\nVanessa Berich 06/8/2018, 10:57 AM\nEnclosed is a copy of your radiology report. We will review these\nimages together at your follow-up appointment.\nResults\nImpression\nIMPRESSION:\n1. Shallow right paramedian disc protrusion with annular fissuring at C4-5 causing mass effect\non right ventral cord surface. There is mild degree of canal stenosis. No foraminal stenosis.\n2. Posterior lateral marginal osteophyte and right uncovertebral joint osteophyte at C5-6 with\ncontact, but no deformity of the ventral cord surface. There is mild canal stenosis with\nmoderate right, but no le\u0000 foraminal stenosis.\nNarrative\nMRI CERVICAL SPINE WITHOUT CONTRAST\nTECHNIQUE: Multiple T1 and T2 weighted MR images were obtained\nPROVIDED CLINICAL INFORMATION: M50.322-Other cervical disc degeneration at C5-C6 level\nRight C6 radiculopathy with wrist extensor and shoulder girdle weakness on exam\nADDITIONAL CLINICAL INFORMATION: None available\nCOMPARISON: Radiograph 6/5/2018.\nINTERPRETATION:\nThere is mild reversal of normal lordosis, but no focal malalignment. There is no fracture or\nmarrow replacing process. Posterior elements are intact. The odontoid and C1-C2 relationship\nis normal. Cervical medullary junction is normal. The spinal cord\nhttps://my.atriumhealth.org/myatriumhealth/app/test-results/details?pageMode=1&eorderid=WP-243EOsN1M4dtXjG-2BLkWDnLsg-3D-3D-24qaHGqGqzkzeXPIAz… 1/2\n\n--- PAGE BREAK ---\n\n10/25/24, 8:50 PM MyAtriumHealth - Test Details\nis normal size and signal intensity. The paraspinal so\u0000 tissues are unremarkable.\nC1-2: No abnormality.\nC2-3: No significant central canal or foraminal stenosis.\nC3-4: No significant central canal or foraminal stenosis.\nC4-5: There is shallow right paramedian disc protrusion with annular fissuring effacing the right\nventral thecal sac and ventral spinal cord surface. There is mild degree of canal stenosis. The\ncord is not displaced posteriorly or impinged. There is no\nforaminal stenosis.\nC5-6: There is moderate disc space narrowing with posterior lateral marginal osteophyte/disc\ncomplex with right greater than le\u0000 uncovertebral joint osteophyte. There is effacement of the\nventral aspect of the thecal sac. There is contacted, but no\neffacement of the ventral cord surface. There is mild degree of canal stenosis. There is\nmoderate right, but no le\u0000 foraminal stenosis.\nC6-7: No significant central canal or foraminal stenosis.\nC7-T1: No significant central canal or foraminal stenosis.\nThere is no significant stenosis at the visualized upper thoracic disc spaces.\nAuthorizing provider: Joseph Zuhosky\nReading physician: James Johnson\nStudy date: June 7, 2018 3:00 PM\nCollection date: June 7, 2018 2:57 PM\nResult date: June 7, 2018 3:00 PM\nResult status: Final\nMyChart® licensed from Epic Systems Corporation© 1999 - 2024\nhttps://my.atriumhealth.org/myatriumhealth/app/test-results/details?pageMode=1&eorderid=WP-243EOsN1M4dtXjG-2BLkWDnLsg-3D-3D-24qaHGqGqzkzeXPIAz… 2/2",
+      "pageCount": 2,
+      "fileSizeBytes": 50487,
+      "extractedAt": "2026-02-13T22:26:04.673Z",
+      "classificationConfidence": 1,
+      "diagnoses": [
+        "M50.322-Other cervical disc degeneration at C5-C6 level",
+        "Right C6 radiculopathy with wrist extensor and shoulder girdle weakness on exam"
+      ],
+      "medications": [],
+      "procedures": [
+        "MRI SPINE CERVICAL WO CONTRAST"
+      ],
+      "labResults": [],
+      "keyFindings": [
+        "Shallow right paramedian disc protrusion with annular fissuring at C4-5 causing mass effect on right ventral cord surface. There is mild degree of canal stenosis. No foraminal stenosis.",
+        "Posterior lateral marginal osteophyte and right uncovertebral joint osteophyte at C5-6 with contact, but no deformity of the ventral cord surface. There is mild canal stenosis with moderate right, but no left foraminal stenosis.",
+        "Mild reversal of normal lordosis, but no focal malalignment.",
+        "No fracture or marrow replacing process.",
+        "Posterior elements are intact.",
+        "The odontoid and C1-C2 relationship is normal.",
+        "Cervical medullary junction is normal.",
+        "The spinal cord is normal size and signal intensity.",
+        "The paraspinal soft tissues are unremarkable.",
+        "C1-2: No abnormality.",
+        "C2-3: No significant central canal or foraminal stenosis.",
+        "C3-4: No significant central canal or foraminal stenosis.",
+        "C4-5: Shallow right paramedian disc protrusion with annular fissuring effacing the right ventral thecal sac and ventral spinal cord surface. Mild degree of canal stenosis. The cord is not displaced posteriorly or impinged. No foraminal stenosis.",
+        "C5-6: Moderate disc space narrowing with posterior lateral marginal osteophyte/disc complex with right greater than left uncovertebral joint osteophyte. Effacement of the ventral aspect of the thecal sac. Contacted, but no effacement of the ventral cord surface. Mild degree of canal stenosis. Moderate right, but no left foraminal stenosis.",
+        "C6-7: No significant central canal or foraminal stenosis.",
+        "C7-T1: No significant central canal or foraminal stenosis.",
+        "No significant stenosis at the visualized upper thoracic disc spaces."
+      ]
+    },
+    {
+      "id": "doc_mllgiiqs_b6ssxe",
+      "sourcePath": "/Users/bethcartrette/Library/CloudStorage/GoogleDrive-beth@bethcnc.com/My Drive/Health/MEDICAL RECORDS BY YEAR/2018/Spinal/Potassium.pdf",
+      "fileName": "Potassium.pdf",
+      "year": 2018,
+      "specialty": "spinal",
+      "type": "lab_single",
+      "eventDate": "2018-08-07",
+      "provider": "Anne Rogers",
+      "facility": "PRESBYTERIAN MEDICAL CENTER",
+      "fullText": "10/25/24, 10:07 PM MyAtriumHealth - Test Details\nName: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette\nPOTASSIUM\nCollected on August 7, 2018 5:42 AM\nNovant Health\nLab tests - Blood\nResults\nPotassium\nNormal range: 3.7 - 5.4 mmol/L\n4.2\n3.7 5.4\nOrdering provider: Anne Rogers\nCollection date: August 7, 2018 5:42 AM\nResult date: August 7, 2018 6:32 AM\nResult status: Final\nResulting lab:\nPRESBYTERIAN MEDICAL CENTER\n200 Hawthorne Lane\nCharlotte NC 28204\n704-384-1522\nRicky Thompson (Lab director)\n34D0665289 (CLIA #)\nMyChart® licensed from Epic Systems Corporation© 1999 - 2024\nhttps://my.atriumhealth.org/myatriumhealth/app/test-results/details?pageMode=1&eorderid=WP-24R38YPtUiF9Qa2-2F0RCoC08w-3D-3D-249rCz9xEHo9kyENDf… 1/1",
+      "pageCount": 1,
+      "fileSizeBytes": 50725,
+      "extractedAt": "2026-02-13T22:26:06.820Z",
+      "classificationConfidence": 1,
+      "diagnoses": [],
+      "medications": [],
+      "procedures": [],
+      "labResults": [
+        {
+          "test": "Potassium",
+          "value": "4.2",
+          "unit": "mmol/L",
+          "reference": "3.7 - 5.4 mmol/L"
+        }
+      ],
+      "keyFindings": []
+    }
+  ],
+  "errors": [],
+  "bySpecialty": {
+    "endocrinology": 5,
+    "primary_care": 11,
+    "gyno": 2,
+    "orthepedic surgeon": 2,
+    "spinal": 5
+  },
+  "byType": {
+    "lab_single": 12,
+    "imaging_other": 3,
+    "lab_panel": 3,
+    "imaging_mri": 3,
+    "imaging_xray": 3,
+    "pathology": 1
+  }
+}

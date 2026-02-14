@@ -6,6 +6,9 @@ import type {
   ClinicalSnapshot,
   DocumentChunk,
   DocumentRecord,
+  DocumentType,
+  EventType,
+  ImportDeadLetterItem,
   ExtractedEntity,
   ExtractedField,
   ImportJob,
@@ -21,23 +24,50 @@ import { createTextChunks } from "@/lib/services/text-chunker";
 import { inferExtractionCandidates } from "@/lib/services/extraction-heuristics";
 import {
   getFirestorePersistenceStatus,
+  persistAuditLog,
   persistImportPayload,
+  persistShareLink,
   persistVerificationArtifacts
 } from "@/lib/repositories/firestore-persistence";
 
-interface RecordFilters {
+// Helper to map document types to event types
+function mapRecordTypeToEventType(docType: DocumentType): EventType {
+  if (docType.startsWith("lab_") || docType === "pathology" || docType === "genetic_test") {
+    return "lab_result";
+  }
+  if (docType.startsWith("imaging_")) {
+    return "imaging_result";
+  }
+  if (docType === "office_visit" || docType === "consult_note" || docType === "hospital_note") {
+    return "appointment";
+  }
+  if (docType === "procedure_note") {
+    return "procedure";
+  }
+  return "note";
+}
+
+export interface RecordFilters {
   query?: string;
   type?: string;
   specialty?: string;
+  status?: string;
   dateFrom?: string;
   dateTo?: string;
 }
 
-interface TimelineFilters {
+export interface TimelineFilters {
   from?: string;
   to?: string;
   condition?: string;
+  type?: string;
+  specialty?: string;
+  episodeId?: string;
+  verified?: boolean;
 }
+
+const IMPORT_MAX_ATTEMPTS = 3;
+const IMPORT_RETRY_BASE_DELAY_MS = 75;
 
 const documents: DocumentRecord[] = [
   {
@@ -49,7 +79,7 @@ const documents: DocumentRecord[] = [
     year: 2025,
     specialty: "primary_care",
     provider: "Dr Kennard",
-    type: "summary",
+    type: "after_visit_summary",
     eventDate: "2025-01-17T00:00:00.000Z",
     tags: ["primary_care", "thyroid", "2025"],
     verificationStatus: "verified",
@@ -68,7 +98,7 @@ const documents: DocumentRecord[] = [
     fileName: "MRI Angiogram Chest Sept 12 2025.pdf",
     year: 2025,
     specialty: "vascular",
-    type: "imaging",
+    type: "imaging_mri",
     eventDate: "2025-09-12T00:00:00.000Z",
     tags: ["vascular", "imaging", "2025"],
     verificationStatus: "pending",
@@ -84,7 +114,7 @@ const documents: DocumentRecord[] = [
     fileName: "MCAS Onocology Clinical Notes Nov 2025.pdf",
     year: 2025,
     specialty: "immunology_mcas",
-    type: "appointment_note",
+    type: "office_visit",
     eventDate: "2025-11-10T00:00:00.000Z",
     tags: ["mcas", "immunology_mcas", "2025"],
     verificationStatus: "pending",
@@ -100,7 +130,7 @@ const documents: DocumentRecord[] = [
     fileName: "MRI_BRAIN_WO_CONTRAST_Feb_10_2026.pdf",
     year: 2026,
     specialty: "neurology",
-    type: "imaging",
+    type: "imaging_mri",
     eventDate: "2026-02-10T00:00:00.000Z",
     tags: ["neurology", "imaging", "2026"],
     verificationStatus: "pending",
@@ -270,13 +300,16 @@ const shareLinks: ShareLink[] = [];
 const auditLogs: AuditLogEntry[] = [];
 
 function audit(action: AuditLogEntry["action"], actor: string, details: AuditLogEntry["details"]): void {
-  auditLogs.unshift({
+  const entry: AuditLogEntry = {
     id: createId("audit"),
     action,
     actor,
     timestamp: nowIso(),
     details
-  });
+  };
+
+  auditLogs.unshift(entry);
+  void persistAuditLog(entry);
 }
 
 export async function runImportJob(input: {
@@ -298,10 +331,13 @@ export async function runImportJob(input: {
       created: 0,
       duplicates: 0,
       rejected: input.rejected.length,
-      failed: 0
+      failed: 0,
+      retryAttempts: 0,
+      deadLettered: 0
     },
     items: [],
-    errors: []
+    errors: [],
+    deadLetters: []
   };
 
   for (const item of input.rejected) {
@@ -323,19 +359,72 @@ export async function runImportJob(input: {
   for (const item of input.accepted) {
     if (documentFingerprints.has(item.fingerprint)) {
       job.summary.duplicates += 1;
-      job.items.push({ path: item.record.sourcePath, status: "duplicate", documentId: item.record.id });
+      job.items.push({ path: item.record.sourcePath, status: "duplicate", documentId: item.record.id, attemptCount: 0 });
       continue;
     }
 
-    try {
-      const createdRecord = await indexDocument(item, job.id);
-      job.summary.created += 1;
-      job.items.push({ path: item.record.sourcePath, status: "imported", documentId: createdRecord.id });
-    } catch (error) {
-      const message = error instanceof Error ? error.message : "unknown_indexing_error";
+    let attempts = 0;
+    let lastError = "unknown_indexing_error";
+    let retryable = true;
+    let imported = false;
+
+    while (attempts < IMPORT_MAX_ATTEMPTS) {
+      attempts += 1;
+
+      try {
+        const createdRecord = await indexDocument(item, job.id);
+        imported = true;
+        job.summary.created += 1;
+        job.summary.retryAttempts += Math.max(0, attempts - 1);
+        job.items.push({
+          path: item.record.sourcePath,
+          status: "imported",
+          documentId: createdRecord.id,
+          attemptCount: attempts,
+          retryable: true,
+          lastAttemptAt: nowIso()
+        });
+        break;
+      } catch (error) {
+        lastError = error instanceof Error ? error.message : "unknown_indexing_error";
+        retryable = isRetryableImportError(lastError);
+
+        if (!retryable || attempts >= IMPORT_MAX_ATTEMPTS) {
+          break;
+        }
+
+        await sleepMs(calculateImportBackoffMs(attempts));
+      }
+    }
+
+    if (!imported) {
       job.summary.failed += 1;
-      job.errors.push(message);
-      job.items.push({ path: item.record.sourcePath, status: "failed", reason: message, documentId: item.record.id });
+      job.summary.retryAttempts += Math.max(0, attempts - 1);
+      job.summary.deadLettered += 1;
+      job.errors.push(lastError);
+
+      const deadLetter: ImportDeadLetterItem = {
+        path: item.record.sourcePath,
+        documentId: item.record.id,
+        fingerprint: item.fingerprint,
+        reason: "import_item_exhausted_retries",
+        retryable,
+        attemptCount: attempts,
+        lastError,
+        failedAt: nowIso()
+      };
+
+      job.deadLetters.push(deadLetter);
+      job.items.push({
+        path: item.record.sourcePath,
+        status: "failed",
+        reason: lastError,
+        documentId: item.record.id,
+        attemptCount: attempts,
+        retryable,
+        lastError,
+        lastAttemptAt: deadLetter.failedAt
+      });
     }
   }
 
@@ -376,6 +465,30 @@ export async function runImportJob(input: {
   }
 
   return job;
+}
+
+function isRetryableImportError(message: string): boolean {
+  const normalized = message.toLowerCase();
+  const nonRetryableMarkers = [
+    "file_not_found",
+    "enoent",
+    "invalid_path_structure",
+    "disallowed",
+    "permission denied",
+    "eacces"
+  ];
+
+  return !nonRetryableMarkers.some((marker) => normalized.includes(marker));
+}
+
+function calculateImportBackoffMs(attempt: number): number {
+  return IMPORT_RETRY_BASE_DELAY_MS * Math.pow(2, Math.max(0, attempt - 1));
+}
+
+async function sleepMs(ms: number): Promise<void> {
+  await new Promise((resolve) => {
+    setTimeout(resolve, ms);
+  });
 }
 
 async function indexDocument(item: NormalizedIngestedDocument, jobId: string): Promise<DocumentRecord> {
@@ -482,14 +595,7 @@ async function indexDocument(item: NormalizedIngestedDocument, jobId: string): P
     eventDate: indexedRecord.eventDate ?? indexedRecord.createdAt,
     title: indexedRecord.fileName,
     summary: indexedRecord.textPreview ?? `Imported ${indexedRecord.type.replace("_", " ")} record.`,
-    type:
-      indexedRecord.type === "lab"
-        ? "lab_result"
-        : indexedRecord.type === "imaging"
-          ? "imaging_result"
-          : indexedRecord.type === "appointment_note"
-            ? "appointment"
-            : "note",
+    type: mapRecordTypeToEventType(indexedRecord.type),
     specialty: indexedRecord.specialty,
     documentIds: [indexedRecord.id],
     conditions: indexedRecord.tags,
@@ -526,6 +632,9 @@ export function listRecords(filters: RecordFilters): DocumentRecord[] {
       if (filters.specialty && record.specialty !== filters.specialty) {
         return false;
       }
+      if (filters.status && record.verificationStatus !== filters.status) {
+        return false;
+      }
       if (filters.dateFrom && record.eventDate && record.eventDate < filters.dateFrom) {
         return false;
       }
@@ -560,6 +669,34 @@ export function listExtractedFieldsByDocumentId(documentId: string): ExtractedFi
 
 export function listExtractedEntitiesByDocumentId(documentId: string): ExtractedEntity[] {
   return extractedEntities.filter((entity) => entity.documentId === documentId);
+}
+
+export function approveField(fieldId: string, reviewer: string, note?: string): ExtractedField | null {
+  const field = extractedFields.find((item) => item.id === fieldId && item.verificationStatus === "pending");
+  if (!field) {
+    return null;
+  }
+
+  field.verificationStatus = "verified";
+  field.reviewedAt = nowIso();
+  field.reviewerNote = note;
+
+  audit("verification_approved", reviewer, { fieldId, documentId: field.documentId, type: "field" });
+  return field;
+}
+
+export function rejectField(fieldId: string, reviewer: string, note?: string): ExtractedField | null {
+  const field = extractedFields.find((item) => item.id === fieldId && item.verificationStatus === "pending");
+  if (!field) {
+    return null;
+  }
+
+  field.verificationStatus = "rejected";
+  field.reviewedAt = nowIso();
+  field.reviewerNote = note;
+
+  audit("verification_rejected", reviewer, { fieldId, documentId: field.documentId, type: "field" });
+  return field;
 }
 
 export function listVerificationTasks(): VerificationTask[] {
@@ -670,6 +807,18 @@ export function listTimeline(filters: TimelineFilters): { events: ClinicalEvent[
       if (filters.condition && !event.conditions.includes(filters.condition.toLowerCase())) {
         return false;
       }
+      if (filters.type && event.type !== filters.type) {
+        return false;
+      }
+      if (filters.specialty && event.specialty !== filters.specialty) {
+        return false;
+      }
+      if (filters.episodeId && event.episodeId !== filters.episodeId) {
+        return false;
+      }
+      if (filters.verified !== undefined && event.verified !== filters.verified) {
+        return false;
+      }
       return true;
     })
     .sort((a, b) => b.eventDate.localeCompare(a.eventDate));
@@ -762,6 +911,7 @@ export function createShareLink(input: {
   };
 
   shareLinks.unshift(link);
+  void persistShareLink(link);
   audit("share_link_created", input.actor, {
     shareLinkId: link.id,
     expiresAt: link.expiresAt

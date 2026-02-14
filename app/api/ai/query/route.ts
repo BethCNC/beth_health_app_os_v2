@@ -10,7 +10,7 @@ export async function POST(request: Request): Promise<NextResponse> {
     return NextResponse.json({ error: "Invalid payload", details: parsed.error.flatten() }, { status: 400 });
   }
 
-  const answer = answerEvidenceOnlyQuestion({
+  const answer = await answerEvidenceOnlyQuestion({
     question: parsed.data.question,
     actor: parsed.data.actor
   });

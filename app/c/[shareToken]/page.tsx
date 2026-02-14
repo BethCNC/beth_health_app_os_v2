@@ -1,12 +1,12 @@
 import { Card } from "@/components/ui/Card";
-import { accessShareLink, getClinicalSnapshot, listRecords, listTimeline } from "@/lib/repositories/store";
+import { accessShareLink, getClinicalSnapshot, listRecords, listTimeline } from "@/lib/repositories/runtime";
 
 interface ClinicianPageProps {
   params: { shareToken: string };
   searchParams: { password?: string };
 }
 
-export default function ClinicianSharedPage({ params, searchParams }: ClinicianPageProps): React.JSX.Element {
+export default async function ClinicianSharedPage({ params, searchParams }: ClinicianPageProps): Promise<React.JSX.Element> {
   const password = searchParams.password;
   if (!password) {
     return (
@@ -19,7 +19,7 @@ export default function ClinicianSharedPage({ params, searchParams }: ClinicianP
     );
   }
 
-  const access = accessShareLink(params.shareToken, password, "provider");
+  const access = await accessShareLink(params.shareToken, password, "provider");
   if (!access.ok) {
     return (
       <div className="mx-auto max-w-4xl px-4 py-10">
@@ -28,9 +28,9 @@ export default function ClinicianSharedPage({ params, searchParams }: ClinicianP
     );
   }
 
-  const snapshot = getClinicalSnapshot();
-  const timeline = listTimeline({ from: "2025-01-01T00:00:00.000Z" }).events.slice(0, 8);
-  const documents = listRecords({}).slice(0, 12);
+  const snapshot = await getClinicalSnapshot();
+  const timeline = (await listTimeline({ from: "2025-01-01T00:00:00.000Z" })).events.slice(0, 8);
+  const documents = (await listRecords({})).slice(0, 12);
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-8">

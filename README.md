@@ -28,6 +28,7 @@ Phase 02 pipeline now performs:
 - heuristic entity/field extraction
 - verification task creation
 - import job tracking
+- inline retries with dead-letter capture for failed items
 
 ## Setup
 1. Install dependencies: `npm install`
@@ -51,6 +52,12 @@ Import and verification artifacts can be persisted to Firestore when both are pr
 Check runtime status from:
 - Settings page (`Data store status`)
 - `GET /api/firebase/status`
+
+When Firestore persistence is enabled, read paths auto-switch to Firestore-backed queries and fall back to in-memory on read failures.
+
+## Tests
+- Run test suite: `npm run test`
+- Watch mode: `npm run test:watch`
 
 ## Backfill Example (2025 + 2026)
 ```bash

@@ -69,20 +69,54 @@ export function normalizeSpecialty(specialtyRaw: string): string {
 export function classifyDocumentType(fileName: string): DocumentType {
   const lower = fileName.toLowerCase();
 
-  if (/(lab|test details|result trends|cbc|panel|antibod|tsh|t4|metabolic|biopsy)/.test(lower)) {
-    return "lab";
+  // Labs - check for panel vs single
+  if (/(comprehensive.*panel|metabolic.*panel|cbc|lipid.*panel|panel)/.test(lower)) {
+    return "lab_panel";
   }
-  if (/(mri|ct|xray|xr\s|angiogram|emg|contrast|radiology|imaging)/.test(lower)) {
-    return "imaging";
+  if (/(lab|test details|result trends|antibod|tsh|t4)/.test(lower)) {
+    return "lab_single";
   }
-  if (/(appt|appointment|visit|consult|clinical notes|follow-up|follow up|cardiologist)/.test(lower)) {
-    return "appointment_note";
+  if (/biopsy|pathology|cytology|histology/.test(lower)) {
+    return "pathology";
+  }
+  if (/genetic|genomic|dna/.test(lower)) {
+    return "genetic_test";
+  }
+  // Imaging - specific types
+  if (/mri|magnetic resonance/.test(lower)) {
+    return "imaging_mri";
+  }
+  if (/\bct\b|cat scan|computed tomography/.test(lower)) {
+    return "imaging_ct";
+  }
+  if (/xray|x-ray|radiograph/.test(lower)) {
+    return "imaging_xray";
+  }
+  if (/ultrasound|sonogram/.test(lower)) {
+    return "imaging_ultrasound";
+  }
+  if (/(angiogram|emg|contrast|radiology|imaging|echocardiogram|echo)/.test(lower)) {
+    return "imaging_other";
+  }
+  // Clinical notes
+  if (/(consult|consultation)/.test(lower)) {
+    return "consult_note";
+  }
+  if (/(colonoscopy|endoscopy|procedure|injection)/.test(lower)) {
+    return "procedure_note";
+  }
+  if (/(after.?visit.?summary|avs)/.test(lower)) {
+    return "after_visit_summary";
+  }
+  if (/(appt|appointment|visit|clinical notes|follow-up|follow up|cardiologist|office)/.test(lower)) {
+    return "office_visit";
+  }
+  // Communications
+  if (/referral/.test(lower)) {
+    return "referral";
   }
   if (/letter/.test(lower)) {
-    return "letter";
-  }
-  if (/(summary|after_visit_summary)/.test(lower)) {
-    return "summary";
+    return "provider_letter";
   }
 
   return "unknown";

@@ -1,9 +1,9 @@
 import { NextResponse } from "next/server";
 import { createShareLinkSchema } from "@/lib/types/api";
-import { createShareLink, listShareLinks } from "@/lib/repositories/store";
+import { createShareLink, listShareLinks } from "@/lib/repositories/runtime";
 
 export async function GET(): Promise<NextResponse> {
-  const links = listShareLinks().map((link) => ({
+  const links = (await listShareLinks()).map((link) => ({
     id: link.id,
     token: link.token,
     expiresAt: link.expiresAt,

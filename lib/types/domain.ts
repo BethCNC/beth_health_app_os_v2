@@ -1,12 +1,41 @@
 export type VerificationStatus = "pending" | "verified" | "rejected";
 
 export type DocumentType =
-  | "lab"
-  | "imaging"
-  | "appointment_note"
-  | "letter"
-  | "summary"
-  | "unknown";
+  // Test Results
+  | "lab_panel"           // Blood work, metabolic panels, CBC, etc.
+  | "lab_single"          // Single lab test result
+  | "lab"                 // Legacy: generic lab (pre-classification)
+  | "pathology"           // Biopsy results, tissue analysis
+  | "genetic_test"        // Genetic/genomic testing results
+  // Imaging
+  | "imaging_mri"         // MRI scans
+  | "imaging_ct"          // CT scans
+  | "imaging_xray"        // X-rays
+  | "imaging_ultrasound"  // Ultrasound
+  | "imaging_other"       // Other imaging (angiogram, EMG, etc.)
+  | "imaging"             // Legacy: generic imaging (pre-classification)
+  // Clinical Notes
+  | "office_visit"        // Regular appointment/follow-up notes
+  | "consult_note"        // Specialist consultation
+  | "consult"             // Legacy: generic consult
+  | "procedure_note"      // Procedure documentation (colonoscopy, etc.)
+  | "procedure"           // Legacy: generic procedure
+  | "hospital_note"       // Inpatient/ER notes
+  | "after_visit_summary" // Patient-facing visit summary
+  | "appointment_note"    // Legacy: generic appointment note
+  | "summary"             // Legacy: generic summary
+  // Communications
+  | "referral"            // Referral to another provider
+  | "provider_letter"     // Letter between providers
+  | "patient_letter"      // Letter to patient
+  | "letter"              // Legacy: generic letter
+  | "prior_auth"          // Insurance/prior authorization
+  // Medications
+  | "prescription"        // Prescription/medication order
+  | "medication_list"     // Current medications list
+  // Unknown
+  | "unknown"
+  | "other";              // Legacy: other
 
 export type EventType =
   | "lab_result"
@@ -24,6 +53,7 @@ export interface DocumentRecord {
   year: number;
   specialty: string;
   provider?: string;
+  facility?: string;
   type: DocumentType;
   eventDate?: string;
   tags: string[];
@@ -32,12 +62,22 @@ export interface DocumentRecord {
   parseError?: string;
   pageCount?: number;
   textPreview?: string;
+  fullText?: string; // Complete word-for-word document content
   ingestionJobId?: string;
   fileSizeBytes?: number;
   modifiedTime?: string;
   indexedAt?: string;
   createdAt: string;
   updatedAt: string;
+}
+
+// Full content storage for documents too large for inline storage
+export interface DocumentFullText {
+  id: string;
+  documentId: string;
+  fullText: string;
+  pageCount: number;
+  extractedAt: string;
 }
 
 export interface DocumentChunk {
@@ -197,6 +237,10 @@ export interface ImportJobItem {
   status: ImportItemStatus;
   reason?: string;
   documentId?: string;
+  attemptCount?: number;
+  retryable?: boolean;
+  lastError?: string;
+  lastAttemptAt?: string;
 }
 
 export interface ImportJobSummary {
@@ -206,6 +250,19 @@ export interface ImportJobSummary {
   duplicates: number;
   rejected: number;
   failed: number;
+  retryAttempts: number;
+  deadLettered: number;
+}
+
+export interface ImportDeadLetterItem {
+  path: string;
+  documentId: string;
+  fingerprint: string;
+  reason: string;
+  retryable: boolean;
+  attemptCount: number;
+  lastError: string;
+  failedAt: string;
 }
 
 export interface ImportJob {
@@ -219,4 +276,5 @@ export interface ImportJob {
   summary: ImportJobSummary;
   items: ImportJobItem[];
   errors: string[];
+  deadLetters: ImportDeadLetterItem[];
 }

@@ -26,6 +26,7 @@ Do not duplicate: Firestore entity definitions (see DATA_MODEL.md).
 
 ## Verify local env
 - `node scripts/check-firebase-env.mjs`
+- Confirms Firebase web keys plus `firebase-admin` package presence.
 
 ## Enable server-side Firestore persistence
 Add one of these in `.env.local`:
@@ -49,3 +50,7 @@ When configured and `firebase-admin` is installed, import and verification artif
 
 ## Recommended next step
 - Install `firebase-admin` and switch read paths from in-memory to Firestore query-backed repositories.
+
+## Runtime behavior
+- When admin runtime is enabled, read paths auto-switch to Firestore-backed repositories.
+- If Firestore reads fail unexpectedly, runtime falls back to in-memory reads for continuity.

@@ -1,9 +1,10 @@
 import { AppShell } from "@/components/layout/AppShell";
 import { Card } from "@/components/ui/Card";
-import { listTimeline } from "@/lib/repositories/store";
+import { listTimeline } from "@/lib/repositories/runtime";
 
-export default function AppointmentsPage(): React.JSX.Element {
-  const events = listTimeline({ from: "2025-01-01T00:00:00.000Z" }).events.filter((event) => event.type === "appointment");
+export default async function AppointmentsPage(): Promise<React.JSX.Element> {
+  const timeline = await listTimeline({ from: "2025-01-01T00:00:00.000Z" });
+  const events = timeline.events.filter((event) => event.type === "appointment");
 
   return (
     <AppShell

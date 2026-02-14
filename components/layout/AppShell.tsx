@@ -12,22 +12,14 @@ interface NavItem {
 }
 
 const PRIMARY_NAV: NavItem[] = [
-  { href: "/dashboard", label: "Dashboard", key: "dashboard" },
+  { href: "/snapshot", label: "Snapshot", key: "snapshot" },
+  { href: "/timeline", label: "Timeline", key: "timeline" },
   { href: "/conditions", label: "Conditions", key: "conditions" },
   { href: "/specialists", label: "Specialists", key: "specialists" },
-  { href: "/symptoms", label: "Symptoms", key: "symptoms" },
   { href: "/labs", label: "Labs", key: "labs" },
-  { href: "/imaging", label: "Imaging & Scans", key: "imaging" },
-  { href: "/assistant", label: "AI Assistant", key: "assistant" }
-];
-
-const SECONDARY_NAV: NavItem[] = [
-  { href: "/records", label: "Records", key: "records" },
-  { href: "/timeline", label: "Timeline", key: "timeline" },
-  { href: "/verification", label: "Verification", key: "verification" },
-  { href: "/share", label: "Share", key: "share" },
-  { href: "/appointments", label: "Appointments", key: "appointments" },
-  { href: "/settings", label: "Settings", key: "settings" }
+  { href: "/imaging", label: "Imaging", key: "imaging" },
+  { href: "/records", label: "All Records", key: "records" },
+  { href: "/verification", label: "Verification", key: "verification" }
 ];
 
 function NavIcon({ name }: { name: string }): React.JSX.Element {
@@ -83,6 +75,60 @@ function NavIcon({ name }: { name: string }): React.JSX.Element {
           <path d="M5 18h6" stroke="currentColor" strokeLinecap="round" />
         </svg>
       );
+    case "snapshot":
+      return (
+        <svg viewBox="0 0 24 24" fill="none" className={common}>
+          <rect x="4" y="3" width="16" height="18" rx="2" stroke="currentColor" />
+          <path d="M8 7h8M8 11h8M8 15h4" stroke="currentColor" strokeLinecap="round" />
+        </svg>
+      );
+    case "timeline":
+      return (
+        <svg viewBox="0 0 24 24" fill="none" className={common}>
+          <path d="M12 4v16" stroke="currentColor" strokeLinecap="round" />
+          <circle cx="12" cy="7" r="2" stroke="currentColor" />
+          <circle cx="12" cy="12" r="2" stroke="currentColor" />
+          <circle cx="12" cy="17" r="2" stroke="currentColor" />
+          <path d="M14 7h4M14 12h6M14 17h3" stroke="currentColor" strokeLinecap="round" />
+        </svg>
+      );
+    case "records":
+      return (
+        <svg viewBox="0 0 24 24" fill="none" className={common}>
+          <path d="M4 4h16v16H4z" stroke="currentColor" />
+          <path d="M4 9h16M9 4v16" stroke="currentColor" />
+        </svg>
+      );
+    case "verification":
+      return (
+        <svg viewBox="0 0 24 24" fill="none" className={common}>
+          <circle cx="12" cy="12" r="9" stroke="currentColor" />
+          <path d="m8 12 2.5 3L16 9" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+      );
+    case "share":
+      return (
+        <svg viewBox="0 0 24 24" fill="none" className={common}>
+          <circle cx="6" cy="12" r="3" stroke="currentColor" />
+          <circle cx="18" cy="6" r="3" stroke="currentColor" />
+          <circle cx="18" cy="18" r="3" stroke="currentColor" />
+          <path d="M9 10.5 15 7.5M9 13.5l6 3" stroke="currentColor" />
+        </svg>
+      );
+    case "appointments":
+      return (
+        <svg viewBox="0 0 24 24" fill="none" className={common}>
+          <rect x="3" y="5" width="18" height="16" rx="2" stroke="currentColor" />
+          <path d="M7 3v4M17 3v4M3 10h18" stroke="currentColor" strokeLinecap="round" />
+        </svg>
+      );
+    case "settings":
+      return (
+        <svg viewBox="0 0 24 24" fill="none" className={common}>
+          <circle cx="12" cy="12" r="3" stroke="currentColor" />
+          <path d="M12 2v2m0 16v2M4.93 4.93l1.41 1.41m11.32 11.32 1.41 1.41M2 12h2m16 0h2M4.93 19.07l1.41-1.41m11.32-11.32 1.41-1.41" stroke="currentColor" strokeLinecap="round" />
+        </svg>
+      );
     default:
       return (
         <svg viewBox="0 0 24 24" fill="none" className={common}>
@@ -134,15 +180,9 @@ export function AppShell({
           <p className="hidden text-xs uppercase tracking-[0.24em] text-[#64748B] xl:block">Beth Health OS v2</p>
         </header>
 
-        <aside className="border-r border-[#0A2340] bg-[#041D3D] p-4">
-          <nav aria-label="Primary" className="space-y-1">
+        <aside className="border-r border-[#0A2340] bg-[#041D3D] p-4 overflow-y-auto">
+          <nav aria-label="Main navigation" className="space-y-1">
             {PRIMARY_NAV.map((item) => (
-              <SideLink key={item.href} item={item} active={pathname === item.href} />
-            ))}
-          </nav>
-          <div className="my-4 border-t border-[#335073]" />
-          <nav aria-label="Secondary" className="space-y-1">
-            {SECONDARY_NAV.map((item) => (
               <SideLink key={item.href} item={item} active={pathname === item.href || pathname.startsWith(`${item.href}/`)} />
             ))}
           </nav>
