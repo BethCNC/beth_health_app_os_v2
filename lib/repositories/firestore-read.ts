@@ -375,6 +375,18 @@ export async function listTimelineFromFirestore(
       if (filters.condition && !event.conditions.includes(filters.condition.toLowerCase())) {
         return false;
       }
+      if (filters.type && event.type !== filters.type) {
+        return false;
+      }
+      if (filters.specialty && event.specialty !== filters.specialty) {
+        return false;
+      }
+      if (filters.episodeId && event.episodeId !== filters.episodeId) {
+        return false;
+      }
+      if (filters.verified !== undefined && event.verified !== filters.verified) {
+        return false;
+      }
       return true;
     })
     .sort((a, b) => b.eventDate.localeCompare(a.eventDate));

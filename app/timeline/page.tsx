@@ -64,6 +64,84 @@ function SeverityBadge({ severity }: { severity: ClinicalEpisode["severity"] }):
   );
 }
 
+interface MonthWindow {
+  key: string;
+  label: string;
+  from: string;
+  to: string;
+}
+
+function toMonthWindow(key: string): MonthWindow {
+  const [yearString, monthString] = key.split("-");
+  const year = Number(yearString);
+  const month = Number(monthString);
+  const monthEndDay = new Date(Date.UTC(year, month, 0)).getUTCDate();
+  const label = new Date(Date.UTC(year, month - 1, 1)).toLocaleDateString("en-US", {
+    month: "short",
+    year: "numeric",
+    timeZone: "UTC"
+  });
+
+  return {
+    key,
+    label,
+    from: `${key}-01`,
+    to: `${key}-${String(monthEndDay).padStart(2, "0")}`
+  };
+}
+
+function buildTimelineHref(
+  current: Record<string, string | undefined>,
+  patch: Record<string, string | undefined>
+): string {
+  const merged = { ...current, ...patch };
+  const params = new URLSearchParams();
+
+  for (const [key, value] of Object.entries(merged)) {
+    if (value) {
+      params.set(key, value);
+    }
+  }
+
+  const query = params.toString();
+  return query.length > 0 ? `/timeline?${query}` : "/timeline";
+}
+
+function buildRecordsSyncHref(
+  current: Record<string, string | undefined>,
+  range?: { from?: string; to?: string }
+): string {
+  const params = new URLSearchParams();
+  if (range?.from) {
+    params.set("dateFrom", range.from);
+  }
+  if (range?.to) {
+    params.set("dateTo", range.to);
+  }
+  if (current.specialty) {
+    params.set("specialty", current.specialty);
+  }
+  if (current.condition) {
+    params.set("query", current.condition);
+  }
+  return params.toString().length > 0 ? `/records?${params.toString()}` : "/records";
+}
+
+function intensityClass(value: number, max: number, palette: [string, string, string]): string {
+  if (value <= 0 || max <= 0) {
+    return "bg-[#F8FAFC] text-[#64748B]";
+  }
+
+  const ratio = value / max;
+  if (ratio > 0.72) {
+    return `${palette[2]} text-white`;
+  }
+  if (ratio > 0.4) {
+    return `${palette[1]} text-[#1E293B]`;
+  }
+  return `${palette[0]} text-[#1E293B]`;
+}
+
 export default async function TimelinePage({ searchParams }: PageProps): Promise<React.JSX.Element> {
   const params = await searchParams;
 
@@ -107,6 +185,76 @@ export default async function TimelinePage({ searchParams }: PageProps): Promise
     findings: timelineEntities.filter(e => e.type === "finding").length
   };
 
+  const currentParams: Record<string, string | undefined> = {
+    from: params.from,
+    to: params.to,
+    condition: params.condition,
+    type: params.type,
+    specialty: params.specialty,
+    episodeId: params.episodeId,
+    verified: params.verified
+  };
+
+  const monthWindows = [...new Set(data.events.map((event) => event.eventDate.slice(0, 7)))]
+    .sort((a, b) => b.localeCompare(a))
+    .map((key) => toMonthWindow(key));
+  const displayedMonths = monthWindows.slice(0, 12).reverse();
+
+  const monthStats = new Map<string, { flare: number; meds: number; interventions: number; vitals: number }>();
+  for (const month of displayedMonths) {
+    monthStats.set(month.key, { flare: 0, meds: 0, interventions: 0, vitals: 0 });
+  }
+
+  for (const event of data.events) {
+    const monthKey = event.eventDate.slice(0, 7);
+    const stats = monthStats.get(monthKey);
+    if (!stats) {
+      continue;
+    }
+
+    if (event.type === "flare") {
+      stats.flare += 1;
+    }
+    if (event.type === "procedure" || event.type === "imaging_result") {
+      stats.interventions += 1;
+    }
+
+    const medCount = event.documentIds.reduce((count, docId) => {
+      const entities = entitiesByDocId.get(docId) ?? [];
+      return count + entities.filter((entity) => entity.type === "medication").length;
+    }, 0);
+    stats.meds += medCount;
+
+    const hasVitalsSignal = event.documentIds.some((docId) => {
+      const doc = docMap.get(docId);
+      if (!doc) {
+        return false;
+      }
+      const tagText = doc.tags.join(" ").toLowerCase();
+      return ["hr", "bp", "heart rate", "tachy", "hypotension", "vitals", "pulse"].some((keyword) =>
+        tagText.includes(keyword)
+      );
+    });
+    if (hasVitalsSignal) {
+      stats.vitals += 1;
+    }
+  }
+
+  const trackMax = {
+    flare: Math.max(1, ...[...monthStats.values()].map((value) => value.flare)),
+    meds: Math.max(1, ...[...monthStats.values()].map((value) => value.meds)),
+    interventions: Math.max(1, ...[...monthStats.values()].map((value) => value.interventions)),
+    vitals: Math.max(1, ...[...monthStats.values()].map((value) => value.vitals))
+  };
+
+  const activeWindow =
+    params.from && params.to
+      ? { from: params.from, to: params.to, label: `${params.from} to ${params.to}` }
+      : null;
+  const fallbackWindow = monthWindows[0] ? { from: monthWindows[0].from, to: monthWindows[0].to, label: monthWindows[0].label } : null;
+  const syncWindow = activeWindow ?? fallbackWindow;
+  const syncArchiveHref = buildRecordsSyncHref(currentParams, syncWindow ?? undefined);
+
   return (
     <AppShell
       title="Clinical Timeline"
@@ -148,6 +296,161 @@ export default async function TimelinePage({ searchParams }: PageProps): Promise
           </div>
         )}
       </div>
+
+      <Card
+        className="mt-4"
+        title="Visual Timeline (Event Correlation)"
+        detail="Zoom by month and sync the same window to the master archive."
+      >
+        <div className="mb-3 flex flex-wrap items-center justify-between gap-2">
+          <p className="text-xs text-[#64748B]">
+            Active window: {syncWindow ? syncWindow.label : "No date window selected"}
+          </p>
+          <Link
+            href={syncArchiveHref}
+            className="rounded-md border border-[#1D4ED8] bg-[#EEF2FF] px-3 py-1 text-xs font-semibold text-[#1D4ED8] hover:bg-[#E0E7FF]"
+          >
+            Sync Master Archive
+          </Link>
+        </div>
+
+        {displayedMonths.length === 0 ? (
+          <p className="text-sm text-muted">No timeline data available for month-level correlation yet.</p>
+        ) : (
+          <div className="space-y-3">
+            <div className="flex flex-wrap gap-2">
+              {monthWindows.slice(0, 12).map((month) => {
+                const selected = params.from === month.from && params.to === month.to;
+                return (
+                  <Link
+                    key={month.key}
+                    href={buildTimelineHref(currentParams, { from: month.from, to: month.to })}
+                    className={`rounded-md border px-2 py-1 text-xs font-semibold ${
+                      selected
+                        ? "border-[#1D4ED8] bg-[#DBEAFE] text-[#1D4ED8]"
+                        : "border-[#CBD5E1] bg-white text-[#334155] hover:bg-[#F8FAFC]"
+                    }`}
+                  >
+                    {month.label}
+                  </Link>
+                );
+              })}
+              {(params.from || params.to) && (
+                <Link
+                  href={buildTimelineHref(currentParams, { from: undefined, to: undefined })}
+                  className="rounded-md border border-[#CBD5E1] bg-white px-2 py-1 text-xs font-semibold text-[#334155] hover:bg-[#F8FAFC]"
+                >
+                  Clear Zoom
+                </Link>
+              )}
+            </div>
+
+            <div className="overflow-x-auto">
+              <table className="min-w-[760px] border-collapse text-sm">
+                <thead>
+                  <tr className="border-b border-[#CBD5E1] text-left text-xs uppercase tracking-[0.08em] text-[#64748B]">
+                    <th className="px-2 py-2">Track</th>
+                    {displayedMonths.map((month) => (
+                      <th key={month.key} className="px-2 py-2 text-center">
+                        {month.label}
+                      </th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr className="border-b border-[#E2E8F0]">
+                    <td className="px-2 py-2 font-medium text-[#334155]">Flare Intensity</td>
+                    {displayedMonths.map((month) => {
+                      const value = monthStats.get(month.key)?.flare ?? 0;
+                      return (
+                        <td key={month.key} className="px-1 py-1 text-center">
+                          <Link
+                            href={buildTimelineHref(currentParams, { from: month.from, to: month.to })}
+                            className={`block rounded px-2 py-2 text-xs font-semibold ${intensityClass(value, trackMax.flare, [
+                              "bg-[#DCFCE7]",
+                              "bg-[#FDE68A]",
+                              "bg-[#F97316]"
+                            ])}`}
+                            title={`${value} flare event(s)`}
+                          >
+                            {value || "0"}
+                          </Link>
+                        </td>
+                      );
+                    })}
+                  </tr>
+
+                  <tr className="border-b border-[#E2E8F0]">
+                    <td className="px-2 py-2 font-medium text-[#334155]">Medication Log</td>
+                    {displayedMonths.map((month) => {
+                      const value = monthStats.get(month.key)?.meds ?? 0;
+                      return (
+                        <td key={month.key} className="px-1 py-1 text-center">
+                          <Link
+                            href={buildTimelineHref(currentParams, { from: month.from, to: month.to })}
+                            className={`block rounded px-2 py-2 text-xs font-semibold ${intensityClass(value, trackMax.meds, [
+                              "bg-[#DBEAFE]",
+                              "bg-[#93C5FD]",
+                              "bg-[#2563EB]"
+                            ])}`}
+                            title={`${value} medication entity signal(s)`}
+                          >
+                            {value || "0"}
+                          </Link>
+                        </td>
+                      );
+                    })}
+                  </tr>
+
+                  <tr className="border-b border-[#E2E8F0]">
+                    <td className="px-2 py-2 font-medium text-[#334155]">Interventions</td>
+                    {displayedMonths.map((month) => {
+                      const value = monthStats.get(month.key)?.interventions ?? 0;
+                      return (
+                        <td key={month.key} className="px-1 py-1 text-center">
+                          <Link
+                            href={buildTimelineHref(currentParams, { from: month.from, to: month.to })}
+                            className={`block rounded px-2 py-2 text-xs font-semibold ${intensityClass(
+                              value,
+                              trackMax.interventions,
+                              ["bg-[#EDE9FE]", "bg-[#C4B5FD]", "bg-[#7C3AED]"]
+                            )}`}
+                            title={`${value} interventions`}
+                          >
+                            {value || "0"}
+                          </Link>
+                        </td>
+                      );
+                    })}
+                  </tr>
+
+                  <tr>
+                    <td className="px-2 py-2 font-medium text-[#334155]">Vitals Signal</td>
+                    {displayedMonths.map((month) => {
+                      const value = monthStats.get(month.key)?.vitals ?? 0;
+                      return (
+                        <td key={month.key} className="px-1 py-1 text-center">
+                          <Link
+                            href={buildTimelineHref(currentParams, { from: month.from, to: month.to })}
+                            className={`block rounded px-2 py-2 text-xs font-semibold ${intensityClass(value, trackMax.vitals, [
+                              "bg-[#F1F5F9]",
+                              "bg-[#CBD5E1]",
+                              "bg-[#475569]"
+                            ])}`}
+                            title={`${value} vitals-related signals`}
+                          >
+                            {value || "0"}
+                          </Link>
+                        </td>
+                      );
+                    })}
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        )}
+      </Card>
 
       <section className="mt-4 grid gap-4 lg:grid-cols-[2fr_1fr]">
         {/* Events column */}

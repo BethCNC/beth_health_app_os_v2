@@ -12,13 +12,13 @@ interface NavItem {
 }
 
 const PRIMARY_NAV: NavItem[] = [
+  { href: "/records", label: "Clinical Console", key: "records" },
   { href: "/snapshot", label: "Snapshot", key: "snapshot" },
   { href: "/timeline", label: "Timeline", key: "timeline" },
   { href: "/conditions", label: "Conditions", key: "conditions" },
   { href: "/specialists", label: "Specialists", key: "specialists" },
   { href: "/labs", label: "Labs", key: "labs" },
   { href: "/imaging", label: "Imaging", key: "imaging" },
-  { href: "/records", label: "All Records", key: "records" },
   { href: "/verification", label: "Verification", key: "verification" }
 ];
 
@@ -173,7 +173,7 @@ export function AppShell({
               ❤️
             </span>
             <div>
-              <p className="text-[13px] text-[#4D5B6A]">Medical Records</p>
+              <p className="text-[13px] text-[#4D5B6A]">Clinical Console</p>
               <p className="text-[32px] font-semibold tracking-tight text-[#111827]">Jennifer Beth Cartrette</p>
             </div>
           </div>

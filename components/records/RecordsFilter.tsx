@@ -1,29 +1,40 @@
 "use client";
 
-import { useRouter, useSearchParams } from "next/navigation";
+import { useRouter } from "next/navigation";
 import { useState, useTransition } from "react";
 
 interface RecordsFilterProps {
   specialties: string[];
   types: string[];
+  systems: string[];
+  years: number[];
   initialFilters: {
     query?: string;
     specialty?: string;
     type?: string;
+    system?: string;
+    year?: string;
     status?: string;
     dateFrom?: string;
     dateTo?: string;
   };
 }
 
-export function RecordsFilter({ specialties, types, initialFilters }: RecordsFilterProps): React.JSX.Element {
+export function RecordsFilter({
+  specialties,
+  types,
+  systems,
+  years,
+  initialFilters
+}: RecordsFilterProps): React.JSX.Element {
   const router = useRouter();
-  const searchParams = useSearchParams();
   const [isPending, startTransition] = useTransition();
 
   const [query, setQuery] = useState(initialFilters.query ?? "");
   const [specialty, setSpecialty] = useState(initialFilters.specialty ?? "");
   const [type, setType] = useState(initialFilters.type ?? "");
+  const [system, setSystem] = useState(initialFilters.system ?? "");
+  const [year, setYear] = useState(initialFilters.year ?? "");
   const [status, setStatus] = useState(initialFilters.status ?? "");
   const [dateFrom, setDateFrom] = useState(initialFilters.dateFrom ?? "");
   const [dateTo, setDateTo] = useState(initialFilters.dateTo ?? "");
@@ -33,6 +44,8 @@ export function RecordsFilter({ specialties, types, initialFilters }: RecordsFil
     if (query) params.set("query", query);
     if (specialty) params.set("specialty", specialty);
     if (type) params.set("type", type);
+    if (system) params.set("system", system);
+    if (year) params.set("year", year);
     if (status) params.set("status", status);
     if (dateFrom) params.set("dateFrom", dateFrom);
     if (dateTo) params.set("dateTo", dateTo);
@@ -46,6 +59,8 @@ export function RecordsFilter({ specialties, types, initialFilters }: RecordsFil
     setQuery("");
     setSpecialty("");
     setType("");
+    setSystem("");
+    setYear("");
     setStatus("");
     setDateFrom("");
     setDateTo("");
@@ -54,15 +69,16 @@ export function RecordsFilter({ specialties, types, initialFilters }: RecordsFil
     });
   }
 
-  const hasActiveFilters = query || specialty || type || status || dateFrom || dateTo;
+  const hasActiveFilters = query || specialty || type || system || year || status || dateFrom || dateTo;
 
   return (
     <div className="rounded-lg border border-[#D1D7E0] bg-[#F8FAFC] p-4">
+      <p className="mb-2 text-xs font-semibold uppercase tracking-[0.14em] text-[#475569]">Master Archive Filters</p>
       <div className="flex flex-wrap items-end gap-3">
         {/* Search query */}
         <div className="flex-1 min-w-[200px]">
           <label className="block text-xs font-semibold text-[#4B5563] mb-1" htmlFor="filter-query">
-            Search
+            Search (title, finding, provider)
           </label>
           <input
             id="filter-query"
@@ -70,7 +86,7 @@ export function RecordsFilter({ specialties, types, initialFilters }: RecordsFil
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             onKeyDown={(e) => e.key === "Enter" && applyFilters()}
-            placeholder="Search records..."
+            placeholder="e.g. stenosis, MRI, Dr Smith"
             className="w-full rounded-lg border border-[#CCD3DD] bg-white px-3 py-2 text-sm focus:border-[#3B82F6] focus:outline-none focus:ring-1 focus:ring-[#3B82F6]"
           />
         </div>
@@ -90,6 +106,44 @@ export function RecordsFilter({ specialties, types, initialFilters }: RecordsFil
             {types.map((t) => (
               <option key={t} value={t}>
                 {t.replace(/_/g, " ")}
+              </option>
+            ))}
+          </select>
+        </div>
+
+        <div className="w-[140px]">
+          <label className="block text-xs font-semibold text-[#4B5563] mb-1" htmlFor="filter-system">
+            System
+          </label>
+          <select
+            id="filter-system"
+            value={system}
+            onChange={(e) => setSystem(e.target.value)}
+            className="w-full rounded-lg border border-[#CCD3DD] bg-white px-3 py-2 text-sm focus:border-[#3B82F6] focus:outline-none focus:ring-1 focus:ring-[#3B82F6]"
+          >
+            <option value="">All systems</option>
+            {systems.map((s) => (
+              <option key={s} value={s}>
+                {s}
+              </option>
+            ))}
+          </select>
+        </div>
+
+        <div className="w-[120px]">
+          <label className="block text-xs font-semibold text-[#4B5563] mb-1" htmlFor="filter-year">
+            Year
+          </label>
+          <select
+            id="filter-year"
+            value={year}
+            onChange={(e) => setYear(e.target.value)}
+            className="w-full rounded-lg border border-[#CCD3DD] bg-white px-3 py-2 text-sm focus:border-[#3B82F6] focus:outline-none focus:ring-1 focus:ring-[#3B82F6]"
+          >
+            <option value="">All years</option>
+            {years.map((y) => (
+              <option key={y} value={String(y)}>
+                {y}
               </option>
             ))}
           </select>
@@ -194,6 +248,16 @@ export function RecordsFilter({ specialties, types, initialFilters }: RecordsFil
           {type && (
             <span className="rounded-full bg-[#E0E7FF] px-2 py-0.5 text-[#3730A3]">
               Type: {type.replace(/_/g, " ")}
+            </span>
+          )}
+          {system && (
+            <span className="rounded-full bg-[#E0E7FF] px-2 py-0.5 text-[#3730A3]">
+              System: {system}
+            </span>
+          )}
+          {year && (
+            <span className="rounded-full bg-[#E0E7FF] px-2 py-0.5 text-[#3730A3]">
+              Year: {year}
             </span>
           )}
           {specialty && (

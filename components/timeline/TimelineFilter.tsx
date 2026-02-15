@@ -39,6 +39,8 @@ export function TimelineFilter(): React.JSX.Element {
   const currentSpecialty = searchParams.get("specialty") ?? "";
   const currentVerified = searchParams.get("verified") ?? "";
   const currentCondition = searchParams.get("condition") ?? "";
+  const currentFrom = searchParams.get("from") ?? "";
+  const currentTo = searchParams.get("to") ?? "";
 
   function updateFilter(key: string, value: string): void {
     const params = new URLSearchParams(searchParams.toString());
@@ -60,7 +62,7 @@ export function TimelineFilter(): React.JSX.Element {
     });
   }
 
-  const hasFilters = currentType || currentSpecialty || currentVerified || currentCondition;
+  const hasFilters = currentType || currentSpecialty || currentVerified || currentCondition || currentFrom || currentTo;
 
   return (
     <div className="rounded-lg border border-[#CCD3DD] bg-white p-4">
@@ -141,6 +143,34 @@ export function TimelineFilter(): React.JSX.Element {
           />
         </div>
 
+        <div className="min-w-[150px]">
+          <label htmlFor="from-filter" className="mb-1 block text-xs font-medium text-muted">
+            From Date
+          </label>
+          <input
+            id="from-filter"
+            type="date"
+            value={currentFrom}
+            onChange={(e) => updateFilter("from", e.target.value)}
+            className="w-full rounded-lg border border-[#CCD3DD] px-3 py-2 text-sm"
+            disabled={isPending}
+          />
+        </div>
+
+        <div className="min-w-[150px]">
+          <label htmlFor="to-filter" className="mb-1 block text-xs font-medium text-muted">
+            To Date
+          </label>
+          <input
+            id="to-filter"
+            type="date"
+            value={currentTo}
+            onChange={(e) => updateFilter("to", e.target.value)}
+            className="w-full rounded-lg border border-[#CCD3DD] px-3 py-2 text-sm"
+            disabled={isPending}
+          />
+        </div>
+
         {/* Clear button */}
         {hasFilters && (
           <button
@@ -162,7 +192,7 @@ export function TimelineFilter(): React.JSX.Element {
       {/* Active filter count */}
       {hasFilters && (
         <div className="mt-2 text-xs text-muted">
-          {[currentType, currentSpecialty, currentVerified, currentCondition].filter(Boolean).length} filter(s) active
+          {[currentType, currentSpecialty, currentVerified, currentCondition, currentFrom, currentTo].filter(Boolean).length} filter(s) active
         </div>
       )}
     </div>
