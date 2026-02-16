@@ -1,8 +1,0 @@
-{
-  "projects": {
-    "default": "beth-health-os",
-    "staging": "beth-health-os"
-  },
-  "targets": {},
-  "etags": {}
-}
